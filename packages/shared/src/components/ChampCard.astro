@@ -1,0 +1,20 @@
+---
+import { personSlug, formatPts } from '../lib/data.ts'
+import type { ChampInfo } from '../lib/types.ts'
+
+interface Props {
+  label: string
+  person: ChampInfo
+  year?: string
+  tone?: 'champ' | 'last'
+}
+const { label, person, year, tone = 'champ' } = Astro.props
+---
+<article class:list={['card', { accent: tone === 'champ' }]}>
+  <div class:list={['card-label', { danger: tone === 'last' }]}>{label}{year ? ` · ${year}` : ''}</div>
+  <div class="big-name">
+    <a href={`/managers/${personSlug(person.first_l)}`}>{person.first_l}</a>
+  </div>
+  <div class="meta">{person.team_name}</div>
+  <div class="meta">{person.record} · {formatPts(person.fpts)} PF</div>
+</article>

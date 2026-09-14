@@ -1,0 +1,22 @@
+{
+  "name": "fantasy-history",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Twin-site static monorepo for CMPFFL and Baptist Ballers league history",
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "build:cmpffl": "npm run build -w @fh/cmpffl",
+    "build:baptist": "npm run build -w @fh/baptist-ballers",
+    "dev:cmpffl": "npm run dev -w @fh/cmpffl",
+    "dev:baptist": "npm run dev -w @fh/baptist-ballers",
+    "preview:cmpffl": "npm run preview -w @fh/cmpffl",
+    "preview:baptist": "npm run preview -w @fh/baptist-ballers"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

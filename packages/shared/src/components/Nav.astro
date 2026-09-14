@@ -1,0 +1,37 @@
+---
+interface Props {
+  leagueName: string
+  path: string
+}
+const { leagueName, path } = Astro.props
+const items = [
+  { href: '/', label: 'Home' },
+  { href: '/seasons', label: 'Seasons' },
+  { href: '/managers', label: 'Managers' },
+  { href: '/h2h', label: 'H2H', stub: true },
+  { href: '/drafts', label: 'Drafts', stub: true },
+  { href: '/trades', label: 'Trades', stub: true },
+]
+function active(href: string) {
+  if (href === '/') return path === '/'
+  return path === href || path.startsWith(href + '/')
+}
+---
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/">
+      <span class="brand-kicker">League history</span>
+      <span class="brand-name">{leagueName}</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      {items.map((item) => (
+        <a
+          href={item.href}
+          class:list={[{ active: active(item.href), stub: item.stub }]}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>

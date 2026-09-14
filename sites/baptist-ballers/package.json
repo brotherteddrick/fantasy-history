@@ -1,0 +1,15 @@
+{
+  "name": "@fh/baptist-ballers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview --host"
+  },
+  "dependencies": {
+    "@fh/shared": "*",
+    "astro": "^5.18.2"
+  }
+}

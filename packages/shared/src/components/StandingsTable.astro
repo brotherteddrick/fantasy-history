@@ -1,0 +1,49 @@
+---
+import { personSlug, formatPts } from '../lib/data.ts'
+import type { SeasonSummary } from '../lib/types.ts'
+
+interface Props {
+  season: SeasonSummary
+}
+const { season } = Astro.props
+---
+<div class="table-wrap">
+  <table class="standings">
+    <thead>
+      <tr>
+        <th class="num">Rk</th>
+        <th>Manager</th>
+        <th>Team</th>
+        <th>Record</th>
+        <th class="num">PF</th>
+        <th class="num">PA</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {season.standings.map((row) => {
+        const champ = row.first_l === season.champion.first_l
+        const last = row.first_l === season.last_place.first_l
+        return (
+          <tr class:list={[{ champ, last }]}>
+            <td class="num">{row.rank}</td>
+            <td>
+              <a href={`/managers/${personSlug(row.first_l)}`}>{row.first_l}</a>
+            </td>
+            <td>{row.team_name}</td>
+            <td>{row.record}</td>
+            <td class="num">{formatPts(row.fpts)}</td>
+            <td class="num">{formatPts(row.fpts_against)}</td>
+            <td>
+              {champ && <span class="badge gold">Champion</span>}
+              {last && !champ && <span class="badge">Last</span>}
+            </td>
+          </tr>
+        )
+      })}
+    </tbody>
+  </table>
+</div>
+<p class="note">
+  Rank is regular-season standing. Champion is the playoff winner and can differ from the #1 seed.
+</p>

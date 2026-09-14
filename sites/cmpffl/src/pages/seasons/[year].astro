@@ -1,0 +1,14 @@
+---
+import SeasonDetail from '@fh/shared/pages/SeasonDetail.astro'
+import { loadSummary } from '@fh/shared'
+import { siteConfig } from '../../site.ts'
+
+export function getStaticPaths() {
+  return loadSummary(siteConfig.leagueKey).seasons.map((s) => ({
+    params: { year: s.season },
+  }))
+}
+
+const year = String(Astro.params.year)
+---
+<SeasonDetail config={siteConfig} year={year} />

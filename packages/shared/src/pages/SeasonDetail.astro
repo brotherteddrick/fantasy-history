@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layout/BaseLayout.astro'
+import ChampCard from '../components/ChampCard.astro'
+import StandingsTable from '../components/StandingsTable.astro'
+import { loadSummary } from '../lib/data.ts'
+import type { SiteConfig } from '../lib/types.ts'
+
+interface Props {
+  config: SiteConfig
+  year: string
+}
+const { config, year } = Astro.props
+const summary = loadSummary(config.leagueKey)
+const season = summary.seasons.find((s) => s.season === year)
+if (!season) throw new Error(`Unknown season ${year} for ${config.leagueKey}`)
+---
+<BaseLayout
+  title={`${year} season`}
+  leagueName={config.leagueName}
+  accent={config.accent}
+  path={`/seasons/${year}`}
+>
+  <div class="hero">
+    <div class="eyebrow">{season.league_name}</div>
+    <h1>{year}</h1>
+    <p class="lede">{season.total_rosters} teams · playoff champion shown separately from regular-season rank.</p>
+  </div>
+  <div class="grid cols-2">
+    <ChampCard label="Champion" person={season.champion} year={year} />
+    <ChampCard label="Last place" person={season.last_place} year={year} tone="last" />
+  </div>
+  <section class="section">
+    <h2>Standings</h2>
+    <StandingsTable season={season} />
+  </section>
+</BaseLayout>

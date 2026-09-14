@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layout/BaseLayout.astro'
+import { loadSummary, managersFromSummary, formatPts } from '../lib/data.ts'
+import type { SiteConfig } from '../lib/types.ts'
+
+interface Props {
+  config: SiteConfig
+  id: string
+}
+const { config, id } = Astro.props
+const summary = loadSummary(config.leagueKey)
+const manager = managersFromSummary(summary).find((m) => m.slug === id)
+if (!manager) throw new Error(`Unknown manager ${id}`)
+---
+<BaseLayout
+  title={manager.first_l}
+  leagueName={config.leagueName}
+  accent={config.accent}
+  path={`/managers/${id}`}
+>
+  <div class="hero">
+    <div class="eyebrow">Manager · first_l</div>
+    <h1>{manager.first_l}</h1>
+    <p class="lede">
+      Sleeper: {manager.displayNames.join(', ')}
+      {manager.titles.length ? ` · Champion ${manager.titles.join(', ')}` : ''}
+    </p>
+  </div>
+  <div class="card">
+    <div class="card-label">v1 stub</div>
+    <p class="meta">Career H2H, draft history, and trades will land on later pages. Completed-season record is below.</p>
+  </div>
+  <section class="section">
+    <h2>Seasons in {config.leagueName}</h2>
+    <div class="table-wrap">
+      <table class="standings">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Team</th>
+            <th>Record</th>
+            <th class="num">Rk</th>
+            <th class="num">PF</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {manager.seasons.map((s) => (
+            <tr class:list={[{ champ: s.isChampion, last: s.isLast }]}>
+              <td><a href={`/seasons/${s.season}`}>{s.season}</a></td>
+              <td>{s.team_name}</td>
+              <td>{s.record}</td>
+              <td class="num">{s.rank}</td>
+              <td class="num">{formatPts(s.fpts)}</td>
+              <td>
+                {s.isChampion && <span class="badge gold">Champion</span>}
+                {s.isLast && !s.isChampion && <span class="badge">Last</span>}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</BaseLayout>

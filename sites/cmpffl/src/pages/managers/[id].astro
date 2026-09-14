@@ -1,0 +1,13 @@
+---
+import ManagerDetail from '@fh/shared/pages/ManagerDetail.astro'
+import { loadSummary, managersFromSummary } from '@fh/shared'
+import { siteConfig } from '../../site.ts'
+
+export function getStaticPaths() {
+  const managers = managersFromSummary(loadSummary(siteConfig.leagueKey))
+  return managers.map((m) => ({ params: { id: m.slug } }))
+}
+
+const id = String(Astro.params.id)
+---
+<ManagerDetail config={siteConfig} id={id} />

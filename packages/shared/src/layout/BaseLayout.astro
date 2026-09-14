@@ -1,0 +1,38 @@
+---
+import '../styles/global.css'
+import Nav from '../components/Nav.astro'
+import type { Accent } from '../lib/types.ts'
+
+interface Props {
+  title: string
+  leagueName: string
+  accent: Accent
+  path: string
+  description?: string
+}
+const { title, leagueName, accent, path, description } = Astro.props
+const fullTitle = title.includes(leagueName) ? title : `${title} · ${leagueName}`
+---
+<!doctype html>
+<html lang="en" data-accent={accent}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <Nav leagueName={leagueName} path={path} />
+    <main>
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        Historical archive · completed seasons only · no 2026.
+      </div>
+    </footer>
+  </body>
+</html>

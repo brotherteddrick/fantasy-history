@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layout/BaseLayout.astro'
+import ChampCard from '../components/ChampCard.astro'
+import { loadSummary } from '../lib/data.ts'
+import type { SiteConfig } from '../lib/types.ts'
+
+interface Props {
+  config: SiteConfig
+}
+const { config } = Astro.props
+const summary = loadSummary(config.leagueKey)
+const years = summary.seasons.map((s) => s.season).join(', ')
+const latest = summary.seasons[summary.seasons.length - 1]
+---
+<BaseLayout
+  title={`${config.fullName} history`}
+  leagueName={config.leagueName}
+  accent={config.accent}
+  path="/"
+  description={`${config.fullName} completed-season archive.`}
+>
+  <div class="hero">
+    <div class="eyebrow">Completed seasons · {years}</div>
+    <h1>{config.fullName}</h1>
+    <p class="lede">{config.tagline}</p>
+  </div>
+
+  {latest && (
+    <section>
+      <h2>Latest title · {latest.season}</h2>
+      <div class="grid cols-2">
+        <ChampCard label="Champion" person={latest.champion} year={latest.season} />
+        <ChampCard label="Last place" person={latest.last_place} year={latest.season} tone="last" />
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <h2>Champions</h2>
+    <div class="grid cols-2">
+      {summary.seasons.map((s) => (
+        <ChampCard label={`${s.season} champion`} person={s.champion} />
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid cols-2">
+      <a class="card" href="/seasons">
+        <div class="card-label">Browse</div>
+        <h3>Seasons</h3>
+        <p class="meta">Standings, champion, last place for every completed year.</p>
+      </a>
+      <a class="card" href="/managers">
+        <div class="card-label">Browse</div>
+        <h3>Managers</h3>
+        <p class="meta">People keyed by first name + two-letter last initial.</p>
+      </a>
+    </div>
+  </section>
+</BaseLayout>

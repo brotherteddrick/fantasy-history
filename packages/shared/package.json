@@ -1,0 +1,16 @@
+{
+  "name": "@fh/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles/global.css": "./src/styles/global.css",
+    "./layout/BaseLayout.astro": "./src/layout/BaseLayout.astro",
+    "./components/*": "./src/components/*",
+    "./pages/*": "./src/pages/*"
+  },
+  "peerDependencies": {
+    "astro": "^5.0.0"
+  }
+}

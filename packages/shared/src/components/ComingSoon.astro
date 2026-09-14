@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layout/BaseLayout.astro'
+import type { SiteConfig } from '../lib/types.ts'
+
+interface Props {
+  config: SiteConfig
+  path: string
+  title: string
+  blurb: string
+}
+const { config, path, title, blurb } = Astro.props
+---
+<BaseLayout title={title} leagueName={config.leagueName} accent={config.accent} path={path}>
+  <div class="hero">
+    <div class="eyebrow">Coming later</div>
+    <h1>{title}</h1>
+    <p class="lede">{blurb}</p>
+  </div>
+  <div class="card">
+    <p class="meta">
+      Season JSON for drafts, matchups, and transactions is already in
+      <code>data/{config.leagueKey}/seasons/</code>. This nav item is a v1 stub.
+    </p>
+  </div>
+</BaseLayout>
