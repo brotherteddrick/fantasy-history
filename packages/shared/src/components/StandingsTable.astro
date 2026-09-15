@@ -1,11 +1,12 @@
 ---
-import { personSlug, formatPts } from '../lib/data.ts'
+import { personSlug, formatPts, labelOf } from '../lib/data.ts'
 import type { SeasonSummary } from '../lib/types.ts'
 
 interface Props {
   season: SeasonSummary
+  labels?: Map<string, string>
 }
-const { season } = Astro.props
+const { season, labels = new Map() } = Astro.props
 ---
 <div class="table-wrap">
   <table class="standings">
@@ -28,7 +29,7 @@ const { season } = Astro.props
           <tr class:list={[{ champ, last }]}>
             <td class="num">{row.rank}</td>
             <td>
-              <a href={`/managers/${personSlug(row.first_l)}`}>{row.first_l}</a>
+              <a href={`/managers/${personSlug(row.first_l)}`}>{labelOf(row.first_l, labels)}</a>
             </td>
             <td>{row.team_name}</td>
             <td>{row.record}</td>

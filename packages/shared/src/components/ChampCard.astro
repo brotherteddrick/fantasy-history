@@ -1,5 +1,5 @@
 ---
-import { personSlug, formatPts } from '../lib/data.ts'
+import { personSlug, formatPts, labelOf } from '../lib/data.ts'
 import type { ChampInfo } from '../lib/types.ts'
 
 interface Props {
@@ -7,13 +7,15 @@ interface Props {
   person: ChampInfo
   year?: string
   tone?: 'champ' | 'last'
+  labels?: Map<string, string>
 }
-const { label, person, year, tone = 'champ' } = Astro.props
+const { label, person, year, tone = 'champ', labels = new Map() } = Astro.props
+const name = labelOf(person.first_l, labels)
 ---
 <article class:list={['card', { accent: tone === 'champ' }]}>
   <div class:list={['card-label', { danger: tone === 'last' }]}>{label}{year ? ` · ${year}` : ''}</div>
   <div class="big-name">
-    <a href={`/managers/${personSlug(person.first_l)}`}>{person.first_l}</a>
+    <a href={`/managers/${personSlug(person.first_l)}`}>{name}</a>
   </div>
   <div class="meta">{person.team_name}</div>
   <div class="meta">{person.record} · {formatPts(person.fpts)} PF</div>

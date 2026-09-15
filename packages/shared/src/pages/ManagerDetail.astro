@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary, managersFromSummary, formatPts } from '../lib/data.ts'
+import { loadSummary, managersFromSummary, formatPts, labelsForSummary, labelOf } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -9,18 +9,20 @@ interface Props {
 }
 const { config, id } = Astro.props
 const summary = loadSummary(config.leagueKey)
+const labels = labelsForSummary(summary)
 const manager = managersFromSummary(summary).find((m) => m.slug === id)
 if (!manager) throw new Error(`Unknown manager ${id}`)
+const name = labelOf(manager.first_l, labels)
 ---
 <BaseLayout
-  title={manager.first_l}
+  title={name}
   leagueName={config.leagueName}
   accent={config.accent}
   path={`/managers/${id}`}
 >
   <div class="hero">
-    <div class="eyebrow">Manager · first_l</div>
-    <h1>{manager.first_l}</h1>
+    <div class="eyebrow">Manager</div>
+    <h1>{name}</h1>
     <p class="lede">
       Sleeper: {manager.displayNames.join(', ')}
       {manager.titles.length ? ` · Champion ${manager.titles.join(', ')}` : ''}

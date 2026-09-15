@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary, managersFromSummary } from '../lib/data.ts'
+import { loadSummary, managersFromSummary, labelsForSummary, labelOf } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -8,19 +8,20 @@ interface Props {
 }
 const { config } = Astro.props
 const summary = loadSummary(config.leagueKey)
+const labels = labelsForSummary(summary)
 const managers = managersFromSummary(summary)
 ---
 <BaseLayout title="Managers" leagueName={config.leagueName} accent={config.accent} path="/managers">
   <div class="hero">
     <div class="eyebrow">{config.leagueName}</div>
     <h1>Managers</h1>
-    <p class="lede">Keyed by first name + two-letter last initial (<code>first_l</code>).</p>
+    <p class="lede">First name when unique; initials only when needed to avoid collisions.</p>
   </div>
   <div class="table-wrap">
     <table class="standings">
       <thead>
         <tr>
-          <th>first_l</th>
+          <th>Manager</th>
           <th>Seasons</th>
           <th>Titles</th>
           <th>Latest team</th>
@@ -31,7 +32,7 @@ const managers = managersFromSummary(summary)
           const latest = m.seasons[m.seasons.length - 1]
           return (
             <tr>
-              <td><a href={`/managers/${m.slug}`}>{m.first_l}</a></td>
+              <td><a href={`/managers/${m.slug}`}>{labelOf(m.first_l, labels)}</a></td>
               <td>{m.seasons.map((s) => s.season).join(', ')}</td>
               <td>{m.titles.length ? m.titles.join(', ') : '—'}</td>
               <td>{latest?.team_name ?? '—'}</td>

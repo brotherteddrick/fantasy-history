@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary } from '../lib/data.ts'
+import { loadSummary, labelsForSummary, labelOf } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -8,12 +8,13 @@ interface Props {
 }
 const { config } = Astro.props
 const summary = loadSummary(config.leagueKey)
+const labels = labelsForSummary(summary)
 ---
 <BaseLayout title="Seasons" leagueName={config.leagueName} accent={config.accent} path="/seasons">
   <div class="hero">
     <div class="eyebrow">{config.leagueName}</div>
     <h1>Seasons</h1>
-    <p class="lede">Completed years only. Open a season for the champion, last place, and standings.</p>
+    <p class="lede">Completed years only. Open a season for standings and weekly matchups.</p>
   </div>
   <div class="list">
     {summary.seasons.map((s) => (
@@ -21,12 +22,12 @@ const summary = loadSummary(config.leagueKey)
         <div class="year">{s.season}</div>
         <div>
           <div class="subhead">Champion</div>
-          <div>{s.champion.first_l}</div>
+          <div>{labelOf(s.champion.first_l, labels)}</div>
           <div class="meta">{s.champion.team_name}</div>
         </div>
         <div>
           <div class="subhead">Last place</div>
-          <div>{s.last_place.first_l}</div>
+          <div>{labelOf(s.last_place.first_l, labels)}</div>
           <div class="meta">{s.last_place.team_name}</div>
         </div>
       </a>

@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary, formatPts } from '../lib/data.ts'
+import { loadSummary, formatPts, labelsForSummary, labelOf } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -8,14 +8,15 @@ interface Props {
 }
 const { config } = Astro.props
 const summary = loadSummary(config.leagueKey)
+const labels = labelsForSummary(summary)
 const years = summary.seasons.map((s) => s.season).join(', ')
-// newest first
 const seasons = [...summary.seasons].sort((a, b) => Number(b.season) - Number(a.season))
 
 function line(person: { first_l: string; team_name: string; points?: number } | null | undefined, pts = false) {
   if (!person) return '—'
+  const name = labelOf(person.first_l, labels)
   const ptsBit = pts && person.points != null ? ` · ${formatPts(person.points)}` : ''
-  return `${person.first_l} · ${person.team_name}${ptsBit}`
+  return `${name} · ${person.team_name}${ptsBit}`
 }
 ---
 <BaseLayout
@@ -62,7 +63,7 @@ function line(person: { first_l: string; team_name: string; points?: number } | 
       <a class="card" href="/managers">
         <div class="card-label">Browse</div>
         <h3>Managers</h3>
-        <p class="meta">People keyed by first name + two-letter last initial.</p>
+        <p class="meta">Names shorten automatically when there’s no conflict.</p>
       </a>
     </div>
   </section>

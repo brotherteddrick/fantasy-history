@@ -25,4 +25,8 @@ export {
   historicalOnly,
   managersFromSummary,
   formatPts,
+  parsePersonKey,
+  displayLabels,
+  labelsForSummary,
+  labelOf,
 } from './lib/data.ts'

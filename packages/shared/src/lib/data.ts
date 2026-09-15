@@ -136,6 +136,75 @@ export function managersFromSummary(summary: LeagueSummary): Manager[] {
   return [...map.values()].sort((a, b) => a.first_l.localeCompare(b.first_l))
 }
 
+
+
+/** Parse stable people-map key "Firstname Ab" into first name + up to two last initials. */
+export function parsePersonKey(first_l: string): { first: string; last2: string } {
+  const parts = first_l.trim().split(/\s+/).filter(Boolean)
+  const last2 = parts.length ? parts[parts.length - 1] : ''
+  const first = parts.length > 1 ? parts.slice(0, -1).join(' ') : first_l.trim()
+  return { first, last2 }
+}
+
+/**
+ * Short display names for a set of people-map keys:
+ * 1) first name if unique
+ * 2) else first + one last initial
+ * 3) else first + two last initials
+ */
+export function displayLabels(firstLs: string[]): Map<string, string> {
+  const keys = [...new Set(firstLs.map((k) => k.trim()).filter(Boolean))]
+  const parsed = new Map(keys.map((k) => [k, parsePersonKey(k)]))
+  const labels = new Map(keys.map((k) => [k, parsed.get(k)!.first]))
+
+  const conflictGroups = () => {
+    const inv = new Map<string, string[]>()
+    for (const [k, label] of labels) {
+      const list = inv.get(label) || []
+      list.push(k)
+      inv.set(label, list)
+    }
+    return [...inv.values()].filter((g) => g.length > 1)
+  }
+
+  for (const group of conflictGroups()) {
+    for (const k of group) {
+      const { first, last2 } = parsed.get(k)!
+      const one = last2.slice(0, 1)
+      labels.set(k, one ? `${first} ${one}` : first)
+    }
+  }
+
+  for (const group of conflictGroups()) {
+    for (const k of group) {
+      const { first, last2 } = parsed.get(k)!
+      labels.set(k, last2 ? `${first} ${last2}` : first)
+    }
+  }
+
+  return labels
+}
+
+export function labelsForSummary(summary: LeagueSummary): Map<string, string> {
+  const keys: string[] = []
+  for (const season of summary.seasons) {
+    for (const row of season.standings) keys.push(row.first_l)
+    if (season.champion?.first_l) keys.push(season.champion.first_l)
+    if (season.last_place?.first_l) keys.push(season.last_place.first_l)
+    const p = season.placements
+    if (p) {
+      for (const slot of [p.first, p.second, p.third, p.high_points, p.low_points]) {
+        if (slot?.first_l) keys.push(slot.first_l)
+      }
+    }
+  }
+  return displayLabels(keys)
+}
+
+export function labelOf(first_l: string, labels: Map<string, string>): string {
+  return labels.get(first_l) || parsePersonKey(first_l).first || first_l
+}
+
 export function formatPts(n: number): string {
   return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 }
