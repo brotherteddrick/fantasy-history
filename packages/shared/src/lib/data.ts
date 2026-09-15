@@ -139,3 +139,73 @@ export function managersFromSummary(summary: LeagueSummary): Manager[] {
 export function formatPts(n: number): string {
   return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 }
+
+export function loadSeasonFile(leagueKey: string, year: string): any {
+  const file = path.join(dataDir(), leagueKey, 'seasons', `${year}.json`)
+  return JSON.parse(fs.readFileSync(file, 'utf8'))
+}
+
+export function weeklyMatchups(leagueKey: string, year: string): { week: string; matchups: import('./types.ts').WeekMatchup[] }[] {
+  const season = loadSeasonFile(leagueKey, year)
+  const people = peopleByFirstL()
+  // owner_id -> first_l via reverse from standings summary when possible
+  const summary = loadSummary(leagueKey)
+  const seasonSum = summary.seasons.find((s) => s.season === year)
+  const rosterToPerson = new Map<number, { first_l: string; team_name: string }>()
+  if (seasonSum) {
+    for (const row of seasonSum.standings) {
+      rosterToPerson.set(row.roster_id, { first_l: row.first_l, team_name: row.team_name })
+    }
+  }
+  const users = new Map((season.users || []).map((u: any) => [u.user_id, u]))
+  for (const r of season.rosters || []) {
+    if (rosterToPerson.has(r.roster_id)) continue
+    const u = users.get(r.owner_id) || {}
+    const meta = u.metadata || {}
+    const first = [...people.values()].find((row) => (row.sleeper_user_ids || '').includes(r.owner_id))
+    rosterToPerson.set(r.roster_id, {
+      first_l: first?.first_l || u.display_name || `Roster ${r.roster_id}`,
+      team_name: (meta.team_name || u.display_name || '').trim(),
+    })
+  }
+
+  const settings = (season.league || {}).settings || {}
+  const playoffStart = Number(settings.playoff_week_start || 99)
+  const byWeek = season.matchups_by_week || {}
+  const weeks = Object.keys(byWeek)
+    .map(Number)
+    .sort((a, b) => a - b)
+    .map(String)
+
+  const out: { week: string; matchups: import('./types.ts').WeekMatchup[] }[] = []
+  for (const week of weeks) {
+    const rows = byWeek[week] || []
+    const grouped = new Map<number, any[]>()
+    for (const row of rows) {
+      const id = row.matchup_id
+      if (id == null) continue
+      if (!grouped.has(id)) grouped.set(id, [])
+      grouped.get(id)!.push(row)
+    }
+    const matchups: import('./types.ts').WeekMatchup[] = []
+    for (const [matchup_id, sides] of [...grouped.entries()].sort((a, b) => a[0] - b[0])) {
+      const mapped = sides.map((s) => {
+        const person = rosterToPerson.get(s.roster_id) || { first_l: `Roster ${s.roster_id}`, team_name: '' }
+        return {
+          roster_id: s.roster_id,
+          first_l: person.first_l,
+          team_name: person.team_name,
+          points: Number(s.points || 0),
+        }
+      })
+      matchups.push({
+        matchup_id,
+        a: mapped[0],
+        b: mapped[1] || null,
+      })
+    }
+    const label = Number(week) >= playoffStart ? `${week} (playoffs)` : week
+    out.push({ week: label, matchups })
+  }
+  return out
+}

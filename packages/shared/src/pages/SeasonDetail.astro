@@ -2,7 +2,7 @@
 import BaseLayout from '../layout/BaseLayout.astro'
 import ChampCard from '../components/ChampCard.astro'
 import StandingsTable from '../components/StandingsTable.astro'
-import { loadSummary } from '../lib/data.ts'
+import { loadSummary, weeklyMatchups, formatPts } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -13,6 +13,7 @@ const { config, year } = Astro.props
 const summary = loadSummary(config.leagueKey)
 const season = summary.seasons.find((s) => s.season === year)
 if (!season) throw new Error(`Unknown season ${year} for ${config.leagueKey}`)
+const weeks = weeklyMatchups(config.leagueKey, year)
 ---
 <BaseLayout
   title={`${year} season`}
@@ -23,7 +24,7 @@ if (!season) throw new Error(`Unknown season ${year} for ${config.leagueKey}`)
   <div class="hero">
     <div class="eyebrow">{season.league_name}</div>
     <h1>{year}</h1>
-    <p class="lede">{season.total_rosters} teams · playoff champion shown separately from regular-season rank.</p>
+    <p class="lede">{season.total_rosters} teams · playoff places and regular-season point leaders · weekly H2H below.</p>
   </div>
   <div class="grid cols-2">
     <ChampCard label="Champion" person={season.champion} year={year} />
@@ -32,5 +33,41 @@ if (!season) throw new Error(`Unknown season ${year} for ${config.leagueKey}`)
   <section class="section">
     <h2>Standings</h2>
     <StandingsTable season={season} />
+  </section>
+  <section class="section">
+    <h2>Weekly matchups</h2>
+    <p class="note">Regular season and playoffs, newest weeks last. Click a manager later for deeper pages.</p>
+    <div class="week-stack">
+      {weeks.map(({ week, matchups }) => (
+        <div class="week-block">
+          <h3 class="week-title">Week {week}</h3>
+          <div class="matchup-list">
+            {matchups.map((m) => {
+              const aWin = m.b && m.a.points > m.b.points
+              const bWin = m.b && m.b.points > m.a.points
+              return (
+                <div class="matchup-row">
+                  <div class:list={[{ side: true, winner: aWin }]}>
+                    <div class="who">{m.a.first_l}</div>
+                    <div class="team">{m.a.team_name}</div>
+                    <div class="pts">{formatPts(m.a.points)}</div>
+                  </div>
+                  <div class="vs">vs</div>
+                  {m.b ? (
+                    <div class:list={[{ side: true, winner: bWin }]}>
+                      <div class="who">{m.b.first_l}</div>
+                      <div class="team">{m.b.team_name}</div>
+                      <div class="pts">{formatPts(m.b.points)}</div>
+                    </div>
+                  ) : (
+                    <div class="side"><div class="who">Bye</div></div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
   </section>
 </BaseLayout>

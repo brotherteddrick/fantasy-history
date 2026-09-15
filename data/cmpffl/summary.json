@@ -155,7 +155,7 @@
           "roster_id": 3,
           "owner_id": "762119221298974720",
           "display_name": "jamesmarcogonzalez7",
-          "team_name": "ESCAPE!!! Last…",
+          "team_name": "ESCAPE!!! Last\u2026",
           "first_l": "James Go",
           "wins": 5,
           "losses": 23,
@@ -186,7 +186,46 @@
         "16",
         "17",
         "18"
-      ]
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 7,
+          "owner_id": "736783245382905856",
+          "display_name": "CasieAnn",
+          "team_name": "All Killer No Filler",
+          "first_l": "Casie Wo"
+        },
+        "second": {
+          "roster_id": 8,
+          "owner_id": "1135798774129225728",
+          "display_name": "HouseOfDank",
+          "team_name": "House of Dank",
+          "first_l": "Jason Wo"
+        },
+        "third": {
+          "roster_id": 1,
+          "owner_id": "389132481929957376",
+          "display_name": "TedBalls",
+          "team_name": "Mertle's Acres Junkyard",
+          "first_l": "Theodore Wo"
+        },
+        "high_points": {
+          "roster_id": 7,
+          "owner_id": "736783245382905856",
+          "display_name": "CasieAnn",
+          "team_name": "All Killer No Filler",
+          "first_l": "Casie Wo",
+          "points": 1578.6
+        },
+        "low_points": {
+          "roster_id": 3,
+          "owner_id": "762119221298974720",
+          "display_name": "jamesmarcogonzalez7",
+          "team_name": "ESCAPE!!! Last\u2026",
+          "first_l": "James Go",
+          "points": 1158.72
+        }
+      }
     },
     {
       "season": "2025",
@@ -257,7 +296,7 @@
           "roster_id": 3,
           "owner_id": "762119221298974720",
           "display_name": "jamesmarcogonzalez7",
-          "team_name": "Li’l Seb Ain’t So Little",
+          "team_name": "Li\u2019l Seb Ain\u2019t So Little",
           "first_l": "James Go",
           "wins": 17,
           "losses": 11,
@@ -372,7 +411,46 @@
         "16",
         "17",
         "18"
-      ]
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 10,
+          "owner_id": "736027378236641280",
+          "display_name": "jbone2020",
+          "team_name": "End The Fed",
+          "first_l": "Jason Cl"
+        },
+        "second": {
+          "roster_id": 7,
+          "owner_id": "736783245382905856",
+          "display_name": "CasieAnn",
+          "team_name": "All Killer No Filler",
+          "first_l": "Casie Wo"
+        },
+        "third": {
+          "roster_id": 5,
+          "owner_id": "1135793489624870912",
+          "display_name": "vincefulton",
+          "team_name": "Pay Me What You Owe Me",
+          "first_l": "Ryan Gr"
+        },
+        "high_points": {
+          "roster_id": 3,
+          "owner_id": "762119221298974720",
+          "display_name": "jamesmarcogonzalez7",
+          "team_name": "Li\u2019l Seb Ain\u2019t So Little",
+          "first_l": "James Go",
+          "points": 1494.8
+        },
+        "low_points": {
+          "roster_id": 8,
+          "owner_id": "1135798774129225728",
+          "display_name": "HouseOfDank",
+          "team_name": "House of Dank",
+          "first_l": "Jason Wo",
+          "points": 1146.08
+        }
+      }
     }
   ],
   "gaps": []

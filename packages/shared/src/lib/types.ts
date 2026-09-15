@@ -33,6 +33,23 @@ export interface Standing {
   rank: number
 }
 
+export interface PlacementPerson {
+  roster_id: number
+  owner_id: string
+  display_name: string
+  team_name: string
+  first_l: string
+  points?: number
+}
+
+export interface SeasonPlacements {
+  first: PlacementPerson | null
+  second: PlacementPerson | null
+  third: PlacementPerson | null
+  high_points: PlacementPerson | null
+  low_points: PlacementPerson | null
+}
+
 export interface SeasonSummary {
   season: string
   league_id: string
@@ -42,6 +59,20 @@ export interface SeasonSummary {
   standings: Standing[]
   total_rosters: number
   weeks_with_matchups: string[]
+  placements?: SeasonPlacements
+}
+
+export interface WeekMatchupSide {
+  roster_id: number
+  first_l: string
+  team_name: string
+  points: number
+}
+
+export interface WeekMatchup {
+  matchup_id: number
+  a: WeekMatchupSide
+  b: WeekMatchupSide | null
 }
 
 export interface LeagueSummary {

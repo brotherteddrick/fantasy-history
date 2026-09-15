@@ -71,7 +71,7 @@
           "roster_id": 3,
           "owner_id": "1260689182905344000",
           "display_name": "Sboyette",
-          "team_name": "The FlamBoyette’s",
+          "team_name": "The FlamBoyette\u2019s",
           "first_l": "Steven Bo",
           "wins": 17,
           "losses": 11,
@@ -186,7 +186,46 @@
         "16",
         "17",
         "18"
-      ]
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 1,
+          "owner_id": "389132481929957376",
+          "display_name": "TedBalls",
+          "team_name": "Stop Looking at Me Swan",
+          "first_l": "Theodore Wo"
+        },
+        "second": {
+          "roster_id": 2,
+          "owner_id": "1136067540096503808",
+          "display_name": "Lwoodrocks",
+          "team_name": "PoundTown",
+          "first_l": "Lane Wo"
+        },
+        "third": {
+          "roster_id": 3,
+          "owner_id": "1260689182905344000",
+          "display_name": "Sboyette",
+          "team_name": "The FlamBoyette\u2019s",
+          "first_l": "Steven Bo"
+        },
+        "high_points": {
+          "roster_id": 5,
+          "owner_id": "1260727064177164288",
+          "display_name": "AndrewMose8",
+          "team_name": "AndrewMose8",
+          "first_l": "Andrew Mo",
+          "points": 1802.44
+        },
+        "low_points": {
+          "roster_id": 10,
+          "owner_id": "1265390475464937472",
+          "display_name": "rbdawson",
+          "team_name": "JESUSGIVDALASUPERBOWLAMEN",
+          "first_l": "Robert Da",
+          "points": 1352.62
+        }
+      }
     }
   ],
   "gaps": []
