@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary, formatPts, labelsForSummary, labelOf } from '../lib/data.ts'
+import { loadSummary, formatPts, labelsForSummary, labelOf, personSlug } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -12,12 +12,7 @@ const labels = labelsForSummary(summary)
 const years = summary.seasons.map((s) => s.season).join(', ')
 const seasons = [...summary.seasons].sort((a, b) => Number(b.season) - Number(a.season))
 
-function line(person: { first_l: string; team_name: string; points?: number } | null | undefined, pts = false) {
-  if (!person) return '—'
-  const name = labelOf(person.first_l, labels)
-  const ptsBit = pts && person.points != null ? ` · ${formatPts(person.points)}` : ''
-  return `${name} · ${person.team_name}${ptsBit}`
-}
+type Person = { first_l: string; team_name: string; points?: number } | null | undefined
 ---
 <BaseLayout
   title={`${config.fullName} history`}
@@ -35,20 +30,43 @@ function line(person: { first_l: string; team_name: string; points?: number } | 
   <section class="year-stack">
     {seasons.map((s) => {
       const p = s.placements
+      const rows: { label: string; person: Person; pts?: boolean }[] = [
+        { label: '1st', person: p?.first },
+        { label: '2nd', person: p?.second },
+        { label: '3rd', person: p?.third },
+        { label: 'Regular season high points', person: p?.high_points, pts: true },
+        { label: 'Regular season low points', person: p?.low_points, pts: true },
+      ]
       return (
-        <a class="year-block" href={`/seasons/${s.season}`}>
-          <div class="year-head">
+        <div class="year-block">
+          <a class="year-head" href={`/seasons/${s.season}`}>
             <h2>{s.season}</h2>
             <span class="year-cta">Season view · weekly matchups →</span>
-          </div>
+          </a>
           <ul class="year-stats">
-            <li><span class="stat-label">1st</span><span class="stat-value">{line(p?.first)}</span></li>
-            <li><span class="stat-label">2nd</span><span class="stat-value">{line(p?.second)}</span></li>
-            <li><span class="stat-label">3rd</span><span class="stat-value">{line(p?.third)}</span></li>
-            <li><span class="stat-label">Regular season high points</span><span class="stat-value">{line(p?.high_points, true)}</span></li>
-            <li><span class="stat-label">Regular season low points</span><span class="stat-value">{line(p?.low_points, true)}</span></li>
+            {rows.map(({ label, person, pts }) => (
+              <li>
+                <span class="stat-label">{label}</span>
+                <span class="stat-value">
+                  {person ? (
+                    <>
+                      <a class="owner-link" href={`/managers/${personSlug(person.first_l)}`}>
+                        {labelOf(person.first_l, labels)}
+                      </a>
+                      <span class="stat-rest">
+                        {' · '}
+                        {person.team_name}
+                        {pts && person.points != null ? ` · ${formatPts(person.points)}` : ''}
+                      </span>
+                    </>
+                  ) : (
+                    '—'
+                  )}
+                </span>
+              </li>
+            ))}
           </ul>
-        </a>
+        </div>
       )
     })}
   </section>
