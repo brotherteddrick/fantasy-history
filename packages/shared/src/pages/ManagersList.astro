@@ -29,7 +29,7 @@ const managers = managersFromSummary(summary)
       </thead>
       <tbody>
         {managers.map((m) => {
-          const latest = m.seasons[m.seasons.length - 1]
+          const latest = m.seasons[0]
           return (
             <tr>
               <td><a href={`/managers/${m.slug}`}>{labelOf(m.first_l, labels)}</a></td>

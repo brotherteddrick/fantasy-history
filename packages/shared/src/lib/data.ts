@@ -20,7 +20,9 @@ export function dataDir(): string {
 export function loadSummary(leagueKey: string): LeagueSummary {
   const file = path.join(dataDir(), leagueKey, 'summary.json')
   const raw = JSON.parse(fs.readFileSync(file, 'utf8')) as LeagueSummary
-  raw.seasons = raw.seasons.filter((s) => s.season !== '2026')
+  raw.seasons = raw.seasons
+    .filter((s) => s.season !== '2026')
+    .sort((a, b) => Number(b.season) - Number(a.season))
   return raw
 }
 
@@ -132,6 +134,10 @@ export function managersFromSummary(summary: LeagueSummary): Manager[] {
       })
       if (isChampion) m.titles.push(season.season)
     }
+  }
+  for (const m of map.values()) {
+    m.seasons.sort((a, b) => Number(b.season) - Number(a.season))
+    m.titles.sort((a, b) => Number(b) - Number(a))
   }
   return [...map.values()].sort((a, b) => a.first_l.localeCompare(b.first_l))
 }
