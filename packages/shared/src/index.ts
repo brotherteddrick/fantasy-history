@@ -34,3 +34,4 @@ export {
 } from './lib/data.ts'
 export { seasonTeamResults, leagueResults, managerCareer, winPct, ordinal, recordStr } from './lib/manager-stats.ts'
 export type { SeasonTeamResult, ManagerCareer, TeamGame, WeekScore } from './lib/manager-stats.ts'
+export { LEAGUE_RULES, divisionWildCardApplies } from './lib/league-rules.ts'

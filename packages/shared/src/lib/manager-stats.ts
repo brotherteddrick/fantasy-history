@@ -1,5 +1,6 @@
 import { loadSeasonFile, compareRegularSeason } from './data.ts'
 import type { Standing } from './types.ts'
+import { divisionWildCardApplies } from './league-rules.ts'
 import type { LeagueSummary, SeasonSummary } from './types.ts'
 
 /** One played game for one team. */
@@ -250,14 +251,9 @@ export function seasonTeamResults(leagueKey: string, s: SeasonSummary): Map<numb
 
 export type Qualifier = 'Division' | 'Wild card (points)'
 
-/** First season of the top-2-per-division + 2 points wild cards playoff format. */
-export const RULE_START_SEASON = 2024
-
 export interface SeasonDivisions {
   names: Map<number, string>
   teamDivision: Map<number, number>
-  /** False for seasons before the division/wild-card format began. */
-  ruleApplies: boolean
   /** True when the actual playoff field = top 2 per division by record + best-PF wild cards. */
   ruleMatches: boolean
   qualifiers: Map<number, Qualifier> // only filled when ruleMatches
@@ -283,6 +279,8 @@ export function playoffTeamIds(file: any): Set<number> {
  * (tiebreak PF), plus wild cards = highest regular-season PF among the rest.
  */
 export function seasonDivisions(leagueKey: string, s: { season: string; standings: Standing[] }): SeasonDivisions | null {
+  // Division grouping and berth labels only for leagues/seasons using the division + points wild card format.
+  if (!divisionWildCardApplies(leagueKey, s.season)) return null
   const file = loadSeasonFile(leagueKey, s.season)
   const names = new Map<number, string>()
   const teamDivision = new Map<number, number>()
@@ -301,10 +299,6 @@ export function seasonDivisions(leagueKey: string, s: { season: string; standing
   }
   if (!teamDivision.size) return null
   const divIds = [...new Set(teamDivision.values())].sort((a, b) => a - b)
-  // The top-2-per-division + points wild card format started in 2024; earlier seasons are not validated.
-  if (Number(s.season) < RULE_START_SEASON) {
-    return { names, teamDivision, ruleApplies: false, ruleMatches: false, qualifiers: new Map(), wildCards: [], note: '' }
-  }
   const actual = playoffTeamIds(file)
   const byDiv = new Set<number>()
   for (const d of divIds) {
@@ -329,7 +323,7 @@ export function seasonDivisions(leagueKey: string, s: { season: string; standing
   const note = ruleMatches
     ? 'Playoffs: top 2 in each division by record, plus wild cards for the highest points among the rest.'
     : `${divIds.length} divisions; this season's playoff field doesn't follow the top-2-per-division + points wild card rule, so qualification isn't labeled.`
-  return { names, teamDivision, ruleApplies: true, ruleMatches, qualifiers, wildCards: ruleMatches ? wildCards : [], note }
+  return { names, teamDivision, ruleMatches, qualifiers, wildCards: ruleMatches ? wildCards : [], note }
 }
 
 export interface WeekScore {
