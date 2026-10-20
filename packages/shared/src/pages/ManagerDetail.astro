@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
 import { loadSummary, managersFromSummary, formatPts, labelsForSummary, labelOf, personSlug } from '../lib/data.ts'
-import { leagueResults, managerCareer, winPct, ordinal, recordStr } from '../lib/manager-stats.ts'
+import { leagueResults, managerCareer, winPct, ordinal, recordStr, headToHead } from '../lib/manager-stats.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -35,6 +35,13 @@ const cards: Card[] = [
   { label: 'Regular-season H2H', value: recordStr(c.regW, c.regL, c.regT), sub: `${winPct(c.regW, c.regL, c.regT)} win pct` + (c.medianSeasons ? ` · vs median ${recordStr(c.medW, c.medL, c.medT)}` : '') },
   { label: 'Points for / against', value: `${formatPts(c.pf)}`, sub: `PA ${formatPts(c.pa)} · ${formatPts(avgPf)} PF per game` },
 ]
+const h2h = headToHead(c)
+  .map((o) => ({ ...o, label: labelOf(o.first_l, labels), slug: personSlug(o.first_l) }))
+  .sort((a, b) => a.label.localeCompare(b.label))
+const defaultOpp = [...h2h].sort((a, b) => b.all.games - a.all.games || a.label.localeCompare(b.label))[0]
+const splitLine = (sp: { w: number; l: number; t: number; pf: number; pa: number; games: number }) =>
+  sp.games ? `${recordStr(sp.w, sp.l, sp.t)} · ${formatPts(sp.pf)}–${formatPts(sp.pa)} · avg ${formatPts(sp.pf / sp.games)}–${formatPts(sp.pa / sp.games)}` : '—'
+const kindTag = (k: string) => (k === 'regular' ? 'Regular' : k === 'playoff' ? 'Playoff' : 'Consolation')
 const weekLink = (season: string, week: number) => `/seasons/${season}#week-${week}`
 const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · playoffs' : ' · consolation')
 ---
@@ -68,7 +75,7 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
         <div class="stat-big">{formatPts(c.best.points)}</div>
         <div class="stat-sub">
           <a href={weekLink(c.best.season, c.best.week)}>{c.best.season} · Week {c.best.week}</a>{kindLabel(c.best.kind)}
-          {' · vs '}<a href={`/managers/${personSlug(c.best.oppFirstL)}`}>{labelOf(c.best.oppFirstL, labels)}</a> ({formatPts(c.best.oppPoints)})
+          {' · vs '}<a href={`#vs-${personSlug(c.best.oppFirstL)}`} data-vs={personSlug(c.best.oppFirstL)}>{labelOf(c.best.oppFirstL, labels)}</a> ({formatPts(c.best.oppPoints)})
         </div>
       </div>
     )}
@@ -78,7 +85,7 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
         <div class="stat-big">{formatPts(c.worst.points)}</div>
         <div class="stat-sub">
           <a href={weekLink(c.worst.season, c.worst.week)}>{c.worst.season} · Week {c.worst.week}</a>{kindLabel(c.worst.kind)}
-          {' · vs '}<a href={`/managers/${personSlug(c.worst.oppFirstL)}`}>{labelOf(c.worst.oppFirstL, labels)}</a> ({formatPts(c.worst.oppPoints)})
+          {' · vs '}<a href={`#vs-${personSlug(c.worst.oppFirstL)}`} data-vs={personSlug(c.worst.oppFirstL)}>{labelOf(c.worst.oppFirstL, labels)}</a> ({formatPts(c.worst.oppPoints)})
         </div>
       </div>
     )}
@@ -134,4 +141,109 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
       {sources.size > 1 && ' Y = Yahoo, S = Sleeper.'}
     </p>
   </section>
+
+  {h2h.length > 0 && (
+    <section class="section h2h" id="h2h" data-default={defaultOpp?.slug}>
+      <h2>Head-to-head</h2>
+      <div class="h2h-pick">
+        <label for="h2h-select" class="stat-label">Opponent</label>
+        <select id="h2h-select" class="h2h-select">
+          {h2h.map((o) => (
+            <option value={o.slug} selected={o.slug === defaultOpp?.slug}>{o.label} ({o.all.games})</option>
+          ))}
+        </select>
+      </div>
+      <p class="note h2h-nojs">Pick an opponent below.</p>
+      <div class="h2h-panels">
+        {h2h.map((o) => (
+          <details class="h2h-panel" id={`vs-${o.slug}`} data-slug={o.slug}>
+            <summary>
+              <span class="h2h-vs">vs <strong>{o.label}</strong></span>
+              <span class="h2h-rec">{recordStr(o.all.w, o.all.l, o.all.t)}</span>
+            </summary>
+            <div class="stat-grid h2h-stats">
+              <div class:list={['stat-card', { accent: o.all.w > o.all.l, danger: o.all.l > o.all.w }]}>
+                <div class="stat-label">Overall vs {o.label}</div>
+                <div class="stat-big">{recordStr(o.all.w, o.all.l, o.all.t)}</div>
+                <div class="stat-sub">{o.all.games} games · {winPct(o.all.w, o.all.l, o.all.t)} win pct</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">Points for / against</div>
+                <div class="stat-big">{formatPts(o.all.pf)}</div>
+                <div class="stat-sub">vs {formatPts(o.all.pa)} · avg {formatPts(o.all.pf / o.all.games)}–{formatPts(o.all.pa / o.all.games)}</div>
+              </div>
+            </div>
+            <ul class="year-stats h2h-splits">
+              <li><span class="stat-label">Regular season</span><span class="stat-value">{splitLine(o.regular)}</span></li>
+              <li><span class="stat-label">Playoffs</span><span class="stat-value">{splitLine(o.playoff)}</span></li>
+              <li><span class="stat-label">Consolation</span><span class="stat-value">{splitLine(o.consolation)}</span></li>
+            </ul>
+            <div class="table-wrap">
+              <table class="standings h2h-games">
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Wk</th>
+                    <th>Type</th>
+                    <th>{name}</th>
+                    <th class="num">Score</th>
+                    <th>{o.label}</th>
+                    <th>Result</th>
+                    <th class="num">Margin</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {o.games.map((g) => (
+                    <tr class:list={[{ champ: g.result === 'W' }]}>
+                      <td><a href={`/seasons/${g.season}`}>{g.season}</a></td>
+                      <td><a href={weekLink(g.season, g.week)}>{g.week}</a></td>
+                      <td><span class:list={['badge', { gold: g.kind === 'playoff' }]}>{kindTag(g.kind)}</span></td>
+                      <td class="team-cell">{g.myTeam}</td>
+                      <td class="num">{formatPts(g.points)}–{formatPts(g.oppPoints)}</td>
+                      <td class="team-cell">{g.oppTeam}</td>
+                      <td class:list={[{ 'champ-text': g.result === 'W' }]}>{g.result}</td>
+                      <td class="num">{g.points - g.oppPoints > 0 ? '+' : ''}{formatPts(g.points - g.oppPoints)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </details>
+        ))}
+      </div>
+      <p class="note">Real head-to-head games only (Sleeper weekly median games excluded). Playoff = championship bracket; consolation games listed separately. Newest first.</p>
+    </section>
+  )}
+  <script is:inline>
+    (function () {
+      var root = document.getElementById('h2h')
+      if (!root) return
+      root.classList.add('js')
+      var sel = document.getElementById('h2h-select')
+      var panels = root.querySelectorAll('.h2h-panel')
+      function show(slug, scroll) {
+        var found = false
+        panels.forEach(function (p) {
+          var on = p.getAttribute('data-slug') === slug
+          p.open = on
+          p.hidden = !on
+          if (on) found = true
+        })
+        if (!found) return false
+        sel.value = slug
+        if (scroll) root.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        return true
+      }
+      function fromHash(scroll) {
+        var m = /^#vs-(.+)$/.exec(location.hash)
+        return m ? show(decodeURIComponent(m[1]), scroll) : false
+      }
+      if (!fromHash(true)) show(root.getAttribute('data-default'), false)
+      sel.addEventListener('change', function () {
+        history.replaceState(null, '', '#vs-' + sel.value)
+        show(sel.value, false)
+      })
+      window.addEventListener('hashchange', function () { fromHash(true) })
+    })()
+  </script>
 </BaseLayout>

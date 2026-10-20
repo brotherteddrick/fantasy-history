@@ -404,3 +404,54 @@ export function ordinal(n: number): string {
   const s = ['th', 'st', 'nd', 'rd'], v = n % 100
   return n + (s[(v - 20) % 10] || s[v] || s[0])
 }
+
+export interface H2HGame {
+  season: string
+  week: number
+  kind: TeamGame['kind']
+  myTeam: string
+  oppTeam: string
+  points: number
+  oppPoints: number
+  result: 'W' | 'L' | 'T'
+}
+
+export interface H2HSplit { w: number; l: number; t: number; pf: number; pa: number; games: number }
+
+export interface H2HOpponent {
+  first_l: string
+  games: H2HGame[] // newest first
+  all: H2HSplit
+  regular: H2HSplit
+  playoff: H2HSplit
+  consolation: H2HSplit
+}
+
+const emptySplit = (): H2HSplit => ({ w: 0, l: 0, t: 0, pf: 0, pa: 0, games: 0 })
+
+/** Head-to-head records vs every opponent (real matchups only; Sleeper median games excluded). */
+export function headToHead(c: ManagerCareer): H2HOpponent[] {
+  const map = new Map<string, H2HOpponent>()
+  for (const s of c.seasons) {
+    for (const g of s.games) {
+      if (!g.oppFirstL) continue
+      let o = map.get(g.oppFirstL)
+      if (!o) {
+        o = { first_l: g.oppFirstL, games: [], all: emptySplit(), regular: emptySplit(), playoff: emptySplit(), consolation: emptySplit() }
+        map.set(g.oppFirstL, o)
+      }
+      const result = g.points > g.oppPoints ? 'W' : g.points < g.oppPoints ? 'L' : 'T'
+      o.games.push({ season: s.season, week: g.week, kind: g.kind, myTeam: s.teamName, oppTeam: g.oppTeam, points: g.points, oppPoints: g.oppPoints, result })
+      for (const sp of [o.all, o[g.kind]]) {
+        sp.games++
+        sp.pf += g.points
+        sp.pa += g.oppPoints
+        if (result === 'W') sp.w++
+        else if (result === 'L') sp.l++
+        else sp.t++
+      }
+    }
+  }
+  for (const o of map.values()) o.games.sort((a, b) => Number(b.season) - Number(a.season) || b.week - a.week)
+  return [...map.values()]
+}
