@@ -3,6 +3,231 @@
   "league_name": "CMPFFL",
   "seasons": [
     {
+      "season": "2025",
+      "league_id": "1257448219105824768",
+      "league_name": "Cash Money Players FFL",
+      "champion": {
+        "roster_id": 10,
+        "owner_id": "736027378236641280",
+        "display_name": "jbone2020",
+        "team_name": "End The Fed",
+        "first_l": "Jason Cl",
+        "record": "19-9",
+        "fpts": 1474.98
+      },
+      "last_place": {
+        "roster_id": 8,
+        "owner_id": "1135798774129225728",
+        "display_name": "HouseOfDank",
+        "team_name": "House of Dank",
+        "first_l": "Jason Wo",
+        "record": "8-20",
+        "fpts": 1146.08
+      },
+      "standings": [
+        {
+          "roster_id": 7,
+          "owner_id": "736783245382905856",
+          "display_name": "CasieAnn",
+          "team_name": "All Killer No Filler",
+          "first_l": "Casie Wo",
+          "wins": 20,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1404.38,
+          "fpts_against": 1399.96,
+          "record": "20-8",
+          "rank": 1
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "736027378236641280",
+          "display_name": "jbone2020",
+          "team_name": "End The Fed",
+          "first_l": "Jason Cl",
+          "wins": 19,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1474.98,
+          "fpts_against": 1229.12,
+          "record": "19-9",
+          "rank": 2
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "736778380007120896",
+          "display_name": "robotnoises",
+          "team_name": "Football Butt 6",
+          "first_l": "David Ni",
+          "wins": 19,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1395.96,
+          "fpts_against": 1263.04,
+          "record": "19-9",
+          "rank": 3
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "762119221298974720",
+          "display_name": "jamesmarcogonzalez7",
+          "team_name": "Li’l Seb Ain’t So Little",
+          "first_l": "James Go",
+          "wins": 17,
+          "losses": 11,
+          "ties": 0,
+          "fpts": 1494.8,
+          "fpts_against": 1317.32,
+          "record": "17-11",
+          "rank": 4
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "1135792693961314304",
+          "display_name": "Abeau89",
+          "team_name": "Iron Flame, Iron Game",
+          "first_l": "April Be",
+          "wins": 16,
+          "losses": 12,
+          "ties": 0,
+          "fpts": 1425.98,
+          "fpts_against": 1371.14,
+          "record": "16-12",
+          "rank": 5
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "1135793489624870912",
+          "display_name": "vincefulton",
+          "team_name": "Pay Me What You Owe Me",
+          "first_l": "Ryan Gr",
+          "wins": 14,
+          "losses": 13,
+          "ties": 1,
+          "fpts": 1303.7,
+          "fpts_against": 1245.84,
+          "record": "14-13-1",
+          "rank": 6
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "1135792753159393280",
+          "display_name": "Tbeau89",
+          "team_name": "Ctrl Alt Delete ",
+          "first_l": "Thomas Be",
+          "wins": 11,
+          "losses": 17,
+          "ties": 0,
+          "fpts": 1210.94,
+          "fpts_against": 1245.18,
+          "record": "11-17",
+          "rank": 7
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "1135807766746304512",
+          "display_name": "QEInfinity",
+          "team_name": "Mediocre Bad Guys",
+          "first_l": "Justin Cl",
+          "wins": 8,
+          "losses": 20,
+          "ties": 0,
+          "fpts": 1222.62,
+          "fpts_against": 1441.08,
+          "record": "8-20",
+          "rank": 8
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "1135798774129225728",
+          "display_name": "HouseOfDank",
+          "team_name": "House of Dank",
+          "first_l": "Jason Wo",
+          "wins": 8,
+          "losses": 20,
+          "ties": 0,
+          "fpts": 1146.08,
+          "fpts_against": 1420.62,
+          "record": "8-20",
+          "rank": 9
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "389132481929957376",
+          "display_name": "TedBalls",
+          "team_name": "Fellas With Attitudes",
+          "first_l": "Theodore Wo",
+          "wins": 7,
+          "losses": 20,
+          "ties": 1,
+          "fpts": 1202.99,
+          "fpts_against": 1349.14,
+          "record": "7-20-1",
+          "rank": 10
+        }
+      ],
+      "total_rosters": 10,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 10,
+          "owner_id": "736027378236641280",
+          "display_name": "jbone2020",
+          "team_name": "End The Fed",
+          "first_l": "Jason Cl"
+        },
+        "second": {
+          "roster_id": 7,
+          "owner_id": "736783245382905856",
+          "display_name": "CasieAnn",
+          "team_name": "All Killer No Filler",
+          "first_l": "Casie Wo"
+        },
+        "third": {
+          "roster_id": 5,
+          "owner_id": "1135793489624870912",
+          "display_name": "vincefulton",
+          "team_name": "Pay Me What You Owe Me",
+          "first_l": "Ryan Gr"
+        },
+        "high_points": {
+          "roster_id": 3,
+          "owner_id": "762119221298974720",
+          "display_name": "jamesmarcogonzalez7",
+          "team_name": "Li’l Seb Ain’t So Little",
+          "first_l": "James Go",
+          "points": 1494.8
+        },
+        "low_points": {
+          "roster_id": 8,
+          "owner_id": "1135798774129225728",
+          "display_name": "HouseOfDank",
+          "team_name": "House of Dank",
+          "first_l": "Jason Wo",
+          "points": 1146.08
+        }
+      }
+    },
+    {
       "season": "2024",
       "league_id": "1134939621764288512",
       "league_name": "Cash Money Players FFL",
@@ -155,7 +380,7 @@
           "roster_id": 3,
           "owner_id": "762119221298974720",
           "display_name": "jamesmarcogonzalez7",
-          "team_name": "ESCAPE!!! Last\u2026",
+          "team_name": "ESCAPE!!! Last…",
           "first_l": "James Go",
           "wins": 5,
           "losses": 23,
@@ -221,173 +446,174 @@
           "roster_id": 3,
           "owner_id": "762119221298974720",
           "display_name": "jamesmarcogonzalez7",
-          "team_name": "ESCAPE!!! Last\u2026",
+          "team_name": "ESCAPE!!! Last…",
           "first_l": "James Go",
           "points": 1158.72
         }
       }
     },
     {
-      "season": "2025",
-      "league_id": "1257448219105824768",
+      "season": "2023",
+      "league_id": "423.l.362341",
       "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
       "champion": {
-        "roster_id": 10,
-        "owner_id": "736027378236641280",
-        "display_name": "jbone2020",
-        "team_name": "End The Fed",
-        "first_l": "Jason Cl",
-        "record": "19-9",
-        "fpts": 1474.98
+        "roster_id": 3,
+        "owner_id": "423.l.362341.t.3",
+        "display_name": "David N.",
+        "team_name": "CHAMPIONSHIP BUTT",
+        "first_l": "David Ni",
+        "record": "6-8",
+        "fpts": 1366.1
       },
       "last_place": {
-        "roster_id": 8,
-        "owner_id": "1135798774129225728",
-        "display_name": "HouseOfDank",
-        "team_name": "House of Dank",
-        "first_l": "Jason Wo",
-        "record": "8-20",
-        "fpts": 1146.08
+        "roster_id": 10,
+        "owner_id": "423.l.362341.t.10",
+        "display_name": "April",
+        "team_name": "Dance Mode",
+        "first_l": "April Be",
+        "record": "4-10",
+        "fpts": 1139.1
       },
       "standings": [
         {
-          "roster_id": 7,
-          "owner_id": "736783245382905856",
-          "display_name": "CasieAnn",
-          "team_name": "All Killer No Filler",
+          "roster_id": 8,
+          "owner_id": "423.l.362341.t.8",
+          "display_name": "Casie",
+          "team_name": "Futball is Liiiffee",
           "first_l": "Casie Wo",
-          "wins": 20,
-          "losses": 8,
+          "wins": 12,
+          "losses": 2,
           "ties": 0,
-          "fpts": 1404.38,
-          "fpts_against": 1399.96,
-          "record": "20-8",
+          "fpts": 1517.48,
+          "fpts_against": 1331.64,
+          "record": "12-2",
           "rank": 1
         },
         {
-          "roster_id": 10,
-          "owner_id": "736027378236641280",
-          "display_name": "jbone2020",
-          "team_name": "End The Fed",
-          "first_l": "Jason Cl",
-          "wins": 19,
-          "losses": 9,
+          "roster_id": 1,
+          "owner_id": "423.l.362341.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Get Crazy with the Cheez Whiz",
+          "first_l": "Theodore Wo",
+          "wins": 11,
+          "losses": 3,
           "ties": 0,
-          "fpts": 1474.98,
-          "fpts_against": 1229.12,
-          "record": "19-9",
+          "fpts": 1538.7,
+          "fpts_against": 1229.92,
+          "record": "11-3",
           "rank": 2
         },
         {
-          "roster_id": 6,
-          "owner_id": "736778380007120896",
-          "display_name": "robotnoises",
-          "team_name": "Football Butt 6",
-          "first_l": "David Ni",
-          "wins": 19,
-          "losses": 9,
+          "roster_id": 9,
+          "owner_id": "423.l.362341.t.9",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Sparkle Motion",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 10,
+          "losses": 4,
           "ties": 0,
-          "fpts": 1395.96,
-          "fpts_against": 1263.04,
-          "record": "19-9",
+          "fpts": 1501.88,
+          "fpts_against": 1244.48,
+          "record": "10-4",
           "rank": 3
         },
         {
-          "roster_id": 3,
-          "owner_id": "762119221298974720",
-          "display_name": "jamesmarcogonzalez7",
-          "team_name": "Li\u2019l Seb Ain\u2019t So Little",
-          "first_l": "James Go",
-          "wins": 17,
-          "losses": 11,
+          "roster_id": 2,
+          "owner_id": "423.l.362341.t.2",
+          "display_name": "Ryan",
+          "team_name": "Overwhelming Surplus of Digity",
+          "first_l": "Ryan Gr",
+          "wins": 8,
+          "losses": 6,
           "ties": 0,
-          "fpts": 1494.8,
-          "fpts_against": 1317.32,
-          "record": "17-11",
+          "fpts": 1331.24,
+          "fpts_against": 1282.42,
+          "record": "8-6",
           "rank": 4
         },
         {
-          "roster_id": 4,
-          "owner_id": "1135792693961314304",
-          "display_name": "Abeau89",
-          "team_name": "Iron Flame, Iron Game",
-          "first_l": "April Be",
-          "wins": 16,
-          "losses": 12,
+          "roster_id": 3,
+          "owner_id": "423.l.362341.t.3",
+          "display_name": "David N.",
+          "team_name": "CHAMPIONSHIP BUTT",
+          "first_l": "David Ni",
+          "wins": 6,
+          "losses": 8,
           "ties": 0,
-          "fpts": 1425.98,
-          "fpts_against": 1371.14,
-          "record": "16-12",
+          "fpts": 1366.1,
+          "fpts_against": 1376.64,
+          "record": "6-8",
           "rank": 5
         },
         {
-          "roster_id": 5,
-          "owner_id": "1135793489624870912",
-          "display_name": "vincefulton",
-          "team_name": "Pay Me What You Owe Me",
-          "first_l": "Ryan Gr",
-          "wins": 14,
-          "losses": 13,
-          "ties": 1,
-          "fpts": 1303.7,
-          "fpts_against": 1245.84,
-          "record": "14-13-1",
+          "roster_id": 4,
+          "owner_id": "423.l.362341.t.4",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1320.18,
+          "fpts_against": 1344.14,
+          "record": "6-8",
           "rank": 6
         },
         {
-          "roster_id": 2,
-          "owner_id": "1135792753159393280",
-          "display_name": "Tbeau89",
-          "team_name": "Ctrl Alt Delete ",
+          "roster_id": 5,
+          "owner_id": "423.l.362341.t.5",
+          "display_name": "Thomas",
+          "team_name": "Sticky Bandits",
           "first_l": "Thomas Be",
-          "wins": 11,
-          "losses": 17,
+          "wins": 6,
+          "losses": 8,
           "ties": 0,
-          "fpts": 1210.94,
-          "fpts_against": 1245.18,
-          "record": "11-17",
+          "fpts": 1310.4,
+          "fpts_against": 1441.2,
+          "record": "6-8",
           "rank": 7
         },
         {
-          "roster_id": 9,
-          "owner_id": "1135807766746304512",
-          "display_name": "QEInfinity",
+          "roster_id": 6,
+          "owner_id": "423.l.362341.t.6",
+          "display_name": "J C",
           "team_name": "Mediocre Bad Guys",
           "first_l": "Justin Cl",
-          "wins": 8,
-          "losses": 20,
+          "wins": 5,
+          "losses": 9,
           "ties": 0,
-          "fpts": 1222.62,
-          "fpts_against": 1441.08,
-          "record": "8-20",
+          "fpts": 1281.72,
+          "fpts_against": 1377.14,
+          "record": "5-9",
           "rank": 8
         },
         {
-          "roster_id": 8,
-          "owner_id": "1135798774129225728",
-          "display_name": "HouseOfDank",
-          "team_name": "House of Dank",
-          "first_l": "Jason Wo",
-          "wins": 8,
-          "losses": 20,
+          "roster_id": 10,
+          "owner_id": "423.l.362341.t.10",
+          "display_name": "April",
+          "team_name": "Dance Mode",
+          "first_l": "April Be",
+          "wins": 4,
+          "losses": 10,
           "ties": 0,
-          "fpts": 1146.08,
-          "fpts_against": 1420.62,
-          "record": "8-20",
+          "fpts": 1139.1,
+          "fpts_against": 1390.1,
+          "record": "4-10",
           "rank": 9
         },
         {
-          "roster_id": 1,
-          "owner_id": "389132481929957376",
-          "display_name": "TedBalls",
-          "team_name": "Fellas With Attitudes",
-          "first_l": "Theodore Wo",
-          "wins": 7,
-          "losses": 20,
-          "ties": 1,
-          "fpts": 1202.99,
-          "fpts_against": 1349.14,
-          "record": "7-20-1",
+          "roster_id": 7,
+          "owner_id": "423.l.362341.t.7",
+          "display_name": "James",
+          "team_name": "USPS",
+          "first_l": "James Go",
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "fpts": 1180.56,
+          "fpts_against": 1469.68,
+          "record": "2-12",
           "rank": 10
         }
       ],
@@ -409,48 +635,2886 @@
         "14",
         "15",
         "16",
-        "17",
-        "18"
+        "17"
       ],
       "placements": {
         "first": {
-          "roster_id": 10,
-          "owner_id": "736027378236641280",
-          "display_name": "jbone2020",
-          "team_name": "End The Fed",
-          "first_l": "Jason Cl"
+          "roster_id": 3,
+          "owner_id": "423.l.362341.t.3",
+          "display_name": "David N.",
+          "team_name": "CHAMPIONSHIP BUTT",
+          "first_l": "David Ni"
         },
         "second": {
-          "roster_id": 7,
-          "owner_id": "736783245382905856",
-          "display_name": "CasieAnn",
-          "team_name": "All Killer No Filler",
-          "first_l": "Casie Wo"
+          "roster_id": 9,
+          "owner_id": "423.l.362341.t.9",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Sparkle Motion",
+          "first_l": "HingleMcCringleberry Unmapped"
         },
         "third": {
+          "roster_id": 1,
+          "owner_id": "423.l.362341.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Get Crazy with the Cheez Whiz",
+          "first_l": "Theodore Wo"
+        },
+        "high_points": {
+          "roster_id": 1,
+          "owner_id": "423.l.362341.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Get Crazy with the Cheez Whiz",
+          "first_l": "Theodore Wo",
+          "points": 1538.7
+        },
+        "low_points": {
+          "roster_id": 10,
+          "owner_id": "423.l.362341.t.10",
+          "display_name": "April",
+          "team_name": "Dance Mode",
+          "first_l": "April Be",
+          "points": 1139.1
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 3,
+          "first_l": "David Ni",
+          "team_name": "CHAMPIONSHIP BUTT"
+        },
+        {
+          "rank": 2,
+          "roster_id": 9,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Sparkle Motion"
+        },
+        {
+          "rank": 3,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Get Crazy with the Cheez Whiz"
+        },
+        {
+          "rank": 4,
+          "roster_id": 8,
+          "first_l": "Casie Wo",
+          "team_name": "Futball is Liiiffee"
+        },
+        {
+          "rank": 5,
+          "roster_id": 4,
+          "first_l": "jason Unmapped",
+          "team_name": "Joey Freshwater"
+        },
+        {
+          "rank": 6,
+          "roster_id": 2,
+          "first_l": "Ryan Gr",
+          "team_name": "Overwhelming Surplus of Digity"
+        },
+        {
+          "rank": 7,
+          "roster_id": 6,
+          "first_l": "Justin Cl",
+          "team_name": "Mediocre Bad Guys"
+        },
+        {
+          "rank": 8,
           "roster_id": 5,
-          "owner_id": "1135793489624870912",
-          "display_name": "vincefulton",
-          "team_name": "Pay Me What You Owe Me",
+          "first_l": "Thomas Be",
+          "team_name": "Sticky Bandits"
+        },
+        {
+          "rank": 9,
+          "roster_id": 7,
+          "first_l": "James Go",
+          "team_name": "USPS"
+        },
+        {
+          "rank": 10,
+          "roster_id": 10,
+          "first_l": "April Be",
+          "team_name": "Dance Mode"
+        }
+      ]
+    },
+    {
+      "season": "2022",
+      "league_id": "414.l.695712",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 4,
+        "owner_id": "414.l.695712.t.4",
+        "display_name": "jason",
+        "team_name": "Joey Freshwater",
+        "first_l": "jason Unmapped",
+        "record": "11-3",
+        "fpts": 1533.92
+      },
+      "last_place": {
+        "roster_id": 7,
+        "owner_id": "414.l.695712.t.7",
+        "display_name": "James",
+        "team_name": "Ryan's Mystery Play Dates ;)",
+        "first_l": "James Go",
+        "record": "2-12",
+        "fpts": 1186.12
+      },
+      "standings": [
+        {
+          "roster_id": 4,
+          "owner_id": "414.l.695712.t.4",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "fpts": 1533.92,
+          "fpts_against": 1299.46,
+          "record": "11-3",
+          "rank": 1
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "414.l.695712.t.12",
+          "display_name": "April",
+          "team_name": "Dance Mode",
+          "first_l": "April Be",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "fpts": 1525.08,
+          "fpts_against": 1309.82,
+          "record": "11-3",
+          "rank": 2
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "414.l.695712.t.3",
+          "display_name": "David N.",
+          "team_name": "Football Butt 6",
+          "first_l": "David Ni",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1360.22,
+          "fpts_against": 1270.86,
+          "record": "10-4",
+          "rank": 3
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "414.l.695712.t.8",
+          "display_name": "Casie",
+          "team_name": "Chutney Chimps",
+          "first_l": "Casie Wo",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1427.3,
+          "fpts_against": 1361.0,
+          "record": "7-7",
+          "rank": 4
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "414.l.695712.t.9",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Sparkle Motion",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1345.72,
+          "fpts_against": 1330.82,
+          "record": "7-7",
+          "rank": 5
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "414.l.695712.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Bow to Your Sensei",
+          "first_l": "Theodore Wo",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1345.5,
+          "fpts_against": 1450.48,
+          "record": "7-7",
+          "rank": 6
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "414.l.695712.t.6",
+          "display_name": "J C",
+          "team_name": "Mediocre Bad Guys",
+          "first_l": "Justin Cl",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1325.6,
+          "fpts_against": 1394.72,
+          "record": "6-8",
+          "rank": 7
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "414.l.695712.t.5",
+          "display_name": "Thomas",
+          "team_name": "Sticky Bandits",
+          "first_l": "Thomas Be",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1325.14,
+          "fpts_against": 1368.34,
+          "record": "6-8",
+          "rank": 8
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "414.l.695712.t.2",
+          "display_name": "Ryan",
+          "team_name": "Deferent Whales",
+          "first_l": "Ryan Gr",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "fpts": 1273.06,
+          "fpts_against": 1486.64,
+          "record": "3-11",
+          "rank": 9
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "414.l.695712.t.7",
+          "display_name": "James",
+          "team_name": "Ryan's Mystery Play Dates ;)",
+          "first_l": "James Go",
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "fpts": 1186.12,
+          "fpts_against": 1375.52,
+          "record": "2-12",
+          "rank": 10
+        }
+      ],
+      "total_rosters": 10,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 4,
+          "owner_id": "414.l.695712.t.4",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped"
+        },
+        "second": {
+          "roster_id": 12,
+          "owner_id": "414.l.695712.t.12",
+          "display_name": "April",
+          "team_name": "Dance Mode",
+          "first_l": "April Be"
+        },
+        "third": {
+          "roster_id": 3,
+          "owner_id": "414.l.695712.t.3",
+          "display_name": "David N.",
+          "team_name": "Football Butt 6",
+          "first_l": "David Ni"
+        },
+        "high_points": {
+          "roster_id": 4,
+          "owner_id": "414.l.695712.t.4",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "points": 1533.92
+        },
+        "low_points": {
+          "roster_id": 7,
+          "owner_id": "414.l.695712.t.7",
+          "display_name": "James",
+          "team_name": "Ryan's Mystery Play Dates ;)",
+          "first_l": "James Go",
+          "points": 1186.12
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 4,
+          "first_l": "jason Unmapped",
+          "team_name": "Joey Freshwater"
+        },
+        {
+          "rank": 2,
+          "roster_id": 12,
+          "first_l": "April Be",
+          "team_name": "Dance Mode"
+        },
+        {
+          "rank": 3,
+          "roster_id": 3,
+          "first_l": "David Ni",
+          "team_name": "Football Butt 6"
+        },
+        {
+          "rank": 4,
+          "roster_id": 9,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Sparkle Motion"
+        },
+        {
+          "rank": 5,
+          "roster_id": 8,
+          "first_l": "Casie Wo",
+          "team_name": "Chutney Chimps"
+        },
+        {
+          "rank": 6,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Bow to Your Sensei"
+        },
+        {
+          "rank": 7,
+          "roster_id": 5,
+          "first_l": "Thomas Be",
+          "team_name": "Sticky Bandits"
+        },
+        {
+          "rank": 8,
+          "roster_id": 6,
+          "first_l": "Justin Cl",
+          "team_name": "Mediocre Bad Guys"
+        },
+        {
+          "rank": 9,
+          "roster_id": 2,
+          "first_l": "Ryan Gr",
+          "team_name": "Deferent Whales"
+        },
+        {
+          "rank": 10,
+          "roster_id": 7,
+          "first_l": "James Go",
+          "team_name": "Ryan's Mystery Play Dates ;)"
+        }
+      ]
+    },
+    {
+      "season": "2021",
+      "league_id": "406.l.322218",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 2,
+        "owner_id": "406.l.322218.t.2",
+        "display_name": "Ryan",
+        "team_name": "The Earls of Risk",
+        "first_l": "Ryan Gr",
+        "record": "13-1",
+        "fpts": 1385.64
+      },
+      "last_place": {
+        "roster_id": 9,
+        "owner_id": "406.l.322218.t.9",
+        "display_name": "Shelly",
+        "team_name": "Mahomes Go Home",
+        "first_l": "Shelly Unmapped",
+        "record": "3-11",
+        "fpts": 949.06
+      },
+      "standings": [
+        {
+          "roster_id": 2,
+          "owner_id": "406.l.322218.t.2",
+          "display_name": "Ryan",
+          "team_name": "The Earls of Risk",
+          "first_l": "Ryan Gr",
+          "wins": 13,
+          "losses": 1,
+          "ties": 0,
+          "fpts": 1385.64,
+          "fpts_against": 1107.22,
+          "record": "13-1",
+          "rank": 1
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "406.l.322218.t.5",
+          "display_name": "Thomas",
+          "team_name": "Sticky Bandits",
+          "first_l": "Thomas Be",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1202.84,
+          "fpts_against": 1047.4,
+          "record": "10-4",
+          "rank": 2
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "406.l.322218.t.4",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1313.56,
+          "fpts_against": 1282.54,
+          "record": "8-6",
+          "rank": 3
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "406.l.322218.t.3",
+          "display_name": "David N.",
+          "team_name": "Football Butt 5",
+          "first_l": "David Ni",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1284.22,
+          "fpts_against": 1162.56,
+          "record": "8-6",
+          "rank": 4
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "406.l.322218.t.8",
+          "display_name": "Casie",
+          "team_name": "Football is Life",
+          "first_l": "Casie Wo",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1231.7,
+          "fpts_against": 1206.1,
+          "record": "8-6",
+          "rank": 5
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "406.l.322218.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Triple Pumper",
+          "first_l": "Theodore Wo",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1177.46,
+          "fpts_against": 1209.96,
+          "record": "8-6",
+          "rank": 6
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "406.l.322218.t.12",
+          "display_name": "April",
+          "team_name": "Fancy Like",
+          "first_l": "April Be",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1314.94,
+          "fpts_against": 1252.06,
+          "record": "7-7",
+          "rank": 7
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "406.l.322218.t.6",
+          "display_name": "J C",
+          "team_name": "Border Patrol",
+          "first_l": "Justin Cl",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1307.58,
+          "fpts_against": 1138.96,
+          "record": "7-7",
+          "rank": 8
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "406.l.322218.t.10",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Make America Florida",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 1140.28,
+          "fpts_against": 1204.2,
+          "record": "4-10",
+          "rank": 9
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "406.l.322218.t.7",
+          "display_name": "James",
+          "team_name": "Baker Slayfield’s Dawg Pound",
+          "first_l": "James Go",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 1067.12,
+          "fpts_against": 1335.46,
+          "record": "4-10",
+          "rank": 10
+        },
+        {
+          "roster_id": 11,
+          "owner_id": "406.l.322218.t.11",
+          "display_name": "Donnie",
+          "team_name": "Thielen's Weak Ankles",
+          "first_l": "Donnie Unmapped",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 1065.62,
+          "fpts_against": 1232.64,
+          "record": "4-10",
+          "rank": 11
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "406.l.322218.t.9",
+          "display_name": "Shelly",
+          "team_name": "Mahomes Go Home",
+          "first_l": "Shelly Unmapped",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "fpts": 949.06,
+          "fpts_against": 1260.92,
+          "record": "3-11",
+          "rank": 12
+        }
+      ],
+      "total_rosters": 12,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 2,
+          "owner_id": "406.l.322218.t.2",
+          "display_name": "Ryan",
+          "team_name": "The Earls of Risk",
+          "first_l": "Ryan Gr"
+        },
+        "second": {
+          "roster_id": 3,
+          "owner_id": "406.l.322218.t.3",
+          "display_name": "David N.",
+          "team_name": "Football Butt 5",
+          "first_l": "David Ni"
+        },
+        "third": {
+          "roster_id": 1,
+          "owner_id": "406.l.322218.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Triple Pumper",
+          "first_l": "Theodore Wo"
+        },
+        "high_points": {
+          "roster_id": 2,
+          "owner_id": "406.l.322218.t.2",
+          "display_name": "Ryan",
+          "team_name": "The Earls of Risk",
+          "first_l": "Ryan Gr",
+          "points": 1385.64
+        },
+        "low_points": {
+          "roster_id": 9,
+          "owner_id": "406.l.322218.t.9",
+          "display_name": "Shelly",
+          "team_name": "Mahomes Go Home",
+          "first_l": "Shelly Unmapped",
+          "points": 949.06
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 2,
+          "first_l": "Ryan Gr",
+          "team_name": "The Earls of Risk"
+        },
+        {
+          "rank": 2,
+          "roster_id": 3,
+          "first_l": "David Ni",
+          "team_name": "Football Butt 5"
+        },
+        {
+          "rank": 3,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Triple Pumper"
+        },
+        {
+          "rank": 4,
+          "roster_id": 5,
+          "first_l": "Thomas Be",
+          "team_name": "Sticky Bandits"
+        },
+        {
+          "rank": 5,
+          "roster_id": 4,
+          "first_l": "jason Unmapped",
+          "team_name": "Joey Freshwater"
+        },
+        {
+          "rank": 6,
+          "roster_id": 8,
+          "first_l": "Casie Wo",
+          "team_name": "Football is Life"
+        },
+        {
+          "rank": 7,
+          "roster_id": 6,
+          "first_l": "Justin Cl",
+          "team_name": "Border Patrol"
+        },
+        {
+          "rank": 8,
+          "roster_id": 12,
+          "first_l": "April Be",
+          "team_name": "Fancy Like"
+        },
+        {
+          "rank": 9,
+          "roster_id": 11,
+          "first_l": "Donnie Unmapped",
+          "team_name": "Thielen's Weak Ankles"
+        },
+        {
+          "rank": 10,
+          "roster_id": 10,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Make America Florida"
+        },
+        {
+          "rank": 11,
+          "roster_id": 7,
+          "first_l": "James Go",
+          "team_name": "Baker Slayfield’s Dawg Pound"
+        },
+        {
+          "rank": 12,
+          "roster_id": 9,
+          "first_l": "Shelly Unmapped",
+          "team_name": "Mahomes Go Home"
+        }
+      ]
+    },
+    {
+      "season": "2020",
+      "league_id": "399.l.464880",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 7,
+        "owner_id": "399.l.464880.t.7",
+        "display_name": "Thomas",
+        "team_name": "Scary Good",
+        "first_l": "Thomas Be",
+        "record": "11-2",
+        "fpts": 1335.46
+      },
+      "last_place": {
+        "roster_id": 11,
+        "owner_id": "399.l.464880.t.11",
+        "display_name": "Alisha",
+        "team_name": "Sunday Funday",
+        "first_l": "Alisha Unmapped",
+        "record": "1-12",
+        "fpts": 1027.66
+      },
+      "standings": [
+        {
+          "roster_id": 7,
+          "owner_id": "399.l.464880.t.7",
+          "display_name": "Thomas",
+          "team_name": "Scary Good",
+          "first_l": "Thomas Be",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "fpts": 1335.46,
+          "fpts_against": 1114.38,
+          "record": "11-2",
+          "rank": 1
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "399.l.464880.t.4",
+          "display_name": "Ryan",
+          "team_name": "Wet Tenders",
+          "first_l": "Ryan Gr",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1488.26,
+          "fpts_against": 1257.16,
+          "record": "9-4",
+          "rank": 2
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "399.l.464880.t.12",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Anybody but Teddy 20",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1412.06,
+          "fpts_against": 1299.82,
+          "record": "9-4",
+          "rank": 3
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "399.l.464880.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Tickle My Pickleball",
+          "first_l": "Theodore Wo",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1442.98,
+          "fpts_against": 1292.96,
+          "record": "8-5",
+          "rank": 4
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "399.l.464880.t.6",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1227.76,
+          "fpts_against": 1247.56,
+          "record": "8-5",
+          "rank": 5
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "399.l.464880.t.5",
+          "display_name": "David N.",
+          "team_name": "Football Butt 4",
+          "first_l": "David Ni",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1354.32,
+          "fpts_against": 1388.18,
+          "record": "6-7",
+          "rank": 6
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "399.l.464880.t.8",
+          "display_name": "J C",
+          "team_name": "Antifa 4 Life",
+          "first_l": "Justin Cl",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1284.26,
+          "fpts_against": 1252.7,
+          "record": "6-7",
+          "rank": 7
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "399.l.464880.t.10",
+          "display_name": "Casie",
+          "team_name": "Outlaws",
+          "first_l": "Casie Wo",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1131.12,
+          "fpts_against": 1384.54,
+          "record": "4-9",
+          "rank": 8
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "399.l.464880.t.9",
+          "display_name": "James",
+          "team_name": "Penn Hills FC",
+          "first_l": "James Go",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 1136.86,
+          "fpts_against": 1310.7,
+          "record": "3-10",
+          "rank": 9
+        },
+        {
+          "roster_id": 11,
+          "owner_id": "399.l.464880.t.11",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "wins": 1,
+          "losses": 12,
+          "ties": 0,
+          "fpts": 1027.66,
+          "fpts_against": 1292.74,
+          "record": "1-12",
+          "rank": 10
+        }
+      ],
+      "total_rosters": 10,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 7,
+          "owner_id": "399.l.464880.t.7",
+          "display_name": "Thomas",
+          "team_name": "Scary Good",
+          "first_l": "Thomas Be"
+        },
+        "second": {
+          "roster_id": 6,
+          "owner_id": "399.l.464880.t.6",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped"
+        },
+        "third": {
+          "roster_id": 4,
+          "owner_id": "399.l.464880.t.4",
+          "display_name": "Ryan",
+          "team_name": "Wet Tenders",
           "first_l": "Ryan Gr"
         },
         "high_points": {
-          "roster_id": 3,
-          "owner_id": "762119221298974720",
-          "display_name": "jamesmarcogonzalez7",
-          "team_name": "Li\u2019l Seb Ain\u2019t So Little",
+          "roster_id": 4,
+          "owner_id": "399.l.464880.t.4",
+          "display_name": "Ryan",
+          "team_name": "Wet Tenders",
+          "first_l": "Ryan Gr",
+          "points": 1488.26
+        },
+        "low_points": {
+          "roster_id": 11,
+          "owner_id": "399.l.464880.t.11",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "points": 1027.66
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 7,
+          "first_l": "Thomas Be",
+          "team_name": "Scary Good"
+        },
+        {
+          "rank": 2,
+          "roster_id": 6,
+          "first_l": "jason Unmapped",
+          "team_name": "Joey Freshwater"
+        },
+        {
+          "rank": 3,
+          "roster_id": 4,
+          "first_l": "Ryan Gr",
+          "team_name": "Wet Tenders"
+        },
+        {
+          "rank": 4,
+          "roster_id": 5,
+          "first_l": "David Ni",
+          "team_name": "Football Butt 4"
+        },
+        {
+          "rank": 5,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Tickle My Pickleball"
+        },
+        {
+          "rank": 6,
+          "roster_id": 12,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Anybody but Teddy 20"
+        },
+        {
+          "rank": 7,
+          "roster_id": 8,
+          "first_l": "Justin Cl",
+          "team_name": "Antifa 4 Life"
+        },
+        {
+          "rank": 8,
+          "roster_id": 10,
+          "first_l": "Casie Wo",
+          "team_name": "Outlaws"
+        },
+        {
+          "rank": 9,
+          "roster_id": 9,
           "first_l": "James Go",
-          "points": 1494.8
+          "team_name": "Penn Hills FC"
+        },
+        {
+          "rank": 10,
+          "roster_id": 11,
+          "first_l": "Alisha Unmapped",
+          "team_name": "Sunday Funday"
+        }
+      ]
+    },
+    {
+      "season": "2019",
+      "league_id": "390.l.826346",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 9,
+        "owner_id": "390.l.826346.t.9",
+        "display_name": "James",
+        "team_name": "Chewin’🐻 N’ Cooin’🌼",
+        "first_l": "James Go",
+        "record": "9-4",
+        "fpts": 1253.0
+      },
+      "last_place": {
+        "roster_id": 8,
+        "owner_id": "390.l.826346.t.8",
+        "display_name": "J C",
+        "team_name": "Mighty Shrimps",
+        "first_l": "Justin Cl",
+        "record": "4-9",
+        "fpts": 931.98
+      },
+      "standings": [
+        {
+          "roster_id": 6,
+          "owner_id": "390.l.826346.t.6",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "fpts": 1163.74,
+          "fpts_against": 967.46,
+          "record": "11-2",
+          "rank": 1
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "390.l.826346.t.9",
+          "display_name": "James",
+          "team_name": "Chewin’🐻 N’ Cooin’🌼",
+          "first_l": "James Go",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1253.0,
+          "fpts_against": 1062.92,
+          "record": "9-4",
+          "rank": 2
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "390.l.826346.t.12",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Anybody but Teddy 19",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1159.34,
+          "fpts_against": 1051.6,
+          "record": "8-5",
+          "rank": 3
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "390.l.826346.t.4",
+          "display_name": "Ryan",
+          "team_name": "AAF All-Stars",
+          "first_l": "Ryan Gr",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1264.94,
+          "fpts_against": 1179.66,
+          "record": "7-6",
+          "rank": 4
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "390.l.826346.t.2",
+          "display_name": "Donnie",
+          "team_name": "3rd Stringers",
+          "first_l": "Donnie Unmapped",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1241.22,
+          "fpts_against": 1170.32,
+          "record": "7-6",
+          "rank": 5
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "390.l.826346.t.10",
+          "display_name": "Casie",
+          "team_name": "Girl Got Dis",
+          "first_l": "Casie Wo",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1166.5,
+          "fpts_against": 1224.3,
+          "record": "6-7",
+          "rank": 6
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "390.l.826346.t.3",
+          "display_name": "April",
+          "team_name": "No Gronk No Problem",
+          "first_l": "April Be",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1039.46,
+          "fpts_against": 1116.08,
+          "record": "6-7",
+          "rank": 7
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "390.l.826346.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Sex Panther",
+          "first_l": "Theodore Wo",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1144.34,
+          "fpts_against": 1148.56,
+          "record": "5-8",
+          "rank": 8
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "390.l.826346.t.5",
+          "display_name": "David N.",
+          "team_name": "Football Butt 3",
+          "first_l": "David Ni",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1101.66,
+          "fpts_against": 1093.96,
+          "record": "5-8",
+          "rank": 9
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "390.l.826346.t.7",
+          "display_name": "Thomas",
+          "team_name": "99 Problems",
+          "first_l": "Thomas Be",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1013.92,
+          "fpts_against": 1064.98,
+          "record": "5-8",
+          "rank": 10
+        },
+        {
+          "roster_id": 11,
+          "owner_id": "390.l.826346.t.11",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 936.66,
+          "fpts_against": 1158.42,
+          "record": "5-8",
+          "rank": 11
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "390.l.826346.t.8",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 931.98,
+          "fpts_against": 1178.5,
+          "record": "4-9",
+          "rank": 12
+        }
+      ],
+      "total_rosters": 12,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 9,
+          "owner_id": "390.l.826346.t.9",
+          "display_name": "James",
+          "team_name": "Chewin’🐻 N’ Cooin’🌼",
+          "first_l": "James Go"
+        },
+        "second": {
+          "roster_id": 6,
+          "owner_id": "390.l.826346.t.6",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped"
+        },
+        "third": {
+          "roster_id": 12,
+          "owner_id": "390.l.826346.t.12",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Anybody but Teddy 19",
+          "first_l": "HingleMcCringleberry Unmapped"
+        },
+        "high_points": {
+          "roster_id": 4,
+          "owner_id": "390.l.826346.t.4",
+          "display_name": "Ryan",
+          "team_name": "AAF All-Stars",
+          "first_l": "Ryan Gr",
+          "points": 1264.94
         },
         "low_points": {
           "roster_id": 8,
-          "owner_id": "1135798774129225728",
-          "display_name": "HouseOfDank",
-          "team_name": "House of Dank",
-          "first_l": "Jason Wo",
-          "points": 1146.08
+          "owner_id": "390.l.826346.t.8",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "points": 931.98
         }
-      }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 9,
+          "first_l": "James Go",
+          "team_name": "Chewin’🐻 N’ Cooin’🌼"
+        },
+        {
+          "rank": 2,
+          "roster_id": 6,
+          "first_l": "jason Unmapped",
+          "team_name": "Joey Freshwater"
+        },
+        {
+          "rank": 3,
+          "roster_id": 12,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Anybody but Teddy 19"
+        },
+        {
+          "rank": 4,
+          "roster_id": 2,
+          "first_l": "Donnie Unmapped",
+          "team_name": "3rd Stringers"
+        },
+        {
+          "rank": 5,
+          "roster_id": 10,
+          "first_l": "Casie Wo",
+          "team_name": "Girl Got Dis"
+        },
+        {
+          "rank": 6,
+          "roster_id": 4,
+          "first_l": "Ryan Gr",
+          "team_name": "AAF All-Stars"
+        },
+        {
+          "rank": 7,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Sex Panther"
+        },
+        {
+          "rank": 8,
+          "roster_id": 3,
+          "first_l": "April Be",
+          "team_name": "No Gronk No Problem"
+        },
+        {
+          "rank": 9,
+          "roster_id": 11,
+          "first_l": "Alisha Unmapped",
+          "team_name": "Sunday Funday"
+        },
+        {
+          "rank": 10,
+          "roster_id": 5,
+          "first_l": "David Ni",
+          "team_name": "Football Butt 3"
+        },
+        {
+          "rank": 11,
+          "roster_id": 7,
+          "first_l": "Thomas Be",
+          "team_name": "99 Problems"
+        },
+        {
+          "rank": 12,
+          "roster_id": 8,
+          "first_l": "Justin Cl",
+          "team_name": "Mighty Shrimps"
+        }
+      ]
+    },
+    {
+      "season": "2018",
+      "league_id": "380.l.779794",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 1,
+        "owner_id": "380.l.779794.t.1",
+        "display_name": "Ted Balls",
+        "team_name": "Rodeo Clowns",
+        "first_l": "Theodore Wo",
+        "record": "10-3",
+        "fpts": 1257.02
+      },
+      "last_place": {
+        "roster_id": 10,
+        "owner_id": "380.l.779794.t.10",
+        "display_name": "jason",
+        "team_name": "Joey Freshwater",
+        "first_l": "jason Unmapped",
+        "record": "1-12",
+        "fpts": 873.06
+      },
+      "standings": [
+        {
+          "roster_id": 1,
+          "owner_id": "380.l.779794.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Rodeo Clowns",
+          "first_l": "Theodore Wo",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "fpts": 1257.02,
+          "fpts_against": 1156.62,
+          "record": "10-3",
+          "rank": 1
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "380.l.779794.t.6",
+          "display_name": "Thomas",
+          "team_name": "Last Strike U",
+          "first_l": "Thomas Be",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1237.8,
+          "fpts_against": 1070.82,
+          "record": "9-4",
+          "rank": 2
+        },
+        {
+          "roster_id": 11,
+          "owner_id": "380.l.779794.t.11",
+          "display_name": "Donnie",
+          "team_name": "3rd Stringers",
+          "first_l": "Donnie Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1323.34,
+          "fpts_against": 1162.66,
+          "record": "8-5",
+          "rank": 3
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "380.l.779794.t.8",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1315.7,
+          "fpts_against": 1096.04,
+          "record": "8-5",
+          "rank": 4
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "380.l.779794.t.12",
+          "display_name": "James",
+          "team_name": "Senor Roca del Teddy",
+          "first_l": "James Go",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1184.7,
+          "fpts_against": 1122.24,
+          "record": "8-5",
+          "rank": 5
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "380.l.779794.t.5",
+          "display_name": "April",
+          "team_name": "Be Stills My Heart",
+          "first_l": "April Be",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1232.96,
+          "fpts_against": 1222.5,
+          "record": "7-6",
+          "rank": 6
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "380.l.779794.t.3",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "You Just Got Jammed",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1192.68,
+          "fpts_against": 1204.36,
+          "record": "7-6",
+          "rank": 7
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "380.l.779794.t.4",
+          "display_name": "Ryan",
+          "team_name": "Blame It On the CTE",
+          "first_l": "Ryan Gr",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1160.62,
+          "fpts_against": 1266.58,
+          "record": "6-7",
+          "rank": 8
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "380.l.779794.t.7",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1170.04,
+          "fpts_against": 1204.72,
+          "record": "5-8",
+          "rank": 9
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "380.l.779794.t.2",
+          "display_name": "David N.",
+          "team_name": "Football Butt 2",
+          "first_l": "David Ni",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1089.46,
+          "fpts_against": 1211.64,
+          "record": "5-8",
+          "rank": 10
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "380.l.779794.t.9",
+          "display_name": "Casie",
+          "team_name": "Shameless",
+          "first_l": "Casie Wo",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1139.56,
+          "fpts_against": 1180.84,
+          "record": "4-9",
+          "rank": 11
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "380.l.779794.t.10",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "wins": 1,
+          "losses": 12,
+          "ties": 0,
+          "fpts": 873.06,
+          "fpts_against": 1277.92,
+          "record": "1-12",
+          "rank": 12
+        }
+      ],
+      "total_rosters": 12,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 1,
+          "owner_id": "380.l.779794.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Rodeo Clowns",
+          "first_l": "Theodore Wo"
+        },
+        "second": {
+          "roster_id": 11,
+          "owner_id": "380.l.779794.t.11",
+          "display_name": "Donnie",
+          "team_name": "3rd Stringers",
+          "first_l": "Donnie Unmapped"
+        },
+        "third": {
+          "roster_id": 12,
+          "owner_id": "380.l.779794.t.12",
+          "display_name": "James",
+          "team_name": "Senor Roca del Teddy",
+          "first_l": "James Go"
+        },
+        "high_points": {
+          "roster_id": 11,
+          "owner_id": "380.l.779794.t.11",
+          "display_name": "Donnie",
+          "team_name": "3rd Stringers",
+          "first_l": "Donnie Unmapped",
+          "points": 1323.34
+        },
+        "low_points": {
+          "roster_id": 10,
+          "owner_id": "380.l.779794.t.10",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "points": 873.06
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Rodeo Clowns"
+        },
+        {
+          "rank": 2,
+          "roster_id": 11,
+          "first_l": "Donnie Unmapped",
+          "team_name": "3rd Stringers"
+        },
+        {
+          "rank": 3,
+          "roster_id": 12,
+          "first_l": "James Go",
+          "team_name": "Senor Roca del Teddy"
+        },
+        {
+          "rank": 4,
+          "roster_id": 6,
+          "first_l": "Thomas Be",
+          "team_name": "Last Strike U"
+        },
+        {
+          "rank": 5,
+          "roster_id": 8,
+          "first_l": "Alisha Unmapped",
+          "team_name": "Sunday Funday"
+        },
+        {
+          "rank": 6,
+          "roster_id": 5,
+          "first_l": "April Be",
+          "team_name": "Be Stills My Heart"
+        },
+        {
+          "rank": 7,
+          "roster_id": 4,
+          "first_l": "Ryan Gr",
+          "team_name": "Blame It On the CTE"
+        },
+        {
+          "rank": 8,
+          "roster_id": 3,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "You Just Got Jammed"
+        },
+        {
+          "rank": 9,
+          "roster_id": 2,
+          "first_l": "David Ni",
+          "team_name": "Football Butt 2"
+        },
+        {
+          "rank": 10,
+          "roster_id": 7,
+          "first_l": "Justin Cl",
+          "team_name": "Mighty Shrimps"
+        },
+        {
+          "rank": 11,
+          "roster_id": 9,
+          "first_l": "Casie Wo",
+          "team_name": "Shameless"
+        },
+        {
+          "rank": 12,
+          "roster_id": 10,
+          "first_l": "jason Unmapped",
+          "team_name": "Joey Freshwater"
+        }
+      ]
+    },
+    {
+      "season": "2017",
+      "league_id": "371.l.4608",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 7,
+        "owner_id": "371.l.4608.t.7",
+        "display_name": "J C",
+        "team_name": "Mighty Shrimps",
+        "first_l": "Justin Cl",
+        "record": "11-2",
+        "fpts": 1418.66
+      },
+      "last_place": {
+        "roster_id": 4,
+        "owner_id": "371.l.4608.t.4",
+        "display_name": "Ryan",
+        "team_name": "Gunslingers",
+        "first_l": "Ryan Gr",
+        "record": "5-8",
+        "fpts": 1103.16
+      },
+      "standings": [
+        {
+          "roster_id": 7,
+          "owner_id": "371.l.4608.t.7",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "fpts": 1418.66,
+          "fpts_against": 1158.78,
+          "record": "11-2",
+          "rank": 1
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "371.l.4608.t.5",
+          "display_name": "April",
+          "team_name": "Breezy Like Sun Morn",
+          "first_l": "April Be",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "fpts": 1280.92,
+          "fpts_against": 1124.26,
+          "record": "10-3",
+          "rank": 2
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "371.l.4608.t.12",
+          "display_name": "James",
+          "team_name": "James' Equipo",
+          "first_l": "James Go",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1226.3,
+          "fpts_against": 1151.54,
+          "record": "8-5",
+          "rank": 3
+        },
+        {
+          "roster_id": 11,
+          "owner_id": "371.l.4608.t.11",
+          "display_name": "Donnie",
+          "team_name": "Like a Drum",
+          "first_l": "Donnie Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1030.8,
+          "fpts_against": 1034.16,
+          "record": "8-5",
+          "rank": 4
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "371.l.4608.t.9",
+          "display_name": "Casie",
+          "team_name": "Beastmode",
+          "first_l": "Casie Wo",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1201.4,
+          "fpts_against": 1197.32,
+          "record": "7-6",
+          "rank": 5
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "371.l.4608.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Killer Tofu",
+          "first_l": "Theodore Wo",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1152.56,
+          "fpts_against": 1077.02,
+          "record": "7-6",
+          "rank": 6
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "371.l.4608.t.3",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Great Again!",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1033.0,
+          "fpts_against": 1013.2,
+          "record": "7-6",
+          "rank": 7
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "371.l.4608.t.2",
+          "display_name": "David N.",
+          "team_name": "Football Butt",
+          "first_l": "David Ni",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1106.62,
+          "fpts_against": 1143.16,
+          "record": "5-8",
+          "rank": 8
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "371.l.4608.t.4",
+          "display_name": "Ryan",
+          "team_name": "Gunslingers",
+          "first_l": "Ryan Gr",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1103.16,
+          "fpts_against": 1092.34,
+          "record": "5-8",
+          "rank": 9
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "371.l.4608.t.10",
+          "display_name": "jason",
+          "team_name": "Joey Freshwater",
+          "first_l": "jason Unmapped",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1033.46,
+          "fpts_against": 1182.44,
+          "record": "4-9",
+          "rank": 10
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "371.l.4608.t.6",
+          "display_name": "Thomas",
+          "team_name": "Last Strike U",
+          "first_l": "Thomas Be",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 1007.04,
+          "fpts_against": 1144.44,
+          "record": "3-10",
+          "rank": 11
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "371.l.4608.t.8",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 932.84,
+          "fpts_against": 1208.1,
+          "record": "3-10",
+          "rank": 12
+        }
+      ],
+      "total_rosters": 12,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 7,
+          "owner_id": "371.l.4608.t.7",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl"
+        },
+        "second": {
+          "roster_id": 5,
+          "owner_id": "371.l.4608.t.5",
+          "display_name": "April",
+          "team_name": "Breezy Like Sun Morn",
+          "first_l": "April Be"
+        },
+        "third": {
+          "roster_id": 11,
+          "owner_id": "371.l.4608.t.11",
+          "display_name": "Donnie",
+          "team_name": "Like a Drum",
+          "first_l": "Donnie Unmapped"
+        },
+        "high_points": {
+          "roster_id": 7,
+          "owner_id": "371.l.4608.t.7",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "points": 1418.66
+        },
+        "low_points": {
+          "roster_id": 8,
+          "owner_id": "371.l.4608.t.8",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "points": 932.84
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 7,
+          "first_l": "Justin Cl",
+          "team_name": "Mighty Shrimps"
+        },
+        {
+          "rank": 2,
+          "roster_id": 5,
+          "first_l": "April Be",
+          "team_name": "Breezy Like Sun Morn"
+        },
+        {
+          "rank": 3,
+          "roster_id": 11,
+          "first_l": "Donnie Unmapped",
+          "team_name": "Like a Drum"
+        },
+        {
+          "rank": 4,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Killer Tofu"
+        },
+        {
+          "rank": 5,
+          "roster_id": 9,
+          "first_l": "Casie Wo",
+          "team_name": "Beastmode"
+        },
+        {
+          "rank": 6,
+          "roster_id": 12,
+          "first_l": "James Go",
+          "team_name": "James' Equipo"
+        },
+        {
+          "rank": 7,
+          "roster_id": 3,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Great Again!"
+        },
+        {
+          "rank": 8,
+          "roster_id": 10,
+          "first_l": "jason Unmapped",
+          "team_name": "Joey Freshwater"
+        },
+        {
+          "rank": 9,
+          "roster_id": 2,
+          "first_l": "David Ni",
+          "team_name": "Football Butt"
+        },
+        {
+          "rank": 10,
+          "roster_id": 8,
+          "first_l": "Alisha Unmapped",
+          "team_name": "Sunday Funday"
+        },
+        {
+          "rank": 11,
+          "roster_id": 6,
+          "first_l": "Thomas Be",
+          "team_name": "Last Strike U"
+        },
+        {
+          "rank": 12,
+          "roster_id": 4,
+          "first_l": "Ryan Gr",
+          "team_name": "Gunslingers"
+        }
+      ]
+    },
+    {
+      "season": "2016",
+      "league_id": "359.l.562548",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 1,
+        "owner_id": "359.l.562548.t.1",
+        "display_name": "Ted Balls",
+        "team_name": "More Like Borophyll",
+        "first_l": "Theodore Wo",
+        "record": "7-6",
+        "fpts": 1344.2
+      },
+      "last_place": {
+        "roster_id": 9,
+        "owner_id": "359.l.562548.t.9",
+        "display_name": "jason",
+        "team_name": "⚡️Red Lightning⚡️",
+        "first_l": "jason Unmapped",
+        "record": "1-12",
+        "fpts": 1099.5
+      },
+      "standings": [
+        {
+          "roster_id": 6,
+          "owner_id": "359.l.562548.t.6",
+          "display_name": "Casie",
+          "team_name": "The Icebox",
+          "first_l": "Casie Wo",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "fpts": 1515.1,
+          "fpts_against": 1210.86,
+          "record": "10-3",
+          "rank": 1
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "359.l.562548.t.5",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1418.54,
+          "fpts_against": 1284.02,
+          "record": "8-5",
+          "rank": 2
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "359.l.562548.t.3",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1543.34,
+          "fpts_against": 1430.9,
+          "record": "7-6",
+          "rank": 3
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "359.l.562548.t.2",
+          "display_name": "David N.",
+          "team_name": "Foot ball",
+          "first_l": "David Ni",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1393.86,
+          "fpts_against": 1347.98,
+          "record": "7-6",
+          "rank": 4
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "359.l.562548.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "More Like Borophyll",
+          "first_l": "Theodore Wo",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1344.2,
+          "fpts_against": 1368.96,
+          "record": "7-6",
+          "rank": 5
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "359.l.562548.t.10",
+          "display_name": "Ryan",
+          "team_name": "Gostkowski Incident",
+          "first_l": "Ryan Gr",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1338.28,
+          "fpts_against": 1310.46,
+          "record": "7-6",
+          "rank": 6
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "359.l.562548.t.4",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Former Champion",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1374.8,
+          "fpts_against": 1370.24,
+          "record": "6-7",
+          "rank": 7
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "359.l.562548.t.7",
+          "display_name": "Thomas",
+          "team_name": "Hyde yo kids",
+          "first_l": "Thomas Be",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1292.66,
+          "fpts_against": 1272.78,
+          "record": "6-7",
+          "rank": 8
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "359.l.562548.t.8",
+          "display_name": "April",
+          "team_name": "Gronky Kong",
+          "first_l": "April Be",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1274.38,
+          "fpts_against": 1378.38,
+          "record": "6-7",
+          "rank": 9
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "359.l.562548.t.9",
+          "display_name": "jason",
+          "team_name": "⚡️Red Lightning⚡️",
+          "first_l": "jason Unmapped",
+          "wins": 1,
+          "losses": 12,
+          "ties": 0,
+          "fpts": 1099.5,
+          "fpts_against": 1620.08,
+          "record": "1-12",
+          "rank": 10
+        }
+      ],
+      "total_rosters": 10,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 1,
+          "owner_id": "359.l.562548.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "More Like Borophyll",
+          "first_l": "Theodore Wo"
+        },
+        "second": {
+          "roster_id": 5,
+          "owner_id": "359.l.562548.t.5",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped"
+        },
+        "third": {
+          "roster_id": 6,
+          "owner_id": "359.l.562548.t.6",
+          "display_name": "Casie",
+          "team_name": "The Icebox",
+          "first_l": "Casie Wo"
+        },
+        "high_points": {
+          "roster_id": 3,
+          "owner_id": "359.l.562548.t.3",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "points": 1543.34
+        },
+        "low_points": {
+          "roster_id": 9,
+          "owner_id": "359.l.562548.t.9",
+          "display_name": "jason",
+          "team_name": "⚡️Red Lightning⚡️",
+          "first_l": "jason Unmapped",
+          "points": 1099.5
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "More Like Borophyll"
+        },
+        {
+          "rank": 2,
+          "roster_id": 5,
+          "first_l": "Alisha Unmapped",
+          "team_name": "Sunday Funday"
+        },
+        {
+          "rank": 3,
+          "roster_id": 6,
+          "first_l": "Casie Wo",
+          "team_name": "The Icebox"
+        },
+        {
+          "rank": 4,
+          "roster_id": 3,
+          "first_l": "Justin Cl",
+          "team_name": "Mighty Shrimps"
+        },
+        {
+          "rank": 5,
+          "roster_id": 2,
+          "first_l": "David Ni",
+          "team_name": "Foot ball"
+        },
+        {
+          "rank": 6,
+          "roster_id": 10,
+          "first_l": "Ryan Gr",
+          "team_name": "Gostkowski Incident"
+        },
+        {
+          "rank": 7,
+          "roster_id": 4,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Former Champion"
+        },
+        {
+          "rank": 8,
+          "roster_id": 8,
+          "first_l": "April Be",
+          "team_name": "Gronky Kong"
+        },
+        {
+          "rank": 9,
+          "roster_id": 7,
+          "first_l": "Thomas Be",
+          "team_name": "Hyde yo kids"
+        },
+        {
+          "rank": 10,
+          "roster_id": 9,
+          "first_l": "jason Unmapped",
+          "team_name": "⚡️Red Lightning⚡️"
+        }
+      ]
+    },
+    {
+      "season": "2015",
+      "league_id": "348.l.603801",
+      "league_name": "Cash Money Players FFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 1,
+        "owner_id": "348.l.603801.t.1",
+        "display_name": "Ted Balls",
+        "team_name": "It's Business Time",
+        "first_l": "Theodore Wo",
+        "record": "10-3",
+        "fpts": 1525.44
+      },
+      "last_place": {
+        "roster_id": 10,
+        "owner_id": "348.l.603801.t.10",
+        "display_name": "J C",
+        "team_name": "Mighty Shrimps",
+        "first_l": "Justin Cl",
+        "record": "3-10",
+        "fpts": 1369.02
+      },
+      "standings": [
+        {
+          "roster_id": 1,
+          "owner_id": "348.l.603801.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "It's Business Time",
+          "first_l": "Theodore Wo",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "fpts": 1525.44,
+          "fpts_against": 1390.92,
+          "record": "10-3",
+          "rank": 1
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "348.l.603801.t.9",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1449.68,
+          "fpts_against": 1316.14,
+          "record": "9-4",
+          "rank": 2
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "348.l.603801.t.4",
+          "display_name": "April",
+          "team_name": "Victorious Secret",
+          "first_l": "April Be",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1397.36,
+          "fpts_against": 1352.78,
+          "record": "8-5",
+          "rank": 3
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "348.l.603801.t.7",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Stay Trippy",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1377.84,
+          "fpts_against": 1295.92,
+          "record": "8-5",
+          "rank": 4
+        },
+        {
+          "roster_id": 11,
+          "owner_id": "348.l.603801.t.11",
+          "display_name": "--hidden--",
+          "team_name": "shannon's Swag Team",
+          "first_l": "Hidden2015t11 Unmapped",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1314.98,
+          "fpts_against": 1307.08,
+          "record": "8-5",
+          "rank": 5
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "348.l.603801.t.3",
+          "display_name": "Thomas",
+          "team_name": "The Suh-tang Clan",
+          "first_l": "Thomas Be",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1401.36,
+          "fpts_against": 1361.06,
+          "record": "7-6",
+          "rank": 6
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "348.l.603801.t.8",
+          "display_name": "James",
+          "team_name": "Tottenham Hotspur",
+          "first_l": "James Go",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1190.92,
+          "fpts_against": 1276.68,
+          "record": "7-6",
+          "rank": 7
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "348.l.603801.t.5",
+          "display_name": "Casie",
+          "team_name": "The Icebox",
+          "first_l": "Casie Wo",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1225.52,
+          "fpts_against": 1306.4,
+          "record": "6-7",
+          "rank": 8
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "348.l.603801.t.6",
+          "display_name": "jason",
+          "team_name": "⚡️Red Lightning⚡️",
+          "first_l": "jason Unmapped",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1421.76,
+          "fpts_against": 1325.94,
+          "record": "5-8",
+          "rank": 9
+        },
+        {
+          "roster_id": 12,
+          "owner_id": "348.l.603801.t.12",
+          "display_name": "--hidden--",
+          "team_name": "TRE",
+          "first_l": "Hidden2015t12 Unmapped",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1217.5,
+          "fpts_against": 1290.7,
+          "record": "4-9",
+          "rank": 10
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "348.l.603801.t.10",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 1369.02,
+          "fpts_against": 1479.28,
+          "record": "3-10",
+          "rank": 11
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "348.l.603801.t.2",
+          "display_name": "David N.",
+          "team_name": "Foot ball",
+          "first_l": "David Ni",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "fpts": 1242.64,
+          "fpts_against": 1431.12,
+          "record": "3-10",
+          "rank": 12
+        }
+      ],
+      "total_rosters": 12,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 1,
+          "owner_id": "348.l.603801.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "It's Business Time",
+          "first_l": "Theodore Wo"
+        },
+        "second": {
+          "roster_id": 9,
+          "owner_id": "348.l.603801.t.9",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped"
+        },
+        "third": {
+          "roster_id": 7,
+          "owner_id": "348.l.603801.t.7",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Stay Trippy",
+          "first_l": "HingleMcCringleberry Unmapped"
+        },
+        "high_points": {
+          "roster_id": 1,
+          "owner_id": "348.l.603801.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "It's Business Time",
+          "first_l": "Theodore Wo",
+          "points": 1525.44
+        },
+        "low_points": {
+          "roster_id": 8,
+          "owner_id": "348.l.603801.t.8",
+          "display_name": "James",
+          "team_name": "Tottenham Hotspur",
+          "first_l": "James Go",
+          "points": 1190.92
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "It's Business Time"
+        },
+        {
+          "rank": 2,
+          "roster_id": 9,
+          "first_l": "Alisha Unmapped",
+          "team_name": "Sunday Funday"
+        },
+        {
+          "rank": 3,
+          "roster_id": 7,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Stay Trippy"
+        },
+        {
+          "rank": 4,
+          "roster_id": 3,
+          "first_l": "Thomas Be",
+          "team_name": "The Suh-tang Clan"
+        },
+        {
+          "rank": 5,
+          "roster_id": 11,
+          "first_l": "Hidden2015t11 Unmapped",
+          "team_name": "shannon's Swag Team"
+        },
+        {
+          "rank": 6,
+          "roster_id": 4,
+          "first_l": "April Be",
+          "team_name": "Victorious Secret"
+        },
+        {
+          "rank": 7,
+          "roster_id": 6,
+          "first_l": "jason Unmapped",
+          "team_name": "⚡️Red Lightning⚡️"
+        },
+        {
+          "rank": 8,
+          "roster_id": 8,
+          "first_l": "James Go",
+          "team_name": "Tottenham Hotspur"
+        },
+        {
+          "rank": 9,
+          "roster_id": 12,
+          "first_l": "Hidden2015t12 Unmapped",
+          "team_name": "TRE"
+        },
+        {
+          "rank": 10,
+          "roster_id": 5,
+          "first_l": "Casie Wo",
+          "team_name": "The Icebox"
+        },
+        {
+          "rank": 11,
+          "roster_id": 2,
+          "first_l": "David Ni",
+          "team_name": "Foot ball"
+        },
+        {
+          "rank": 12,
+          "roster_id": 10,
+          "first_l": "Justin Cl",
+          "team_name": "Mighty Shrimps"
+        }
+      ]
+    },
+    {
+      "season": "2014",
+      "league_id": "331.l.1162006",
+      "league_name": "BCFFL",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 8,
+        "owner_id": "331.l.1162006.t.8",
+        "display_name": "Hingle McCringleberry",
+        "team_name": "Stay Trippy",
+        "first_l": "HingleMcCringleberry Unmapped",
+        "record": "12-1",
+        "fpts": 1828.38
+      },
+      "last_place": {
+        "roster_id": 3,
+        "owner_id": "331.l.1162006.t.3",
+        "display_name": "April",
+        "team_name": "Victorious Secret",
+        "first_l": "April Be",
+        "record": "6-7",
+        "fpts": 1588.38
+      },
+      "standings": [
+        {
+          "roster_id": 8,
+          "owner_id": "331.l.1162006.t.8",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Stay Trippy",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "wins": 12,
+          "losses": 1,
+          "ties": 0,
+          "fpts": 1828.38,
+          "fpts_against": 1412.32,
+          "record": "12-1",
+          "rank": 1
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "331.l.1162006.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Strategic Grillers",
+          "first_l": "Theodore Wo",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1740.86,
+          "fpts_against": 1496.5,
+          "record": "8-5",
+          "rank": 2
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "331.l.1162006.t.5",
+          "display_name": "Casie",
+          "team_name": "2 Legit 2 Quit",
+          "first_l": "Casie Wo",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1502.62,
+          "fpts_against": 1420.86,
+          "record": "8-5",
+          "rank": 3
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "331.l.1162006.t.9",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1454.32,
+          "fpts_against": 1596.66,
+          "record": "7-6",
+          "rank": 4
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "331.l.1162006.t.6",
+          "display_name": "jason",
+          "team_name": "⚡️Red Lightning⚡️",
+          "first_l": "jason Unmapped",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1715.08,
+          "fpts_against": 1663.46,
+          "record": "6-7",
+          "rank": 5
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "331.l.1162006.t.2",
+          "display_name": "Thomas",
+          "team_name": "The Replacements",
+          "first_l": "Thomas Be",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1613.8,
+          "fpts_against": 1504.74,
+          "record": "6-7",
+          "rank": 6
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "331.l.1162006.t.3",
+          "display_name": "April",
+          "team_name": "Victorious Secret",
+          "first_l": "April Be",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1588.38,
+          "fpts_against": 1706.38,
+          "record": "6-7",
+          "rank": 7
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "331.l.1162006.t.7",
+          "display_name": "--hidden--",
+          "team_name": "Dusan Mandic",
+          "first_l": "Hidden2014t7 Unmapped",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1435.34,
+          "fpts_against": 1562.86,
+          "record": "6-7",
+          "rank": 8
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "331.l.1162006.t.4",
+          "display_name": "Alisha",
+          "team_name": "Sunday Funday",
+          "first_l": "Alisha Unmapped",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1493.14,
+          "fpts_against": 1677.26,
+          "record": "4-9",
+          "rank": 9
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "331.l.1162006.t.10",
+          "display_name": "--hidden--",
+          "team_name": "You just got Jammed",
+          "first_l": "Hidden2014t10 Unmapped",
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "fpts": 1238.34,
+          "fpts_against": 1569.22,
+          "record": "2-11",
+          "rank": 10
+        }
+      ],
+      "total_rosters": 10,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 8,
+          "owner_id": "331.l.1162006.t.8",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Stay Trippy",
+          "first_l": "HingleMcCringleberry Unmapped"
+        },
+        "second": {
+          "roster_id": 1,
+          "owner_id": "331.l.1162006.t.1",
+          "display_name": "Ted Balls",
+          "team_name": "Strategic Grillers",
+          "first_l": "Theodore Wo"
+        },
+        "third": {
+          "roster_id": 9,
+          "owner_id": "331.l.1162006.t.9",
+          "display_name": "J C",
+          "team_name": "Mighty Shrimps",
+          "first_l": "Justin Cl"
+        },
+        "high_points": {
+          "roster_id": 8,
+          "owner_id": "331.l.1162006.t.8",
+          "display_name": "Hingle McCringleberry",
+          "team_name": "Stay Trippy",
+          "first_l": "HingleMcCringleberry Unmapped",
+          "points": 1828.38
+        },
+        "low_points": {
+          "roster_id": 10,
+          "owner_id": "331.l.1162006.t.10",
+          "display_name": "--hidden--",
+          "team_name": "You just got Jammed",
+          "first_l": "Hidden2014t10 Unmapped",
+          "points": 1238.34
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 8,
+          "first_l": "HingleMcCringleberry Unmapped",
+          "team_name": "Stay Trippy"
+        },
+        {
+          "rank": 2,
+          "roster_id": 1,
+          "first_l": "Theodore Wo",
+          "team_name": "Strategic Grillers"
+        },
+        {
+          "rank": 3,
+          "roster_id": 9,
+          "first_l": "Justin Cl",
+          "team_name": "Mighty Shrimps"
+        },
+        {
+          "rank": 4,
+          "roster_id": 2,
+          "first_l": "Thomas Be",
+          "team_name": "The Replacements"
+        },
+        {
+          "rank": 5,
+          "roster_id": 6,
+          "first_l": "jason Unmapped",
+          "team_name": "⚡️Red Lightning⚡️"
+        },
+        {
+          "rank": 6,
+          "roster_id": 5,
+          "first_l": "Casie Wo",
+          "team_name": "2 Legit 2 Quit"
+        },
+        {
+          "rank": 7,
+          "roster_id": 4,
+          "first_l": "Alisha Unmapped",
+          "team_name": "Sunday Funday"
+        },
+        {
+          "rank": 8,
+          "roster_id": 10,
+          "first_l": "Hidden2014t10 Unmapped",
+          "team_name": "You just got Jammed"
+        },
+        {
+          "rank": 9,
+          "roster_id": 7,
+          "first_l": "Hidden2014t7 Unmapped",
+          "team_name": "Dusan Mandic"
+        },
+        {
+          "rank": 10,
+          "roster_id": 3,
+          "first_l": "April Be",
+          "team_name": "Victorious Secret"
+        }
+      ],
+      "note": "League was named BCFFL on Yahoo in 2014 (CMPFFL predecessor)."
     }
   ],
   "gaps": []

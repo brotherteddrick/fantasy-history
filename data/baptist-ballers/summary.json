@@ -71,7 +71,7 @@
           "roster_id": 3,
           "owner_id": "1260689182905344000",
           "display_name": "Sboyette",
-          "team_name": "The FlamBoyette\u2019s",
+          "team_name": "The FlamBoyette’s",
           "first_l": "Steven Bo",
           "wins": 17,
           "losses": 11,
@@ -206,7 +206,7 @@
           "roster_id": 3,
           "owner_id": "1260689182905344000",
           "display_name": "Sboyette",
-          "team_name": "The FlamBoyette\u2019s",
+          "team_name": "The FlamBoyette’s",
           "first_l": "Steven Bo"
         },
         "high_points": {
@@ -226,6 +226,580 @@
           "points": 1352.62
         }
       }
+    },
+    {
+      "season": "2024",
+      "league_id": "449.l.689359",
+      "league_name": "Parkridge Men's Fantasy League",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 5,
+        "owner_id": "449.l.689359.t.5",
+        "display_name": "Ted Balls",
+        "team_name": "Your Mom Goes to College",
+        "first_l": "Theodore Wo",
+        "record": "10-4",
+        "fpts": 1596.26
+      },
+      "last_place": {
+        "roster_id": 1,
+        "owner_id": "449.l.689359.t.1",
+        "display_name": "Lane Wood",
+        "team_name": "One Tyreek Hill",
+        "first_l": "Lane Wo",
+        "record": "7-7",
+        "fpts": 1462.44
+      },
+      "standings": [
+        {
+          "roster_id": 5,
+          "owner_id": "449.l.689359.t.5",
+          "display_name": "Ted Balls",
+          "team_name": "Your Mom Goes to College",
+          "first_l": "Theodore Wo",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1596.26,
+          "fpts_against": 1454.06,
+          "record": "10-4",
+          "rank": 1
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "449.l.689359.t.7",
+          "display_name": "Steve B",
+          "team_name": "The FlamBoyette’s",
+          "first_l": "Steven Bo",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1631.92,
+          "fpts_against": 1550.5,
+          "record": "9-5",
+          "rank": 2
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "449.l.689359.t.8",
+          "display_name": "John Muddog",
+          "team_name": "Tacklin' Fuel",
+          "first_l": "Hayes Te",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "fpts": 1581.4,
+          "fpts_against": 1372.76,
+          "record": "9-5",
+          "rank": 3
+        },
+        {
+          "roster_id": 4,
+          "owner_id": "449.l.689359.t.4",
+          "display_name": "Brandon Fung",
+          "team_name": "The Champ",
+          "first_l": "Brandon Fu",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1703.18,
+          "fpts_against": 1604.0,
+          "record": "8-6",
+          "rank": 4
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "449.l.689359.t.10",
+          "display_name": "David Wood",
+          "team_name": "CookBrownRice",
+          "first_l": "David Wo",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1558.34,
+          "fpts_against": 1460.08,
+          "record": "8-6",
+          "rank": 5
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "449.l.689359.t.6",
+          "display_name": "Robbie",
+          "team_name": "The Toasted Yolks",
+          "first_l": "Robert Da",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1518.42,
+          "fpts_against": 1451.58,
+          "record": "7-7",
+          "rank": 6
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "449.l.689359.t.1",
+          "display_name": "Lane Wood",
+          "team_name": "One Tyreek Hill",
+          "first_l": "Lane Wo",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1462.44,
+          "fpts_against": 1459.9,
+          "record": "7-7",
+          "rank": 7
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "449.l.689359.t.2",
+          "display_name": "Brandon",
+          "team_name": "First Place Felder's Team",
+          "first_l": "Brandon Fe",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "fpts": 1563.34,
+          "fpts_against": 1548.08,
+          "record": "6-8",
+          "rank": 8
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "449.l.689359.t.9",
+          "display_name": "Andy",
+          "team_name": "Fantasy Prodigy",
+          "first_l": "Andy Unmapped",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1343.22,
+          "fpts_against": 1559.2,
+          "record": "5-9",
+          "rank": 9
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "449.l.689359.t.3",
+          "display_name": "Andrew",
+          "team_name": "Andrew's Team",
+          "first_l": "Andrew Mo",
+          "wins": 1,
+          "losses": 13,
+          "ties": 0,
+          "fpts": 1191.2,
+          "fpts_against": 1689.56,
+          "record": "1-13",
+          "rank": 10
+        }
+      ],
+      "total_rosters": 10,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 5,
+          "owner_id": "449.l.689359.t.5",
+          "display_name": "Ted Balls",
+          "team_name": "Your Mom Goes to College",
+          "first_l": "Theodore Wo"
+        },
+        "second": {
+          "roster_id": 4,
+          "owner_id": "449.l.689359.t.4",
+          "display_name": "Brandon Fung",
+          "team_name": "The Champ",
+          "first_l": "Brandon Fu"
+        },
+        "third": {
+          "roster_id": 7,
+          "owner_id": "449.l.689359.t.7",
+          "display_name": "Steve B",
+          "team_name": "The FlamBoyette’s",
+          "first_l": "Steven Bo"
+        },
+        "high_points": {
+          "roster_id": 4,
+          "owner_id": "449.l.689359.t.4",
+          "display_name": "Brandon Fung",
+          "team_name": "The Champ",
+          "first_l": "Brandon Fu",
+          "points": 1703.18
+        },
+        "low_points": {
+          "roster_id": 3,
+          "owner_id": "449.l.689359.t.3",
+          "display_name": "Andrew",
+          "team_name": "Andrew's Team",
+          "first_l": "Andrew Mo",
+          "points": 1191.2
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 5,
+          "first_l": "Theodore Wo",
+          "team_name": "Your Mom Goes to College"
+        },
+        {
+          "rank": 2,
+          "roster_id": 4,
+          "first_l": "Brandon Fu",
+          "team_name": "The Champ"
+        },
+        {
+          "rank": 3,
+          "roster_id": 7,
+          "first_l": "Steven Bo",
+          "team_name": "The FlamBoyette’s"
+        },
+        {
+          "rank": 4,
+          "roster_id": 6,
+          "first_l": "Robert Da",
+          "team_name": "The Toasted Yolks"
+        },
+        {
+          "rank": 5,
+          "roster_id": 10,
+          "first_l": "David Wo",
+          "team_name": "CookBrownRice"
+        },
+        {
+          "rank": 6,
+          "roster_id": 8,
+          "first_l": "Hayes Te",
+          "team_name": "Tacklin' Fuel"
+        },
+        {
+          "rank": 7,
+          "roster_id": 3,
+          "first_l": "Andrew Mo",
+          "team_name": "Andrew's Team"
+        },
+        {
+          "rank": 8,
+          "roster_id": 2,
+          "first_l": "Brandon Fe",
+          "team_name": "First Place Felder's Team"
+        },
+        {
+          "rank": 9,
+          "roster_id": 9,
+          "first_l": "Andy Unmapped",
+          "team_name": "Fantasy Prodigy"
+        },
+        {
+          "rank": 10,
+          "roster_id": 1,
+          "first_l": "Lane Wo",
+          "team_name": "One Tyreek Hill"
+        }
+      ]
+    },
+    {
+      "season": "2023",
+      "league_id": "423.l.920970",
+      "league_name": "Parkridge Men's Fantasy League",
+      "source": "yahoo",
+      "champion": {
+        "roster_id": 4,
+        "owner_id": "423.l.920970.t.4",
+        "display_name": "Brandon Fung",
+        "team_name": "Think Tank",
+        "first_l": "Brandon Fu",
+        "record": "11-3",
+        "fpts": 1632.74
+      },
+      "last_place": {
+        "roster_id": 10,
+        "owner_id": "423.l.920970.t.10",
+        "display_name": "Stefan",
+        "team_name": "Hester’s Huddle",
+        "first_l": "Stefan Unmapped",
+        "record": "3-11",
+        "fpts": 1376.38
+      },
+      "standings": [
+        {
+          "roster_id": 4,
+          "owner_id": "423.l.920970.t.4",
+          "display_name": "Brandon Fung",
+          "team_name": "Think Tank",
+          "first_l": "Brandon Fu",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "fpts": 1632.74,
+          "fpts_against": 1571.1,
+          "record": "11-3",
+          "rank": 1
+        },
+        {
+          "roster_id": 7,
+          "owner_id": "423.l.920970.t.7",
+          "display_name": "Steve B",
+          "team_name": "The FlamBoyette’s",
+          "first_l": "Steven Bo",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "fpts": 1468.9,
+          "fpts_against": 1364.8,
+          "record": "10-4",
+          "rank": 2
+        },
+        {
+          "roster_id": 6,
+          "owner_id": "423.l.920970.t.6",
+          "display_name": "Robbie",
+          "team_name": "McAlisters Mayhem",
+          "first_l": "Robert Da",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "fpts": 1644.12,
+          "fpts_against": 1533.52,
+          "record": "8-6",
+          "rank": 3
+        },
+        {
+          "roster_id": 5,
+          "owner_id": "423.l.920970.t.5",
+          "display_name": "Ted Balls",
+          "team_name": "Purple Cobras",
+          "first_l": "Theodore Wo",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1520.36,
+          "fpts_against": 1443.96,
+          "record": "7-7",
+          "rank": 4
+        },
+        {
+          "roster_id": 9,
+          "owner_id": "423.l.920970.t.9",
+          "display_name": "Andy",
+          "team_name": "Fantasy Prodigy",
+          "first_l": "Andy Unmapped",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1499.56,
+          "fpts_against": 1543.4,
+          "record": "7-7",
+          "rank": 5
+        },
+        {
+          "roster_id": 8,
+          "owner_id": "423.l.920970.t.8",
+          "display_name": "John Muddog",
+          "team_name": "Tacklin' Fuel",
+          "first_l": "Hayes Te",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1498.56,
+          "fpts_against": 1576.22,
+          "record": "7-7",
+          "rank": 6
+        },
+        {
+          "roster_id": 2,
+          "owner_id": "423.l.920970.t.2",
+          "display_name": "Brandon",
+          "team_name": "First Place Felder's Team",
+          "first_l": "Brandon Fe",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "fpts": 1448.3,
+          "fpts_against": 1424.24,
+          "record": "7-7",
+          "rank": 7
+        },
+        {
+          "roster_id": 3,
+          "owner_id": "423.l.920970.t.3",
+          "display_name": "Andrew",
+          "team_name": "Andrew's First-Rate Team",
+          "first_l": "Andrew Mo",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1528.12,
+          "fpts_against": 1548.24,
+          "record": "5-9",
+          "rank": 8
+        },
+        {
+          "roster_id": 1,
+          "owner_id": "423.l.920970.t.1",
+          "display_name": "Lane Wood",
+          "team_name": "Bryce Bryce Baby",
+          "first_l": "Lane Wo",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "fpts": 1481.2,
+          "fpts_against": 1507.5,
+          "record": "5-9",
+          "rank": 9
+        },
+        {
+          "roster_id": 10,
+          "owner_id": "423.l.920970.t.10",
+          "display_name": "Stefan",
+          "team_name": "Hester’s Huddle",
+          "first_l": "Stefan Unmapped",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "fpts": 1376.38,
+          "fpts_against": 1585.26,
+          "record": "3-11",
+          "rank": 10
+        }
+      ],
+      "total_rosters": 10,
+      "weeks_with_matchups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "placements": {
+        "first": {
+          "roster_id": 4,
+          "owner_id": "423.l.920970.t.4",
+          "display_name": "Brandon Fung",
+          "team_name": "Think Tank",
+          "first_l": "Brandon Fu"
+        },
+        "second": {
+          "roster_id": 7,
+          "owner_id": "423.l.920970.t.7",
+          "display_name": "Steve B",
+          "team_name": "The FlamBoyette’s",
+          "first_l": "Steven Bo"
+        },
+        "third": {
+          "roster_id": 5,
+          "owner_id": "423.l.920970.t.5",
+          "display_name": "Ted Balls",
+          "team_name": "Purple Cobras",
+          "first_l": "Theodore Wo"
+        },
+        "high_points": {
+          "roster_id": 6,
+          "owner_id": "423.l.920970.t.6",
+          "display_name": "Robbie",
+          "team_name": "McAlisters Mayhem",
+          "first_l": "Robert Da",
+          "points": 1644.12
+        },
+        "low_points": {
+          "roster_id": 10,
+          "owner_id": "423.l.920970.t.10",
+          "display_name": "Stefan",
+          "team_name": "Hester’s Huddle",
+          "first_l": "Stefan Unmapped",
+          "points": 1376.38
+        }
+      },
+      "final_ranks": [
+        {
+          "rank": 1,
+          "roster_id": 4,
+          "first_l": "Brandon Fu",
+          "team_name": "Think Tank"
+        },
+        {
+          "rank": 2,
+          "roster_id": 7,
+          "first_l": "Steven Bo",
+          "team_name": "The FlamBoyette’s"
+        },
+        {
+          "rank": 3,
+          "roster_id": 5,
+          "first_l": "Theodore Wo",
+          "team_name": "Purple Cobras"
+        },
+        {
+          "rank": 4,
+          "roster_id": 8,
+          "first_l": "Hayes Te",
+          "team_name": "Tacklin' Fuel"
+        },
+        {
+          "rank": 5,
+          "roster_id": 9,
+          "first_l": "Andy Unmapped",
+          "team_name": "Fantasy Prodigy"
+        },
+        {
+          "rank": 6,
+          "roster_id": 6,
+          "first_l": "Robert Da",
+          "team_name": "McAlisters Mayhem"
+        },
+        {
+          "rank": 7,
+          "roster_id": 3,
+          "first_l": "Andrew Mo",
+          "team_name": "Andrew's First-Rate Team"
+        },
+        {
+          "rank": 8,
+          "roster_id": 2,
+          "first_l": "Brandon Fe",
+          "team_name": "First Place Felder's Team"
+        },
+        {
+          "rank": 9,
+          "roster_id": 1,
+          "first_l": "Lane Wo",
+          "team_name": "Bryce Bryce Baby"
+        },
+        {
+          "rank": 10,
+          "roster_id": 10,
+          "first_l": "Stefan Unmapped",
+          "team_name": "Hester’s Huddle"
+        }
+      ]
     }
   ],
   "gaps": []
