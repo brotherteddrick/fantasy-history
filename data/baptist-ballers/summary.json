@@ -533,7 +533,7 @@
         "owner_id": "423.l.920970.t.10",
         "display_name": "Stefan",
         "team_name": "Hester’s Huddle",
-        "first_l": "Stefan Unmapped",
+        "first_l": "Stefan He",
         "record": "3-11",
         "fpts": 1376.38
       },
@@ -669,7 +669,7 @@
           "owner_id": "423.l.920970.t.10",
           "display_name": "Stefan",
           "team_name": "Hester’s Huddle",
-          "first_l": "Stefan Unmapped",
+          "first_l": "Stefan He",
           "wins": 3,
           "losses": 11,
           "ties": 0,
@@ -734,7 +734,7 @@
           "owner_id": "423.l.920970.t.10",
           "display_name": "Stefan",
           "team_name": "Hester’s Huddle",
-          "first_l": "Stefan Unmapped",
+          "first_l": "Stefan He",
           "points": 1376.38
         }
       },
@@ -796,7 +796,7 @@
         {
           "rank": 10,
           "roster_id": 10,
-          "first_l": "Stefan Unmapped",
+          "first_l": "Stefan He",
           "team_name": "Hester’s Huddle"
         }
       ]
