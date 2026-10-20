@@ -1,4 +1,4 @@
-import { loadSeasonFile } from './data.ts'
+import { loadSeasonFile, compareRegularSeason } from './data.ts'
 import type { LeagueSummary, SeasonSummary } from './types.ts'
 
 /** One played game for one team. */
@@ -164,9 +164,15 @@ export function seasonTeamResults(leagueKey: string, s: SeasonSummary): Map<numb
       ]
       for (const [id, seed] of seedOf) if (out.has(id)) out.get(id)!.seed = seed
     }
-    for (const t of out.values()) if (t.isLast) t.finalPlace = s.total_rosters
   }
 
+  // Places for non-playoff teams (and last place) come from the regular-season record,
+  // ignoring the consolation / losers bracket. Playoff places stay bracket-based.
+  const nPlayoffTeams = [...out.values()].filter((t) => t.madePlayoffs).length
+  const nonPlayoff = s.standings.filter((r) => !out.get(r.roster_id)?.madePlayoffs).sort(compareRegularSeason)
+  nonPlayoff.forEach((r, i) => {
+    out.get(r.roster_id)!.finalPlace = nPlayoffTeams + i + 1
+  })
   for (const t of out.values()) {
     if (t.isChampion) { t.finalPlace = 1; t.playoffResult = 'Champion' }
     else if (t.isRunnerUp) { t.finalPlace = 2; t.playoffResult = 'Runner-up' }

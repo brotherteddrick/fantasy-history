@@ -130,7 +130,7 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
     </div>
     <p class="note">
       Newest first. Record is regular-season head-to-head{c.seasons.some((s) => s.hasMedian) ? '; “med” is the separate weekly median game (Sleeper)' : ''}.
-      Finish is the final place from the playoffs{c.seasons.some((s) => s.source === 'sleeper') ? ' (Sleeper only records final places for playoff teams and last place)' : ''}.
+      Finish: playoff places from the championship bracket; places for non-playoff teams and last place by regular-season record (lower PF breaks ties).
       {sources.size > 1 && ' Y = Yahoo, S = Sleeper.'}
     </p>
   </section>

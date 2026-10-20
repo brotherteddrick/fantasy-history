@@ -24,6 +24,8 @@ export {
   peopleByFirstL,
   historicalOnly,
   managersFromSummary,
+  standingWinPct,
+  compareRegularSeason,
   formatPts,
   parsePersonKey,
   displayLabels,

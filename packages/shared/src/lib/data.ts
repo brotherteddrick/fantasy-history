@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import type { LeagueSummary, Manager, PersonRow } from './types.ts'
+import type { LeagueSummary, Manager, PersonRow, Standing } from './types.ts'
 
 export function findRepoRoot(): string {
   let dir = process.cwd()
@@ -23,7 +23,32 @@ export function loadSummary(leagueKey: string): LeagueSummary {
   raw.seasons = raw.seasons
     .filter((s) => s.season !== '2026')
     .sort((a, b) => Number(b.season) - Number(a.season))
+  for (const s of raw.seasons) {
+    const worst = [...s.standings].sort(compareRegularSeason).pop()
+    if (worst) {
+      s.last_place = {
+        roster_id: worst.roster_id,
+        owner_id: worst.owner_id,
+        display_name: worst.display_name,
+        team_name: worst.team_name,
+        first_l: worst.first_l,
+        record: worst.record,
+        fpts: worst.fpts,
+      }
+    }
+  }
   return raw
+}
+
+/** Regular-season win pct from the league's own standings record (Sleeper includes median games). */
+export function standingWinPct(r: Pick<Standing, 'wins' | 'losses' | 'ties'>): number {
+  const g = r.wins + r.losses + r.ties
+  return g ? (r.wins + 0.5 * r.ties) / g : 0
+}
+
+/** Sort comparator: best regular-season record first; tiebreak higher regular-season PF. */
+export function compareRegularSeason(a: Standing, b: Standing): number {
+  return standingWinPct(b) - standingWinPct(a) || b.fpts - a.fpts
 }
 
 export function personSlug(first_l: string): string {
