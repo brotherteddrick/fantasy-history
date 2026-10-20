@@ -60,6 +60,8 @@ export interface SeasonSummary {
   total_rosters: number
   weeks_with_matchups: string[]
   placements?: SeasonPlacements
+  source?: 'sleeper' | 'yahoo'
+  note?: string
 }
 
 export interface WeekMatchupSide {

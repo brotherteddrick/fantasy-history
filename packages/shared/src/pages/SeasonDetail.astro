@@ -26,6 +26,8 @@ const weeks = weeklyMatchups(config.leagueKey, year)
     <div class="eyebrow">{season.league_name}</div>
     <h1>{year}</h1>
     <p class="lede">{season.total_rosters} teams · playoff places and regular-season point leaders · weekly H2H below.</p>
+    {season.note && <p class="note">{season.note}</p>}
+    {season.source === 'yahoo' && <p class="note">Played on Yahoo Fantasy.</p>}
   </div>
   <div class="grid cols-2">
     <ChampCard label="Champion" person={season.champion} year={year} labels={labels} />
