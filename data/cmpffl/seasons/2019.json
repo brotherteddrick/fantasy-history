@@ -149,8 +149,8 @@
           "is_commissioner": false
         }
       ],
-      "first_l": "Donnie Unmapped",
-      "mapped": false,
+      "first_l": "Donnie We",
+      "mapped": true,
       "final_rank": 4,
       "playoff_seed": 5,
       "draft_position": 10,
@@ -259,8 +259,8 @@
           "is_commissioner": false
         }
       ],
-      "first_l": "Alisha Unmapped",
-      "mapped": false,
+      "first_l": "Alisha Pe",
+      "mapped": true,
       "final_rank": 9,
       "playoff_seed": 11,
       "draft_position": 5,

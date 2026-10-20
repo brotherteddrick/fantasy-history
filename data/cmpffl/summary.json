@@ -1045,7 +1045,7 @@
         "owner_id": "406.l.322218.t.9",
         "display_name": "Shelly",
         "team_name": "Mahomes Go Home",
-        "first_l": "Shelly Unmapped",
+        "first_l": "Shelly We",
         "record": "3-11",
         "fpts": 949.06
       },
@@ -1195,7 +1195,7 @@
           "owner_id": "406.l.322218.t.11",
           "display_name": "Donnie",
           "team_name": "Thielen's Weak Ankles",
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "wins": 4,
           "losses": 10,
           "ties": 0,
@@ -1209,7 +1209,7 @@
           "owner_id": "406.l.322218.t.9",
           "display_name": "Shelly",
           "team_name": "Mahomes Go Home",
-          "first_l": "Shelly Unmapped",
+          "first_l": "Shelly We",
           "wins": 3,
           "losses": 11,
           "ties": 0,
@@ -1274,7 +1274,7 @@
           "owner_id": "406.l.322218.t.9",
           "display_name": "Shelly",
           "team_name": "Mahomes Go Home",
-          "first_l": "Shelly Unmapped",
+          "first_l": "Shelly We",
           "points": 949.06
         }
       },
@@ -1330,7 +1330,7 @@
         {
           "rank": 9,
           "roster_id": 11,
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "team_name": "Thielen's Weak Ankles"
         },
         {
@@ -1348,7 +1348,7 @@
         {
           "rank": 12,
           "roster_id": 9,
-          "first_l": "Shelly Unmapped",
+          "first_l": "Shelly We",
           "team_name": "Mahomes Go Home"
         }
       ]
@@ -1372,7 +1372,7 @@
         "owner_id": "399.l.464880.t.11",
         "display_name": "Alisha",
         "team_name": "Sunday Funday",
-        "first_l": "Alisha Unmapped",
+        "first_l": "Alisha Pe",
         "record": "1-12",
         "fpts": 1027.66
       },
@@ -1508,7 +1508,7 @@
           "owner_id": "399.l.464880.t.11",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "wins": 1,
           "losses": 12,
           "ties": 0,
@@ -1572,7 +1572,7 @@
           "owner_id": "399.l.464880.t.11",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "points": 1027.66
         }
       },
@@ -1634,7 +1634,7 @@
         {
           "rank": 10,
           "roster_id": 11,
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "team_name": "Sunday Funday"
         }
       ]
@@ -1724,7 +1724,7 @@
           "owner_id": "390.l.826346.t.2",
           "display_name": "Donnie",
           "team_name": "3rd Stringers",
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "wins": 7,
           "losses": 6,
           "ties": 0,
@@ -1808,7 +1808,7 @@
           "owner_id": "390.l.826346.t.11",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "wins": 5,
           "losses": 8,
           "ties": 0,
@@ -1912,7 +1912,7 @@
         {
           "rank": 4,
           "roster_id": 2,
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "team_name": "3rd Stringers"
         },
         {
@@ -1942,7 +1942,7 @@
         {
           "rank": 9,
           "roster_id": 11,
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "team_name": "Sunday Funday"
         },
         {
@@ -2022,7 +2022,7 @@
           "owner_id": "380.l.779794.t.11",
           "display_name": "Donnie",
           "team_name": "3rd Stringers",
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -2036,7 +2036,7 @@
           "owner_id": "380.l.779794.t.8",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -2190,7 +2190,7 @@
           "owner_id": "380.l.779794.t.11",
           "display_name": "Donnie",
           "team_name": "3rd Stringers",
-          "first_l": "Donnie Unmapped"
+          "first_l": "Donnie We"
         },
         "third": {
           "roster_id": 12,
@@ -2204,7 +2204,7 @@
           "owner_id": "380.l.779794.t.11",
           "display_name": "Donnie",
           "team_name": "3rd Stringers",
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "points": 1323.34
         },
         "low_points": {
@@ -2226,7 +2226,7 @@
         {
           "rank": 2,
           "roster_id": 11,
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "team_name": "3rd Stringers"
         },
         {
@@ -2244,7 +2244,7 @@
         {
           "rank": 5,
           "roster_id": 8,
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "team_name": "Sunday Funday"
         },
         {
@@ -2362,7 +2362,7 @@
           "owner_id": "371.l.4608.t.11",
           "display_name": "Donnie",
           "team_name": "Like a Drum",
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -2474,7 +2474,7 @@
           "owner_id": "371.l.4608.t.8",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "wins": 3,
           "losses": 10,
           "ties": 0,
@@ -2523,7 +2523,7 @@
           "owner_id": "371.l.4608.t.11",
           "display_name": "Donnie",
           "team_name": "Like a Drum",
-          "first_l": "Donnie Unmapped"
+          "first_l": "Donnie We"
         },
         "high_points": {
           "roster_id": 7,
@@ -2538,7 +2538,7 @@
           "owner_id": "371.l.4608.t.8",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "points": 932.84
         }
       },
@@ -2558,7 +2558,7 @@
         {
           "rank": 3,
           "roster_id": 11,
-          "first_l": "Donnie Unmapped",
+          "first_l": "Donnie We",
           "team_name": "Like a Drum"
         },
         {
@@ -2600,7 +2600,7 @@
         {
           "rank": 10,
           "roster_id": 8,
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "team_name": "Sunday Funday"
         },
         {
@@ -2660,7 +2660,7 @@
           "owner_id": "359.l.562548.t.5",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -2814,7 +2814,7 @@
           "owner_id": "359.l.562548.t.5",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped"
+          "first_l": "Alisha Pe"
         },
         "third": {
           "roster_id": 6,
@@ -2850,7 +2850,7 @@
         {
           "rank": 2,
           "roster_id": 5,
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "team_name": "Sunday Funday"
         },
         {
@@ -2946,7 +2946,7 @@
           "owner_id": "348.l.603801.t.9",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "wins": 9,
           "losses": 4,
           "ties": 0,
@@ -3128,7 +3128,7 @@
           "owner_id": "348.l.603801.t.9",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped"
+          "first_l": "Alisha Pe"
         },
         "third": {
           "roster_id": 7,
@@ -3164,7 +3164,7 @@
         {
           "rank": 2,
           "roster_id": 9,
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "team_name": "Sunday Funday"
         },
         {
@@ -3370,7 +3370,7 @@
           "owner_id": "331.l.1162006.t.4",
           "display_name": "Alisha",
           "team_name": "Sunday Funday",
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "wins": 4,
           "losses": 9,
           "ties": 0,
@@ -3492,7 +3492,7 @@
         {
           "rank": 7,
           "roster_id": 4,
-          "first_l": "Alisha Unmapped",
+          "first_l": "Alisha Pe",
           "team_name": "Sunday Funday"
         },
         {

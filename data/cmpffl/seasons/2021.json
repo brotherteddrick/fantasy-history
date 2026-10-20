@@ -259,8 +259,8 @@
           "is_commissioner": false
         }
       ],
-      "first_l": "Donnie Unmapped",
-      "mapped": false,
+      "first_l": "Donnie We",
+      "mapped": true,
       "final_rank": 9,
       "playoff_seed": 11,
       "draft_position": 5,
@@ -325,8 +325,8 @@
           "is_commissioner": false
         }
       ],
-      "first_l": "Shelly Unmapped",
-      "mapped": false,
+      "first_l": "Shelly We",
+      "mapped": true,
       "final_rank": 12,
       "playoff_seed": 12,
       "draft_position": 8,
