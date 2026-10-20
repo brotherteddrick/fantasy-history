@@ -418,3 +418,6 @@ td.badges .badge + .badge { margin-left: 4px; }
   table.results-by-year th, table.results-by-year td { padding: 8px 8px; }
 }
 .week-block { scroll-margin-top: 80px; }
+table.results-by-year td.team-cell { white-space: normal; min-width: 140px; }
+td.badges .badge { margin-left: 6px; }
+.champ-text { color: var(--accent-2); font-weight: 700; }

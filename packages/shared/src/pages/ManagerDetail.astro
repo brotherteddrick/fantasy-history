@@ -102,7 +102,6 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
             <th class="num">PF</th>
             <th class="num">PA</th>
             <th>Playoffs</th>
-            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -112,15 +111,14 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
                 <a href={`/seasons/${s.season}`}>{s.season}</a>
                 {sources.size > 1 && <span class="src-tag" title={s.source === 'yahoo' ? 'Played on Yahoo Fantasy' : 'Played on Sleeper'}>{s.source === 'yahoo' ? 'Y' : 'S'}</span>}
               </td>
-              <td>{s.teamName}</td>
+              <td class="team-cell">{s.teamName}</td>
               <td class="num">{s.finalPlace ? `${ordinal(s.finalPlace)}` : '—'}<span class="faint"> / {s.totalTeams}</span></td>
               <td>{recordStr(s.regW, s.regL, s.regT)}{s.hasMedian && <span class="faint"> ({recordStr(s.medW, s.medL, s.medT)} med)</span>}</td>
               <td class="num">{s.madePlayoffs && s.seed ? s.seed : "—"}</td>
               <td class="num">{formatPts(s.pf)}</td>
               <td class="num">{formatPts(s.pa)}</td>
-              <td>{s.playoffResult}</td>
               <td class="badges">
-                {s.isChampion && <span class="badge gold">Champion</span>}
+                <span class:list={[{ 'champ-text': s.isChampion }]}>{s.playoffResult}</span>
                 {s.isLast && <span class="badge danger">Last</span>}
                 {s.isHighPoints && <span class="badge gold">High pts</span>}
                 {s.isLowPoints && <span class="badge">Low pts</span>}
