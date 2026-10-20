@@ -1,0 +1,7700 @@
+{
+  "league_id": "449.l.689359",
+  "season": "2024",
+  "source": "yahoo",
+  "league": {
+    "name": "Parkridge Men's Fantasy League",
+    "league_key": "449.l.689359",
+    "url": "https://football.fantasysports.yahoo.com/2024/f1/689359",
+    "num_teams": 10,
+    "renew": "423_920970",
+    "renewed": "461_844444",
+    "settings": {
+      "playoff_week_start": 15,
+      "start_week": 1,
+      "end_week": 17,
+      "num_playoff_teams": 6,
+      "num_playoff_consolation_teams": 6,
+      "has_playoff_consolation_games": true,
+      "uses_playoff_reseeding": 1,
+      "has_multiweek_championship": 0,
+      "scoring_type": "head",
+      "draft_type": "live",
+      "is_auction_draft": "0",
+      "uses_faab": "0",
+      "trade_end_date": "2024-11-16",
+      "roster_positions": [
+        {
+          "position": "QB",
+          "position_type": "O",
+          "count": 1,
+          "is_starting_position": 1
+        },
+        {
+          "position": "WR",
+          "position_type": "O",
+          "count": 2,
+          "is_starting_position": 1
+        },
+        {
+          "position": "RB",
+          "position_type": "O",
+          "count": 2,
+          "is_starting_position": 1
+        },
+        {
+          "position": "TE",
+          "position_type": "O",
+          "count": 1,
+          "is_starting_position": 1
+        },
+        {
+          "position": "W/R/T",
+          "position_type": "O",
+          "count": 1,
+          "is_starting_position": 1
+        },
+        {
+          "position": "K",
+          "position_type": "K",
+          "count": 1,
+          "is_starting_position": 1
+        },
+        {
+          "position": "DEF",
+          "position_type": "DT",
+          "count": 1,
+          "is_starting_position": 1
+        },
+        {
+          "position": "BN",
+          "count": 8,
+          "is_starting_position": 0
+        },
+        {
+          "position": "IR",
+          "count": 2,
+          "is_starting_position": 0
+        }
+      ]
+    }
+  },
+  "users": [],
+  "rosters": [
+    {
+      "roster_id": 5,
+      "team_key": "449.l.689359.t.5",
+      "team_name": "Your Mom Goes to College",
+      "nickname": "Ted Balls",
+      "managers": [
+        {
+          "manager_id": "5",
+          "nickname": "Ted Balls",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": true
+        }
+      ],
+      "first_l": "Theodore Wo",
+      "mapped": true,
+      "final_rank": 1,
+      "playoff_seed": 1,
+      "draft_position": null,
+      "number_of_moves": 23,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 4,
+      "team_key": "449.l.689359.t.4",
+      "team_name": "The Champ",
+      "nickname": "Brandon Fung",
+      "managers": [
+        {
+          "manager_id": "4",
+          "nickname": "Brandon Fung",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "Brandon Fu",
+      "mapped": true,
+      "final_rank": 2,
+      "playoff_seed": 4,
+      "draft_position": null,
+      "number_of_moves": 28,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 7,
+      "team_key": "449.l.689359.t.7",
+      "team_name": "The FlamBoyette’s",
+      "nickname": "Steve B",
+      "managers": [
+        {
+          "manager_id": "7",
+          "nickname": "Steve B",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "Steven Bo",
+      "mapped": true,
+      "final_rank": 3,
+      "playoff_seed": 2,
+      "draft_position": null,
+      "number_of_moves": 27,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 6,
+      "team_key": "449.l.689359.t.6",
+      "team_name": "The Toasted Yolks",
+      "nickname": "Robbie",
+      "managers": [
+        {
+          "manager_id": "6",
+          "nickname": "Robbie",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "Robert Da",
+      "mapped": true,
+      "final_rank": 4,
+      "playoff_seed": 6,
+      "draft_position": null,
+      "number_of_moves": 10,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 10,
+      "team_key": "449.l.689359.t.10",
+      "team_name": "CookBrownRice",
+      "nickname": "David Wood",
+      "managers": [
+        {
+          "manager_id": "10",
+          "nickname": "David Wood",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "David Wo",
+      "mapped": true,
+      "final_rank": 5,
+      "playoff_seed": 5,
+      "draft_position": null,
+      "number_of_moves": 8,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 8,
+      "team_key": "449.l.689359.t.8",
+      "team_name": "Tacklin' Fuel",
+      "nickname": "John Muddog",
+      "managers": [
+        {
+          "manager_id": "8",
+          "nickname": "John Muddog",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "Hayes Te",
+      "mapped": true,
+      "final_rank": 6,
+      "playoff_seed": 3,
+      "draft_position": null,
+      "number_of_moves": 6,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 3,
+      "team_key": "449.l.689359.t.3",
+      "team_name": "Andrew's Team",
+      "nickname": "Andrew",
+      "managers": [
+        {
+          "manager_id": "3",
+          "nickname": "Andrew",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "Andrew Mo",
+      "mapped": true,
+      "final_rank": 7,
+      "playoff_seed": 10,
+      "draft_position": null,
+      "number_of_moves": 12,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 2,
+      "team_key": "449.l.689359.t.2",
+      "team_name": "First Place Felder's Team",
+      "nickname": "Brandon",
+      "managers": [
+        {
+          "manager_id": "2",
+          "nickname": "Brandon",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "Brandon Fe",
+      "mapped": true,
+      "final_rank": 8,
+      "playoff_seed": 8,
+      "draft_position": null,
+      "number_of_moves": 10,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 9,
+      "team_key": "449.l.689359.t.9",
+      "team_name": "Fantasy Prodigy",
+      "nickname": "Andy",
+      "managers": [
+        {
+          "manager_id": "9",
+          "nickname": "Andy",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": false
+        }
+      ],
+      "first_l": "Jacob Da",
+      "mapped": true,
+      "final_rank": 9,
+      "playoff_seed": 9,
+      "draft_position": null,
+      "number_of_moves": 3,
+      "number_of_trades": 0
+    },
+    {
+      "roster_id": 1,
+      "team_key": "449.l.689359.t.1",
+      "team_name": "One Tyreek Hill",
+      "nickname": "Lane Wood",
+      "managers": [
+        {
+          "manager_id": "1",
+          "nickname": "Lane Wood",
+          "guid": "--hidden--",
+          "is_comanager": false,
+          "is_commissioner": true
+        }
+      ],
+      "first_l": "Lane Wo",
+      "mapped": true,
+      "final_rank": 10,
+      "playoff_seed": 7,
+      "draft_position": null,
+      "number_of_moves": 17,
+      "number_of_trades": 0
+    }
+  ],
+  "matchups_by_week": {
+    "1": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 112.9,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 1,
+        "points": 128.72,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 113.88,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 2,
+        "points": 96.88,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 75.78,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 3,
+        "points": 119.06,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 4,
+        "points": 107.06,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 4,
+        "points": 97.36,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 5,
+        "points": 90.12,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 5,
+        "points": 84.14,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "2": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 87.18,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 1,
+        "points": 118.42,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 101.36,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 2,
+        "points": 135.72,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 100.46,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 3,
+        "points": 119.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 4,
+        "points": 108.28,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 4,
+        "points": 160.4,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 5,
+        "points": 75.42,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 5,
+        "points": 75.44,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "3": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 89.32,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 1,
+        "points": 83.48,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 129.62,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 2,
+        "points": 62.38,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 101.18,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 3,
+        "points": 135.58,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 4,
+        "points": 110.66,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 4,
+        "points": 96.92,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 5,
+        "points": 70.76,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 131.1,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "4": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 150.96,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 1,
+        "points": 99.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 79.4,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 2,
+        "points": 133.84,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 88.34,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 3,
+        "points": 109.62,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 4,
+        "points": 115.06,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 4,
+        "points": 85.88,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 5,
+        "points": 105.3,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 92.0,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "5": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 91.76,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 1,
+        "points": 103.76,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 102.24,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 2,
+        "points": 134.58,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 78.16,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 112.82,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 4,
+        "points": 138.9,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 4,
+        "points": 83.74,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 5,
+        "points": 133.58,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 121.44,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "6": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 108.02,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 1,
+        "points": 103.28,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 100.3,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 2,
+        "points": 107.88,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 121.2,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 3,
+        "points": 116.32,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 4,
+        "points": 112.02,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 4,
+        "points": 119.46,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 5,
+        "points": 96.96,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 5,
+        "points": 87.42,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "7": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 94.3,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 1,
+        "points": 142.0,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 78.32,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 2,
+        "points": 99.64,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 85.58,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 3,
+        "points": 110.56,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 4,
+        "points": 141.44,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 4,
+        "points": 98.14,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 5,
+        "points": 107.26,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 82.74,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "8": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 76.14,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 1,
+        "points": 93.66,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 2,
+        "points": 90.5,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 2,
+        "points": 115.72,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 169.86,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 3,
+        "points": 143.48,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 4,
+        "points": 94.28,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 4,
+        "points": 137.6,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 5,
+        "points": 122.56,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 5,
+        "points": 120.34,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "9": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 94.52,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 1,
+        "points": 75.42,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 102.38,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 2,
+        "points": 109.04,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 127.7,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 3,
+        "points": 124.34,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 4,
+        "points": 94.16,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 4,
+        "points": 139.08,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 5,
+        "points": 150.74,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 5,
+        "points": 57.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "10": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 92.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 1,
+        "points": 97.0,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 106.8,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 2,
+        "points": 115.64,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 98.22,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 3,
+        "points": 99.68,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 4,
+        "points": 119.14,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 4,
+        "points": 131.82,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 5,
+        "points": 90.28,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 5,
+        "points": 96.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "11": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 111.14,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 1,
+        "points": 131.84,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 118.78,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 2,
+        "points": 115.64,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 89.06,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 3,
+        "points": 123.6,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 4,
+        "points": 87.98,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 4,
+        "points": 99.98,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 5,
+        "points": 124.48,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 5,
+        "points": 109.84,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "12": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 120.96,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 1,
+        "points": 71.12,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 139.2,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 2,
+        "points": 80.26,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 119.08,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 3,
+        "points": 131.2,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 4,
+        "points": 84.06,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 4,
+        "points": 86.26,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 5,
+        "points": 108.88,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 93.58,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "13": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 110.6,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 1,
+        "points": 104.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 146.12,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 2,
+        "points": 123.78,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 63.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 3,
+        "points": 159.82,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 4,
+        "points": 92.2,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 4,
+        "points": 107.96,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 5,
+        "points": 126.54,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 130.98,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "14": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 122.1,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 1,
+        "points": 107.12,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 151.28,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 2,
+        "points": 156.66,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 3,
+        "points": 82.3,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 139.48,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 4,
+        "points": 100.26,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 4,
+        "points": 87.62,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 5,
+        "points": 132.82,
+        "is_playoffs": false,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 77.46,
+        "is_playoffs": false,
+        "is_consolation": false
+      }
+    ],
+    "15": [
+      {
+        "roster_id": 4,
+        "matchup_id": 1,
+        "points": 123.7,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 1,
+        "points": 92.18,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 2,
+        "points": 147.76,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 2,
+        "points": 121.9,
+        "is_playoffs": true,
+        "is_consolation": false
+      }
+    ],
+    "16": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 107.62,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 1,
+        "points": 118.72,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 129.76,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 2,
+        "points": 68.16,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 150.58,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 3,
+        "points": 133.98,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 4,
+        "points": 155.08,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 4,
+        "points": 130.04,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 8,
+        "matchup_id": 5,
+        "points": 109.04,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 10,
+        "matchup_id": 5,
+        "points": 147.46,
+        "is_playoffs": true,
+        "is_consolation": false
+      }
+    ],
+    "17": [
+      {
+        "roster_id": 1,
+        "matchup_id": 1,
+        "points": 114.76,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 9,
+        "matchup_id": 1,
+        "points": 120.64,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 2,
+        "matchup_id": 2,
+        "points": 105.28,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 3,
+        "matchup_id": 2,
+        "points": 128.98,
+        "is_playoffs": true,
+        "is_consolation": true
+      },
+      {
+        "roster_id": 4,
+        "matchup_id": 3,
+        "points": 107.42,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 5,
+        "matchup_id": 3,
+        "points": 131.84,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 6,
+        "matchup_id": 4,
+        "points": 126.02,
+        "is_playoffs": true,
+        "is_consolation": false
+      },
+      {
+        "roster_id": 7,
+        "matchup_id": 4,
+        "points": 132.08,
+        "is_playoffs": true,
+        "is_consolation": false
+      }
+    ]
+  },
+  "draft_picks": [
+    {
+      "pick_no": 1,
+      "round": 1,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.30121",
+      "player_name": "Christian McCaffrey",
+      "position": "RB",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 2,
+      "round": 1,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.32687",
+      "player_name": "CeeDee Lamb",
+      "position": "WR",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 3,
+      "round": 1,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.29399",
+      "player_name": "Tyreek Hill",
+      "position": "WR",
+      "nfl_team": "Mia"
+    },
+    {
+      "pick_no": 4,
+      "round": 1,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.33991",
+      "player_name": "Breece Hall",
+      "position": "RB",
+      "nfl_team": "NYJ"
+    },
+    {
+      "pick_no": 5,
+      "round": 1,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.32692",
+      "player_name": "Justin Jefferson",
+      "position": "WR",
+      "nfl_team": "Min"
+    },
+    {
+      "pick_no": 6,
+      "round": 1,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.33393",
+      "player_name": "Ja'Marr Chase",
+      "position": "WR",
+      "nfl_team": "Cin"
+    },
+    {
+      "pick_no": 7,
+      "round": 1,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.40055",
+      "player_name": "Bijan Robinson",
+      "position": "RB",
+      "nfl_team": "Atl"
+    },
+    {
+      "pick_no": 8,
+      "round": 1,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.33500",
+      "player_name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "nfl_team": "Det"
+    },
+    {
+      "pick_no": 9,
+      "round": 1,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.31883",
+      "player_name": "A.J. Brown",
+      "position": "WR",
+      "nfl_team": "NE"
+    },
+    {
+      "pick_no": 10,
+      "round": 1,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.40893",
+      "player_name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 11,
+      "round": 2,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.40168",
+      "player_name": "Puka Nacua",
+      "position": "WR",
+      "nfl_team": "LAR"
+    },
+    {
+      "pick_no": 12,
+      "round": 2,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.32711",
+      "player_name": "Jonathan Taylor",
+      "position": "RB",
+      "nfl_team": "Ind"
+    },
+    {
+      "pick_no": 13,
+      "round": 2,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.30972",
+      "player_name": "Saquon Barkley",
+      "position": "RB",
+      "nfl_team": "Phi"
+    },
+    {
+      "pick_no": 14,
+      "round": 2,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.33965",
+      "player_name": "Garrett Wilson",
+      "position": "WR",
+      "nfl_team": "NYJ"
+    },
+    {
+      "pick_no": 15,
+      "round": 2,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.40059",
+      "player_name": "Jahmyr Gibbs",
+      "position": "RB",
+      "nfl_team": "Det"
+    },
+    {
+      "pick_no": 16,
+      "round": 2,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.34207",
+      "player_name": "Isiah Pacheco",
+      "position": "RB",
+      "nfl_team": "Det"
+    },
+    {
+      "pick_no": 17,
+      "round": 2,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.30977",
+      "player_name": "Josh Allen",
+      "position": "QB",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 18,
+      "round": 2,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.29279",
+      "player_name": "Derrick Henry",
+      "position": "RB",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 19,
+      "round": 2,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.34120",
+      "player_name": "Kyren Williams",
+      "position": "RB",
+      "nfl_team": "LAR"
+    },
+    {
+      "pick_no": 20,
+      "round": 2,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.33413",
+      "player_name": "Travis Etienne Jr.",
+      "position": "RB",
+      "nfl_team": "NO"
+    },
+    {
+      "pick_no": 21,
+      "round": 3,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.33966",
+      "player_name": "Chris Olave",
+      "position": "WR",
+      "nfl_team": "NO"
+    },
+    {
+      "pick_no": 22,
+      "round": 3,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.40118",
+      "player_name": "De'Von Achane",
+      "position": "RB",
+      "nfl_team": "Mia"
+    },
+    {
+      "pick_no": 23,
+      "round": 3,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.31856",
+      "player_name": "Josh Jacobs",
+      "position": "RB",
+      "nfl_team": "GB"
+    },
+    {
+      "pick_no": 24,
+      "round": 3,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.27535",
+      "player_name": "Mike Evans",
+      "position": "WR",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 25,
+      "round": 3,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.33477",
+      "player_name": "Nico Collins",
+      "position": "WR",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 26,
+      "round": 3,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.26686",
+      "player_name": "Travis Kelce",
+      "position": "TE",
+      "nfl_team": "KC"
+    },
+    {
+      "pick_no": 27,
+      "round": 3,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.30182",
+      "player_name": "Cooper Kupp",
+      "position": "WR",
+      "nfl_team": "Sea"
+    },
+    {
+      "pick_no": 28,
+      "round": 3,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.33963",
+      "player_name": "Drake London",
+      "position": "WR",
+      "nfl_team": "Atl"
+    },
+    {
+      "pick_no": 29,
+      "round": 3,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.34019",
+      "player_name": "James Cook III",
+      "position": "RB",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 30,
+      "round": 3,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.30161",
+      "player_name": "Joe Mixon",
+      "position": "RB",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 31,
+      "round": 4,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.30123",
+      "player_name": "Patrick Mahomes",
+      "position": "QB",
+      "nfl_team": "KC"
+    },
+    {
+      "pick_no": 32,
+      "round": 4,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.32695",
+      "player_name": "Brandon Aiyuk",
+      "position": "WR",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 33,
+      "round": 4,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.34047",
+      "player_name": "Rachaad White",
+      "position": "RB",
+      "nfl_team": "Was"
+    },
+    {
+      "pick_no": 34,
+      "round": 4,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.27581",
+      "player_name": "Davante Adams",
+      "position": "WR",
+      "nfl_team": "LAR"
+    },
+    {
+      "pick_no": 35,
+      "round": 4,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.31896",
+      "player_name": "DK Metcalf",
+      "position": "WR",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 36,
+      "round": 4,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.32723",
+      "player_name": "Jalen Hurts",
+      "position": "QB",
+      "nfl_team": "Phi"
+    },
+    {
+      "pick_no": 37,
+      "round": 4,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.30994",
+      "player_name": "DJ Moore",
+      "position": "WR",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 38,
+      "round": 4,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.30295",
+      "player_name": "Aaron Jones Sr.",
+      "position": "RB",
+      "nfl_team": "Min"
+    },
+    {
+      "pick_no": 39,
+      "round": 4,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.31002",
+      "player_name": "Lamar Jackson",
+      "position": "QB",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 40,
+      "round": 4,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.32704",
+      "player_name": "Michael Pittman Jr.",
+      "position": "WR",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 41,
+      "round": 5,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.31868",
+      "player_name": "Deebo Samuel Sr.",
+      "position": "WR",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 42,
+      "round": 5,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.28534",
+      "player_name": "Stefon Diggs",
+      "position": "WR",
+      "nfl_team": "Was"
+    },
+    {
+      "pick_no": 43,
+      "round": 5,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.33394",
+      "player_name": "Jaylen Waddle",
+      "position": "WR",
+      "nfl_team": "Den"
+    },
+    {
+      "pick_no": 44,
+      "round": 5,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.40064",
+      "player_name": "Sam LaPorta",
+      "position": "TE",
+      "nfl_team": "Det"
+    },
+    {
+      "pick_no": 45,
+      "round": 5,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.33398",
+      "player_name": "DeVonta Smith",
+      "position": "WR",
+      "nfl_team": "Phi"
+    },
+    {
+      "pick_no": 46,
+      "round": 5,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.28392",
+      "player_name": "Amari Cooper",
+      "position": "WR",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 47,
+      "round": 5,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.34010",
+      "player_name": "Trey McBride",
+      "position": "TE",
+      "nfl_team": "Ari"
+    },
+    {
+      "pick_no": 48,
+      "round": 5,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.33996",
+      "player_name": "Kenneth Walker III",
+      "position": "RB",
+      "nfl_team": "KC"
+    },
+    {
+      "pick_no": 49,
+      "round": 5,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.40030",
+      "player_name": "C.J. Stroud",
+      "position": "QB",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 50,
+      "round": 5,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.33412",
+      "player_name": "Najee Harris",
+      "position": "RB",
+      "nfl_team": "NYG"
+    },
+    {
+      "pick_no": 51,
+      "round": 6,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.33392",
+      "player_name": "Kyle Pitts Sr.",
+      "position": "TE",
+      "nfl_team": "Atl"
+    },
+    {
+      "pick_no": 52,
+      "round": 6,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.30180",
+      "player_name": "Alvin Kamara",
+      "position": "RB",
+      "nfl_team": "NO"
+    },
+    {
+      "pick_no": 53,
+      "round": 6,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.40899",
+      "player_name": "Malik Nabers",
+      "position": "WR",
+      "nfl_team": "NYG"
+    },
+    {
+      "pick_no": 54,
+      "round": 6,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.30218",
+      "player_name": "James Conner",
+      "position": "RB",
+      "nfl_team": "Ari"
+    },
+    {
+      "pick_no": 55,
+      "round": 6,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.33508",
+      "player_name": "Rhamondre Stevenson",
+      "position": "RB",
+      "nfl_team": "NE"
+    },
+    {
+      "pick_no": 56,
+      "round": 6,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.31908",
+      "player_name": "Terry McLaurin",
+      "position": "WR",
+      "nfl_team": "Was"
+    },
+    {
+      "pick_no": 57,
+      "round": 6,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.31905",
+      "player_name": "David Montgomery",
+      "position": "RB",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 58,
+      "round": 6,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.40097",
+      "player_name": "Tank Dell",
+      "position": "WR",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 59,
+      "round": 6,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.30259",
+      "player_name": "George Kittle",
+      "position": "TE",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 60,
+      "round": 6,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.31056",
+      "player_name": "Mark Andrews",
+      "position": "TE",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 61,
+      "round": 7,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.40040",
+      "player_name": "Anthony Richardson Sr.",
+      "position": "QB",
+      "nfl_team": "Ind"
+    },
+    {
+      "pick_no": 62,
+      "round": 7,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.34007",
+      "player_name": "George Pickens",
+      "position": "WR",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 63,
+      "round": 7,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.32696",
+      "player_name": "Jordan Love",
+      "position": "QB",
+      "nfl_team": "GB"
+    },
+    {
+      "pick_no": 64,
+      "round": 7,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.30996",
+      "player_name": "Calvin Ridley",
+      "position": "WR",
+      "nfl_team": "Ten"
+    },
+    {
+      "pick_no": 65,
+      "round": 7,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.40048",
+      "player_name": "Dalton Kincaid",
+      "position": "TE",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 66,
+      "round": 7,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.34078",
+      "player_name": "Zamir White",
+      "position": "RB",
+      "nfl_team": "NO"
+    },
+    {
+      "pick_no": 67,
+      "round": 7,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.32671",
+      "player_name": "Joe Burrow",
+      "position": "QB",
+      "nfl_team": "Cin"
+    },
+    {
+      "pick_no": 68,
+      "round": 7,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.31833",
+      "player_name": "Kyler Murray",
+      "position": "QB",
+      "nfl_team": "Min"
+    },
+    {
+      "pick_no": 69,
+      "round": 7,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.40039",
+      "player_name": "Zay Flowers",
+      "position": "WR",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 70,
+      "round": 7,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.40901",
+      "player_name": "Rome Odunze",
+      "position": "WR",
+      "nfl_team": "Chi"
+    },
+    {
+      "pick_no": 71,
+      "round": 8,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.28654",
+      "player_name": "Raheem Mostert",
+      "position": "RB",
+      "nfl_team": "LV"
+    },
+    {
+      "pick_no": 72,
+      "round": 8,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.40084",
+      "player_name": "Rashee Rice",
+      "position": "WR",
+      "nfl_team": "KC"
+    },
+    {
+      "pick_no": 73,
+      "round": 8,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.32703",
+      "player_name": "Tee Higgins",
+      "position": "WR",
+      "nfl_team": "Cin"
+    },
+    {
+      "pick_no": 74,
+      "round": 8,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.31017",
+      "player_name": "Christian Kirk",
+      "position": "WR",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 75,
+      "round": 8,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.29369",
+      "player_name": "Dak Prescott",
+      "position": "QB",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 76,
+      "round": 8,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.34054",
+      "player_name": "Brian Robinson Jr.",
+      "position": "RB",
+      "nfl_team": "Atl"
+    },
+    {
+      "pick_no": 77,
+      "round": 8,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.26699",
+      "player_name": "Keenan Allen",
+      "position": "WR",
+      "nfl_team": "Ind"
+    },
+    {
+      "pick_no": 78,
+      "round": 8,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.40063",
+      "player_name": "Jayden Reed",
+      "position": "WR",
+      "nfl_team": "GB"
+    },
+    {
+      "pick_no": 79,
+      "round": 8,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.31906",
+      "player_name": "Devin Singletary",
+      "position": "RB",
+      "nfl_team": "NYG"
+    },
+    {
+      "pick_no": 80,
+      "round": 8,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.32705",
+      "player_name": "D'Andre Swift",
+      "position": "RB",
+      "nfl_team": "Chi"
+    },
+    {
+      "pick_no": 81,
+      "round": 9,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.30197",
+      "player_name": "Chris Godwin Jr.",
+      "position": "WR",
+      "nfl_team": "TB"
+    },
+    {
+      "pick_no": 82,
+      "round": 9,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.32756",
+      "player_name": "Zack Moss",
+      "position": "RB",
+      "nfl_team": "Cin"
+    },
+    {
+      "pick_no": 83,
+      "round": 9,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.33514",
+      "player_name": "Chuba Hubbard",
+      "position": "RB",
+      "nfl_team": "Car"
+    },
+    {
+      "pick_no": 84,
+      "round": 9,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.40896",
+      "player_name": "Jayden Daniels",
+      "position": "QB",
+      "nfl_team": "Was"
+    },
+    {
+      "pick_no": 85,
+      "round": 9,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.33423",
+      "player_name": "Javonte Williams",
+      "position": "RB",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 86,
+      "round": 9,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.34085",
+      "player_name": "Jake Ferguson",
+      "position": "TE",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 87,
+      "round": 9,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.31960",
+      "player_name": "Tony Pollard",
+      "position": "RB",
+      "nfl_team": "Ten"
+    },
+    {
+      "pick_no": 88,
+      "round": 9,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.34447",
+      "player_name": "Jaylen Warren",
+      "position": "RB",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 89,
+      "round": 9,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.40119",
+      "player_name": "Tyjae Spears",
+      "position": "RB",
+      "nfl_team": "Ten"
+    },
+    {
+      "pick_no": 90,
+      "round": 9,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.31424",
+      "player_name": "Gus Edwards",
+      "position": "RB",
+      "nfl_team": "LAC"
+    },
+    {
+      "pick_no": 91,
+      "round": 10,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.40042",
+      "player_name": "Jordan Addison",
+      "position": "WR",
+      "nfl_team": "Min"
+    },
+    {
+      "pick_no": 92,
+      "round": 10,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.31898",
+      "player_name": "Diontae Johnson",
+      "position": "WR",
+      "nfl_team": "Cle"
+    },
+    {
+      "pick_no": 93,
+      "round": 10,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.40041",
+      "player_name": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "nfl_team": "Sea"
+    },
+    {
+      "pick_no": 94,
+      "round": 10,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.30153",
+      "player_name": "Curtis Samuel",
+      "position": "WR",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 95,
+      "round": 10,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.40877",
+      "player_name": "Xavier Worthy",
+      "position": "WR",
+      "nfl_team": "KC"
+    },
+    {
+      "pick_no": 96,
+      "round": 10,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.40900",
+      "player_name": "Caleb Williams",
+      "position": "QB",
+      "nfl_team": "Chi"
+    },
+    {
+      "pick_no": 97,
+      "round": 10,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.30136",
+      "player_name": "Evan Engram",
+      "position": "TE",
+      "nfl_team": "Den"
+    },
+    {
+      "pick_no": 98,
+      "round": 10,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.30142",
+      "player_name": "David Njoku",
+      "position": "TE",
+      "nfl_team": "LAC"
+    },
+    {
+      "pick_no": 99,
+      "round": 10,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.33989",
+      "player_name": "Christian Watson",
+      "position": "WR",
+      "nfl_team": "GB"
+    },
+    {
+      "pick_no": 100,
+      "round": 10,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.34218",
+      "player_name": "Brock Purdy",
+      "position": "QB",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 101,
+      "round": 11,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.33967",
+      "player_name": "Jameson Williams",
+      "position": "WR",
+      "nfl_team": "Det"
+    },
+    {
+      "pick_no": 102,
+      "round": 11,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.32675",
+      "player_name": "Tua Tagovailoa",
+      "position": "QB",
+      "nfl_team": "Atl"
+    },
+    {
+      "pick_no": 103,
+      "round": 11,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.30423",
+      "player_name": "Austin Ekeler",
+      "position": "RB",
+      "nfl_team": "Was"
+    },
+    {
+      "pick_no": 104,
+      "round": 11,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.31010",
+      "player_name": "Courtland Sutton",
+      "position": "WR",
+      "nfl_team": "Den"
+    },
+    {
+      "pick_no": 105,
+      "round": 11,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.40878",
+      "player_name": "Brock Bowers",
+      "position": "TE",
+      "nfl_team": "LV"
+    },
+    {
+      "pick_no": 106,
+      "round": 11,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.40819",
+      "player_name": "Brandon Aubrey",
+      "position": "K",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 107,
+      "round": 11,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.40196",
+      "player_name": "Chase Brown",
+      "position": "RB",
+      "nfl_team": "Cin"
+    },
+    {
+      "pick_no": 108,
+      "round": 11,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.26650",
+      "player_name": "DeAndre Hopkins",
+      "position": "WR",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 109,
+      "round": 11,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.40926",
+      "player_name": "Jonathon Brooks",
+      "position": "RB",
+      "nfl_team": "Car"
+    },
+    {
+      "pick_no": 110,
+      "round": 11,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.31107",
+      "player_name": "Dalton Schultz",
+      "position": "TE",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 111,
+      "round": 12,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.100025",
+      "player_name": "49ers",
+      "position": "DEF",
+      "nfl_team": "SF"
+    },
+    {
+      "pick_no": 112,
+      "round": 12,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.40883",
+      "player_name": "Brian Thomas Jr.",
+      "position": "WR",
+      "nfl_team": "Jax"
+    },
+    {
+      "pick_no": 113,
+      "round": 12,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.34112",
+      "player_name": "Jerome Ford",
+      "position": "RB",
+      "nfl_team": "Ari"
+    },
+    {
+      "pick_no": 114,
+      "round": 12,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.33465",
+      "player_name": "Joshua Palmer",
+      "position": "WR",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 115,
+      "round": 12,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.7200",
+      "player_name": "Aaron Rodgers",
+      "position": "QB",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 116,
+      "round": 12,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.100015",
+      "player_name": "Dolphins",
+      "position": "DEF",
+      "nfl_team": "Mia"
+    },
+    {
+      "pick_no": 117,
+      "round": 12,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.26534",
+      "player_name": "Justin Tucker",
+      "position": "K",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 118,
+      "round": 12,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.30346",
+      "player_name": "Harrison Butker",
+      "position": "K",
+      "nfl_team": "KC"
+    },
+    {
+      "pick_no": 119,
+      "round": 12,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.40958",
+      "player_name": "Trey Benson",
+      "position": "RB",
+      "nfl_team": "Ari"
+    },
+    {
+      "pick_no": 120,
+      "round": 12,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.29238",
+      "player_name": "Ezekiel Elliott",
+      "position": "RB",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 121,
+      "round": 13,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.40962",
+      "player_name": "Blake Corum",
+      "position": "RB",
+      "nfl_team": "LAR"
+    },
+    {
+      "pick_no": 122,
+      "round": 13,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.40121",
+      "player_name": "Michael Wilson",
+      "position": "WR",
+      "nfl_team": "Ari"
+    },
+    {
+      "pick_no": 123,
+      "round": 13,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.100033",
+      "player_name": "Ravens",
+      "position": "DEF",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 124,
+      "round": 13,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.40075",
+      "player_name": "Zach Charbonnet",
+      "position": "RB",
+      "nfl_team": "Sea"
+    },
+    {
+      "pick_no": 125,
+      "round": 13,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.40911",
+      "player_name": "Keon Coleman",
+      "position": "WR",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 126,
+      "round": 13,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.100006",
+      "player_name": "Cowboys",
+      "position": "DEF",
+      "nfl_team": "Dal"
+    },
+    {
+      "pick_no": 127,
+      "round": 13,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.31857",
+      "player_name": "Hollywood Brown",
+      "position": "WR",
+      "nfl_team": "Phi"
+    },
+    {
+      "pick_no": 128,
+      "round": 13,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.33443",
+      "player_name": "Pat Freiermuth",
+      "position": "TE",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 129,
+      "round": 13,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.31005",
+      "player_name": "Nick Chubb",
+      "position": "RB",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 130,
+      "round": 13,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.40908",
+      "player_name": "Ladd McConkey",
+      "position": "WR",
+      "nfl_team": "LAC"
+    },
+    {
+      "pick_no": 131,
+      "round": 14,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.31199",
+      "player_name": "Jason Sanders",
+      "position": "K",
+      "nfl_team": "NYJ"
+    },
+    {
+      "pick_no": 132,
+      "round": 14,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.34104",
+      "player_name": "Khalil Shakir",
+      "position": "WR",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 133,
+      "round": 14,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.28457",
+      "player_name": "Tyler Lockett",
+      "position": "WR",
+      "nfl_team": "LV"
+    },
+    {
+      "pick_no": 134,
+      "round": 14,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.100012",
+      "player_name": "Chiefs",
+      "position": "DEF",
+      "nfl_team": "KC"
+    },
+    {
+      "pick_no": 135,
+      "round": 14,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.33100",
+      "player_name": "Rico Dowdle",
+      "position": "RB",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 136,
+      "round": 14,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.32725",
+      "player_name": "J.K. Dobbins",
+      "position": "RB",
+      "nfl_team": "Den"
+    },
+    {
+      "pick_no": 137,
+      "round": 14,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.100020",
+      "player_name": "Jets",
+      "position": "DEF",
+      "nfl_team": "NYJ"
+    },
+    {
+      "pick_no": 138,
+      "round": 14,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.29235",
+      "player_name": "Jared Goff",
+      "position": "QB",
+      "nfl_team": "Det"
+    },
+    {
+      "pick_no": 139,
+      "round": 14,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.32685",
+      "player_name": "Jerry Jeudy",
+      "position": "WR",
+      "nfl_team": "Cle"
+    },
+    {
+      "pick_no": 140,
+      "round": 14,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.34659",
+      "player_name": "Rashid Shaheed",
+      "position": "WR",
+      "nfl_team": "Sea"
+    },
+    {
+      "pick_no": 141,
+      "round": 15,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.100005",
+      "player_name": "Browns",
+      "position": "DEF",
+      "nfl_team": "Cle"
+    },
+    {
+      "pick_no": 142,
+      "round": 15,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.40129",
+      "player_name": "Jake Moody",
+      "position": "K",
+      "nfl_team": "Bal"
+    },
+    {
+      "pick_no": 143,
+      "round": 15,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.27277",
+      "player_name": "Adam Thielen",
+      "position": "WR",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 144,
+      "round": 15,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.32231",
+      "player_name": "Jakobi Meyers",
+      "position": "WR",
+      "nfl_team": "Jax"
+    },
+    {
+      "pick_no": 145,
+      "round": 15,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.33537",
+      "player_name": "Evan McPherson",
+      "position": "K",
+      "nfl_team": "Cin"
+    },
+    {
+      "pick_no": 146,
+      "round": 15,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.40126",
+      "player_name": "Josh Downs",
+      "position": "WR",
+      "nfl_team": "Ind"
+    },
+    {
+      "pick_no": 147,
+      "round": 15,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.25881",
+      "player_name": "Greg Zuerlein",
+      "position": "K",
+      "nfl_team": "NYJ"
+    },
+    {
+      "pick_no": 148,
+      "round": 15,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.34125",
+      "player_name": "Ty Chandler",
+      "position": "RB",
+      "nfl_team": "NO"
+    },
+    {
+      "pick_no": 149,
+      "round": 15,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.32713",
+      "player_name": "Cole Kmet",
+      "position": "TE",
+      "nfl_team": "Chi"
+    },
+    {
+      "pick_no": 150,
+      "round": 15,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.40980",
+      "player_name": "Ray Davis",
+      "position": "RB",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 151,
+      "round": 16,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.32676",
+      "player_name": "Justin Herbert",
+      "position": "QB",
+      "nfl_team": "LAC"
+    },
+    {
+      "pick_no": 152,
+      "round": 16,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.100023",
+      "player_name": "Steelers",
+      "position": "DEF",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 153,
+      "round": 16,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.30426",
+      "player_name": "Younghoe Koo",
+      "position": "K",
+      "nfl_team": "NYG"
+    },
+    {
+      "pick_no": 154,
+      "round": 16,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.9265",
+      "player_name": "Matthew Stafford",
+      "position": "QB",
+      "nfl_team": "LAR"
+    },
+    {
+      "pick_no": 155,
+      "round": 16,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.40222",
+      "player_name": "DeMario Douglas",
+      "position": "WR",
+      "nfl_team": "NE"
+    },
+    {
+      "pick_no": 156,
+      "round": 16,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.100016",
+      "player_name": "Vikings",
+      "position": "DEF",
+      "nfl_team": "Min"
+    },
+    {
+      "pick_no": 157,
+      "round": 16,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.34088",
+      "player_name": "Romeo Doubs",
+      "position": "WR",
+      "nfl_team": "NE"
+    },
+    {
+      "pick_no": 158,
+      "round": 16,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.31840",
+      "player_name": "T.J. Hockenson",
+      "position": "TE",
+      "nfl_team": "Min"
+    },
+    {
+      "pick_no": 159,
+      "round": 16,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.100004",
+      "player_name": "Bengals",
+      "position": "DEF",
+      "nfl_team": "Cin"
+    },
+    {
+      "pick_no": 160,
+      "round": 16,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.30266",
+      "player_name": "Jake Elliott",
+      "position": "K",
+      "nfl_team": "Phi"
+    },
+    {
+      "pick_no": 161,
+      "round": 17,
+      "roster_id": 3,
+      "cost": null,
+      "player_key": "449.p.30614",
+      "player_name": "Taysom Hill",
+      "position": "QB,TE",
+      "nfl_team": "NO"
+    },
+    {
+      "pick_no": 162,
+      "round": 17,
+      "roster_id": 4,
+      "cost": null,
+      "player_key": "449.p.34095",
+      "player_name": "Isaiah Likely",
+      "position": "TE",
+      "nfl_team": "NYG"
+    },
+    {
+      "pick_no": 163,
+      "round": 17,
+      "roster_id": 1,
+      "cost": null,
+      "player_key": "449.p.34107",
+      "player_name": "Tyler Allgeier",
+      "position": "RB",
+      "nfl_team": "Ari"
+    },
+    {
+      "pick_no": 164,
+      "round": 17,
+      "roster_id": 2,
+      "cost": null,
+      "player_key": "449.p.30120",
+      "player_name": "Mike Williams",
+      "position": "WR",
+      "nfl_team": "Pit"
+    },
+    {
+      "pick_no": 165,
+      "round": 17,
+      "roster_id": 8,
+      "cost": null,
+      "player_key": "449.p.33998",
+      "player_name": "Wan'Dale Robinson",
+      "position": "WR",
+      "nfl_team": "Ten"
+    },
+    {
+      "pick_no": 166,
+      "round": 17,
+      "roster_id": 6,
+      "cost": null,
+      "player_key": "449.p.32798",
+      "player_name": "Gabe Davis",
+      "position": "WR",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 167,
+      "round": 17,
+      "roster_id": 7,
+      "cost": null,
+      "player_key": "449.p.30213",
+      "player_name": "Jonnu Smith",
+      "position": "TE",
+      "nfl_team": "GB"
+    },
+    {
+      "pick_no": 168,
+      "round": 17,
+      "roster_id": 5,
+      "cost": null,
+      "player_key": "449.p.100002",
+      "player_name": "Bills",
+      "position": "DEF",
+      "nfl_team": "Buf"
+    },
+    {
+      "pick_no": 169,
+      "round": 17,
+      "roster_id": 10,
+      "cost": null,
+      "player_key": "449.p.29792",
+      "player_name": "Ka'imi Fairbairn",
+      "position": "K",
+      "nfl_team": "Hou"
+    },
+    {
+      "pick_no": 170,
+      "round": 17,
+      "roster_id": 9,
+      "cost": null,
+      "player_key": "449.p.27548",
+      "player_name": "Brandin Cooks",
+      "position": "WR",
+      "nfl_team": "SF"
+    }
+  ],
+  "transactions": [
+    {
+      "transaction_id": "187",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1735474837,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tyjae Spears",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "186",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1735180853,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Falcons",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "185",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1735152015,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Seahawks",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bengals",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "184",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1735117992,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Colts",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Packers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "183",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1734668637,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jalen McMillan",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Patrick Taylor Jr.",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "182",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1734615114,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Falcons",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Saints",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "181",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1734614984,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jerome Ford",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "180",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1734614973,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Matthew Wright",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "179",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1734564326,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Packers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Commanders",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "178",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1734554847,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Harrison Butker",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Younghoe Koo",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "177",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1734055646,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Broncos",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Xavier Legette",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "176",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1734022634,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Lions",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "175",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1734022618,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Texans",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "174",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733963036,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Commanders",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Titans",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "173",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733962930,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Patrick Taylor Jr.",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Dawson Knox",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "172",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1733895632,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chad Ryland",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "171",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1733895574,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Dallas Goedert",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "170",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1733895550,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jonathon Brooks",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "169",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1733595239,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Isaac Guerendo",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "168",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1733595223,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ameer Abdullah",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "167",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733503007,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Titans",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Cowboys",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "166",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733474905,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Dolphins",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "DeMario Douglas",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "165",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1733459117,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chad Ryland",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "164",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1733459076,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Diontae Johnson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "163",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733450399,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bengals",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Commanders",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "162",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1733434269,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Matthew Wright",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "161",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1733434223,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Romeo Doubs",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "160",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733434208,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Saints",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Broncos",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "159",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733427344,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bills",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Lions",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "158",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733338434,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Christian Watson",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.8",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Evan McPherson",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.8",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "157",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733329376,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Juwan Johnson",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Audric Estime",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "156",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1733329340,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Keon Coleman",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chris Olave",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "155",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732955653,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Buccaneers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Titans",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "154",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732835011,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Broncos",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Packers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "153",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732802203,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Gus Edwards",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Russell Wilson",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "152",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732802136,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Younghoe Koo",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Spencer Shrader",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "151",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732764649,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chase McLaughlin",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chad Ryland",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "150",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732754180,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Cowboys",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Buccaneers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "149",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1732698258,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Titans",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "148",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1732648391,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Anthony Richardson Sr.",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "147",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1732455751,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ameer Abdullah",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "146",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1732455506,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Mike Williams",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "145",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732350672,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Geno Smith",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Matthew Stafford",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "144",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732320055,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chiefs",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "143",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732276040,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Buccaneers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Rams",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "142",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732238270,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Spencer Shrader",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Younghoe Koo",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "141",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732238243,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Commanders",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Saints",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "140",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732095250,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Texans",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Dolphins",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "139",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732095250,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jerry Jeudy",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Cowboys",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "138",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732095250,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Anthony Richardson Sr.",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Geno Smith",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "137",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1732095250,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chris Boswell",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.8",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Trey Sermon",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.8",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "136",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1731873531,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Dawson Knox",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "135",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731861791,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Saints",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chiefs",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "134",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1731861753,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Russell Wilson",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "133",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1731861742,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Pat Freiermuth",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "132",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1731861721,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Wan'Dale Robinson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "131",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731727602,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Packers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Giants",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "130",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731628083,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jake Bates",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Harrison Butker",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "129",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731611997,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Dolphins",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Texans",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "freeagents"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "128",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731611208,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Adam Thielen",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Demarcus Robinson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "127",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731610714,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Cedric Tillman",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Joshua Palmer",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "126",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731610625,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Marquez Valdes-Scantling",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jalen Tolbert",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "125",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731610139,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jonnu Smith",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chris Boswell",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "124",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731609833,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Texans",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bears",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "123",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731498016,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Rams",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Falcons",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "122",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731489890,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tyler Lockett",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Allen Lazard",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "121",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1731489890,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Audric Estime",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "waivers",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "120",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731489890,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bo Nix",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Christian Watson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "119",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1731426808,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ezekiel Elliott",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "118",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1731245596,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bengals",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "117",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731206967,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jared Goff",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Gabe Davis",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "116",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731206764,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Xavier Legette",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Dak Prescott",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "115",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731170366,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Giants",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.2",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jets",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.2",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "114",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731141345,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Lions",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Saints",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "113",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731104293,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chad Ryland",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chase McLaughlin",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "112",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1731103718,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Zack Moss",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "111",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1731103688,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Stefon Diggs",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "110",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1731079189,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jake Moody",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "109",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1731024474,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Wan'Dale Robinson",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "108",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1731007576,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Falcons",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Commanders",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "107",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730918820,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chris Boswell",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bills",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "105",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1730885160,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bills",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "104",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730885160,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bears",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Lions",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "103",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730885160,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Cade Otton",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Zach Ertz",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "102",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730885160,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Browns",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "101",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730656527,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ravens",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Buccaneers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "100",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730532630,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Lions",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "99",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1730474667,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Christian Kirk",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "98",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730306743,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Commanders",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Lions",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "97",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730306121,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bengals",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Braelon Allen",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "95",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730276629,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Saints",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Packers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "94",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1730276629,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Matthew Stafford",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Anthony Richardson Sr.",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "93",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1729959950,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ricky Pearsall",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "92",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1729956993,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ty Chandler",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "91",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729939886,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Christian Watson",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Matt Gay",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "90",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729687620,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tucker Kraft",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Wan'Dale Robinson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "89",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1729684757,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Brandon Aiyuk",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "88",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729682268,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Lions",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bengals",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "87",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729682221,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "DeAndre Hopkins",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jerry Jeudy",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "86",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729671879,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chiefs",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Rams",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "85",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729671879,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tank Dell",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Devaughn Vele",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "84",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729671879,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Amari Cooper",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Clyde Edwards-Helaire",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "83",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729671879,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bills",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "82",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729383962,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bengals",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "81",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729381335,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "David Njoku",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Tyjae Spears",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "80",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1729256448,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ty Chandler",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "78",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Devaughn Vele",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "77",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Zach Ertz",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Mike Gesicki",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "76",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jason Sanders",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Greg Zuerlein",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "75",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Rams",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Texans",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "74",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "JuJu Smith-Schuster",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Brayden Narveson",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "73",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bills",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Broncos",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "72",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tank Bigsby",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Blake Corum",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "71",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1729066811,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Matt Gay",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Amari Cooper",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "70",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1729043139,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tucker Kraft",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "69",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1729043004,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jerome Ford",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "68",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1728874092,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Braelon Allen",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "67",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728841166,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tyrone Tracy Jr.",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Christian Watson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "66",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728775657,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Buccaneers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.6",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Zamir White",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.6",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "65",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728645918,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Cameron Dicker",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.9",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jake Bates",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.9",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "freeagents"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "64",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728645892,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jake Bates",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.9",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jason Sanders",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.9",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "63",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728598837,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jalen Tolbert",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Curtis Samuel",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "62",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728598721,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Geno Smith",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Matthew Stafford",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "61",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1728485065,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Rashee Rice",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "60",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1728483044,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Kirk Cousins",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "59",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1728482906,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Derek Carr",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "58",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728473040,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chase McLaughlin",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jake Moody",
+          "position": "K",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "57",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728472967,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Seahawks",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "55",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728462027,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tucker Kraft",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Tyler Lockett",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "54",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728462027,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Brayden Narveson",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "David Njoku",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "53",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728462027,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Eagles",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.8",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Dolphins",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.8",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "52",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728069952,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Trey Sermon",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.8",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Keon Coleman",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.8",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "51",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1728065713,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Alexander Mattison",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.9",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Gus Edwards",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.9",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "50",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1727970104,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Tyler Bass",
+          "position": "K",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "49",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1727970054,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Samaje Perine",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.3",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "48",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727969616,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Seahawks",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Titans",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "47",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727920152,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bucky Irving",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.8",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Carson Steele",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.8",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "46",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727898330,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Broncos",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Raiders",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "44",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727857462,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Wan'Dale Robinson",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "DeAndre Hopkins",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "43",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727857462,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Packers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bears",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "42",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727857462,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Kareem Hunt",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Alec Pierce",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "41",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727549875,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Bears",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Ravens",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "40",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727297015,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Sam Darnold",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Trey Benson",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "39",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727296914,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Titans",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Buccaneers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "37",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727252515,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Texans",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bills",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "36",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727252515,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Darnell Mooney",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jaylen Warren",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "35",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1727252515,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jauan Jennings",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Tank Dell",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "34",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1727252515,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Clyde Edwards-Helaire",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "waivers",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "33",
+      "type": "drop",
+      "status": "successful",
+      "timestamp": 1727237198,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ty Chandler",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.5",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "32",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726674067,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Alec Pierce",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Michael Wilson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "31",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726673891,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Buccaneers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Colts",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "30",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726665704,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Derek Carr",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jaylen Wright",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.10",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "29",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726659299,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Raiders",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "28",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726659299,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Mike Gesicki",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Colby Parkinson",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "27",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726659299,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Quentin Johnston",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jonnu Smith",
+          "position": "TE",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "26",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726659299,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Baker Mayfield",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Jared Goff",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "25",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726659299,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Demarcus Robinson",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Ryan Tannehill",
+          "position": "QB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "24",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1726659299,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Samaje Perine",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.3",
+          "source_type": "waivers",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "23",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726659299,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Carson Steele",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.8",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Wan'Dale Robinson",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.8",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "22",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1726416329,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chuba Hubbard",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.5",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "21",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726280332,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Ryan Tannehill",
+          "position": "QB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Hollywood Brown",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "20",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726187030,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Colby Parkinson",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chuba Hubbard",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "19",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726062151,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Colts",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.4",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Bengals",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.4",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "16",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726039645,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Allen Lazard",
+          "position": "WR",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Adam Thielen",
+          "position": "WR",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "15",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726039645,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Chargers",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Seahawks",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "14",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1726039645,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jordan Mason",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.1",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Tyler Allgeier",
+          "position": "RB",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.1",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "13",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1725416611,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Dallas Goedert",
+          "position": "TE",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "12",
+      "type": "add",
+      "status": "successful",
+      "timestamp": 1725416509,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Jaylen Wright",
+          "position": "RB",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.10",
+          "source_type": "freeagents",
+          "destination_type": "team"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "11",
+      "type": "add/drop",
+      "status": "successful",
+      "timestamp": 1725174721,
+      "faab_bid": null,
+      "players": [
+        {
+          "player_name": "Seahawks",
+          "position": "DEF",
+          "type": "add",
+          "source_team_key": null,
+          "destination_team_key": "449.l.689359.t.7",
+          "source_type": "waivers",
+          "destination_type": "team"
+        },
+        {
+          "player_name": "Chiefs",
+          "position": "DEF",
+          "type": "drop",
+          "source_team_key": "449.l.689359.t.7",
+          "destination_team_key": null,
+          "source_type": "team",
+          "destination_type": "waivers"
+        }
+      ],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "10",
+      "type": "commish",
+      "status": "successful",
+      "timestamp": 1724866815,
+      "faab_bid": null,
+      "players": [],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "9",
+      "type": "commish",
+      "status": "successful",
+      "timestamp": 1724866815,
+      "faab_bid": null,
+      "players": [],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "8",
+      "type": "commish",
+      "status": "successful",
+      "timestamp": 1724723649,
+      "faab_bid": null,
+      "players": [],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "7",
+      "type": "commish",
+      "status": "successful",
+      "timestamp": 1724719643,
+      "faab_bid": null,
+      "players": [],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "6",
+      "type": "commish",
+      "status": "successful",
+      "timestamp": 1723840781,
+      "faab_bid": null,
+      "players": [],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "5",
+      "type": "commish",
+      "status": "successful",
+      "timestamp": 1723840781,
+      "faab_bid": null,
+      "players": [],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    },
+    {
+      "transaction_id": "4",
+      "type": "commish",
+      "status": "successful",
+      "timestamp": 1723686119,
+      "faab_bid": null,
+      "players": [],
+      "trader_team_key": null,
+      "tradee_team_key": null
+    }
+  ]
+}
