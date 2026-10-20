@@ -4,7 +4,7 @@ Twin-site static monorepo for two league archives:
 
 | Site | Completed seasons | Accent |
 |---|---|---|
-| CMPFFL (`sites/cmpffl`) | 2016–2023 (Yahoo), 2024–2025 (Sleeper) | gold |
+| CMPFFL (`sites/cmpffl`) | 2014–2023 (Yahoo; 2014 as BCFFL), 2024–2025 (Sleeper) | gold |
 | Baptist Ballers (`sites/baptist-ballers`) | 2025 | teal |
 
 Historical only. No 2026. People are keyed by `first_l` (first name + two-letter last initial).
