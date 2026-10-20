@@ -1,12 +1,14 @@
 ---
 import { personSlug, formatPts, labelOf } from '../lib/data.ts'
 import type { SeasonSummary } from '../lib/types.ts'
+import type { SeasonDivisions } from '../lib/manager-stats.ts'
 
 interface Props {
   season: SeasonSummary
   labels?: Map<string, string>
+  div?: SeasonDivisions | null
 }
-const { season, labels = new Map() } = Astro.props
+const { season, labels = new Map(), div = null } = Astro.props
 ---
 <div class="table-wrap">
   <table class="standings">
@@ -15,9 +17,11 @@ const { season, labels = new Map() } = Astro.props
         <th class="num">Rk</th>
         <th>Manager</th>
         <th>Team</th>
+        {div && <th>Division</th>}
         <th>Record</th>
         <th class="num">PF</th>
         <th class="num">PA</th>
+        {div?.ruleMatches && <th>Playoff berth</th>}
         <th></th>
       </tr>
     </thead>
@@ -32,9 +36,13 @@ const { season, labels = new Map() } = Astro.props
               <a href={`/managers/${personSlug(row.first_l)}`}>{labelOf(row.first_l, labels)}</a>
             </td>
             <td>{row.team_name}</td>
+            {div && <td class="faint">{div.names.get(div.teamDivision.get(row.roster_id) ?? -1) ?? '—'}</td>}
             <td>{row.record}</td>
             <td class="num">{formatPts(row.fpts)}</td>
             <td class="num">{formatPts(row.fpts_against)}</td>
+            {div?.ruleMatches && (
+              <td>{div.qualifiers.get(row.roster_id) === 'Division' ? <span class="badge">Division</span> : div.qualifiers.get(row.roster_id) ? <span class="badge gold">Wild card · points</span> : ''}</td>
+            )}
             <td>
               {champ && <span class="badge gold">Champion</span>}
               {last && !champ && <span class="badge">Last</span>}
@@ -47,4 +55,5 @@ const { season, labels = new Map() } = Astro.props
 </div>
 <p class="note">
   Rank is regular-season standing. Champion is the playoff winner and can differ from the #1 seed. Places 7+ and last place by regular-season record (lower PF breaks ties).
+  {div && ` ${div.note}`}
 </p>

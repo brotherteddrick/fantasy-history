@@ -28,7 +28,7 @@ const cards: Card[] = [
   { label: 'Runner-up', value: String(c.runnerUps.length), sub: yearsList(c.runnerUps) },
   { label: '3rd place', value: String(c.thirds.length), sub: yearsList(c.thirds) },
   { label: 'Last place', value: String(c.lasts.length), sub: yearsList(c.lasts), tone: c.lasts.length ? 'danger' : undefined },
-  { label: 'Playoff appearances', value: `${c.playoffYears.length} of ${totalSeasons}`, sub: `Playoff record ${recordStr(c.poW, c.poL, 0)}` },
+  { label: 'Playoff appearances', value: `${c.playoffYears.length} of ${totalSeasons}`, sub: `Playoff record ${recordStr(c.poW, c.poL, 0)}` + (c.wildCardYears.length ? ` · ${c.wildCardYears.length} points wild card${c.wildCardYears.length > 1 ? 's' : ''} (${yearsList(c.wildCardYears)})` : '') },
   { label: 'Seasons played', value: String(totalSeasons), sub: c.seasons.length ? `${c.seasons[c.seasons.length - 1].season}–${c.seasons[0].season}` : '' },
   { label: 'High-points titles', value: String(c.highPoints.length), sub: c.highPoints.length ? `Most regular-season PF · ${yearsList(c.highPoints)}` : 'Most regular-season PF' },
   { label: 'Low-points seasons', value: String(c.lowPoints.length), sub: c.lowPoints.length ? `Fewest regular-season PF · ${yearsList(c.lowPoints)}` : 'Fewest regular-season PF', tone: c.lowPoints.length ? 'danger' : undefined },
@@ -114,7 +114,7 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
               <td class="team-cell">{s.teamName}</td>
               <td class="num">{s.finalPlace ? `${ordinal(s.finalPlace)}` : '—'}<span class="faint"> / {s.totalTeams}</span></td>
               <td>{recordStr(s.regW, s.regL, s.regT)}{s.hasMedian && <span class="faint"> ({recordStr(s.medW, s.medL, s.medT)} med)</span>}</td>
-              <td class="num">{s.madePlayoffs && s.seed ? s.seed : "—"}</td>
+              <td class="num">{s.madePlayoffs && s.seed ? s.seed : "—"}{s.qualifier && <span class="faint" title={s.qualifier === 'Division' ? 'Top 2 in division by record' : 'Wild card on regular-season points'}>{s.qualifier === 'Division' ? ' div' : ' WC'}</span>}</td>
               <td class="num">{formatPts(s.pf)}</td>
               <td class="num">{formatPts(s.pa)}</td>
               <td class="badges">
@@ -130,7 +130,7 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
     </div>
     <p class="note">
       Newest first. Record is regular-season head-to-head{c.seasons.some((s) => s.hasMedian) ? '; “med” is the separate weekly median game (Sleeper)' : ''}.
-      Finish: playoff places from the championship bracket; places for non-playoff teams and last place by regular-season record (lower PF breaks ties).
+      {c.seasons.some((s) => s.qualifier) && 'Seed tags: div = top 2 in division by record, WC = points wild card. '}Finish: playoff places from the championship bracket; places for non-playoff teams and last place by regular-season record (lower PF breaks ties).
       {sources.size > 1 && ' Y = Yahoo, S = Sleeper.'}
     </p>
   </section>

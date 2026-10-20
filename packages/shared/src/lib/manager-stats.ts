@@ -1,4 +1,5 @@
 import { loadSeasonFile, compareRegularSeason } from './data.ts'
+import type { Standing } from './types.ts'
 import type { LeagueSummary, SeasonSummary } from './types.ts'
 
 /** One played game for one team. */
@@ -43,6 +44,8 @@ export interface SeasonTeamResult {
   isLast: boolean
   isHighPoints: boolean
   isLowPoints: boolean
+  division: string | null
+  qualifier: Qualifier | null
   games: TeamGame[]
 }
 
@@ -94,6 +97,8 @@ export function seasonTeamResults(leagueKey: string, s: SeasonSummary): Map<numb
       isLast: s.last_place?.roster_id === r.roster_id,
       isHighPoints: s.placements?.high_points?.roster_id === r.roster_id,
       isLowPoints: s.placements?.low_points?.roster_id === r.roster_id,
+      division: null,
+      qualifier: null,
       games: [],
     })
   }
@@ -232,7 +237,90 @@ export function seasonTeamResults(leagueKey: string, s: SeasonSummary): Map<numb
       }
     }
   }
+  const div = seasonDivisions(leagueKey, s)
+  if (div) {
+    for (const t of out.values()) {
+      const d = div.teamDivision.get(t.rosterId)
+      t.division = d != null ? div.names.get(d) ?? `Division ${d}` : null
+      t.qualifier = div.qualifiers.get(t.rosterId) ?? null
+    }
+  }
   return out
+}
+
+export type Qualifier = 'Division' | 'Wild card (points)'
+
+export interface SeasonDivisions {
+  names: Map<number, string>
+  teamDivision: Map<number, number>
+  /** True when the actual playoff field = top 2 per division by record + best-PF wild cards. */
+  ruleMatches: boolean
+  qualifiers: Map<number, Qualifier> // only filled when ruleMatches
+  wildCards: number[]
+  note: string
+}
+
+/** Roster ids of championship-bracket teams. */
+export function playoffTeamIds(file: any): Set<number> {
+  const ids = new Set<number>()
+  if (file.source === 'yahoo') {
+    const n = Number(file.league?.settings?.num_playoff_teams || 0)
+    for (const r of file.rosters || []) if (r.playoff_seed != null && r.playoff_seed <= n) ids.add(r.roster_id)
+  } else {
+    for (const g of file.winners_bracket || []) for (const t of [g.t1, g.t2]) if (typeof t === 'number') ids.add(t)
+  }
+  return ids
+}
+
+/**
+ * Division layout for a season, if the data has divisions, and whether the actual playoff
+ * field matches the league rule: top 2 in each division by regular-season record
+ * (tiebreak PF), plus wild cards = highest regular-season PF among the rest.
+ */
+export function seasonDivisions(leagueKey: string, s: { season: string; standings: Standing[] }): SeasonDivisions | null {
+  const file = loadSeasonFile(leagueKey, s.season)
+  const names = new Map<number, string>()
+  const teamDivision = new Map<number, number>()
+  if (file.source === 'yahoo') {
+    for (const d of file.league?.settings?.divisions || []) names.set(Number(d.division_id), d.name)
+    for (const r of file.rosters || []) if (r.division_id != null) teamDivision.set(r.roster_id, Number(r.division_id))
+  } else {
+    const meta = file.league?.metadata || {}
+    for (const [k, v] of Object.entries<string>(meta)) {
+      const m = /^division_(\d+)$/.exec(k)
+      if (m) names.set(Number(m[1]), v)
+    }
+    if (Number(file.league?.settings?.divisions || 0) > 0) {
+      for (const r of file.rosters || []) if (r.settings?.division != null) teamDivision.set(r.roster_id, Number(r.settings.division))
+    }
+  }
+  if (!teamDivision.size) return null
+  const divIds = [...new Set(teamDivision.values())].sort((a, b) => a - b)
+  const actual = playoffTeamIds(file)
+  const byDiv = new Set<number>()
+  for (const d of divIds) {
+    s.standings
+      .filter((r) => teamDivision.get(r.roster_id) === d)
+      .sort(compareRegularSeason)
+      .slice(0, 2)
+      .forEach((r) => byDiv.add(r.roster_id))
+  }
+  const wcSlots = actual.size - byDiv.size
+  const wildCards =
+    wcSlots > 0
+      ? s.standings.filter((r) => !byDiv.has(r.roster_id)).sort((a, b) => b.fpts - a.fpts).slice(0, wcSlots).map((r) => r.roster_id)
+      : []
+  const ruleField = new Set([...byDiv, ...wildCards])
+  const ruleMatches = wcSlots > 0 && ruleField.size === actual.size && [...actual].every((id) => ruleField.has(id))
+  const qualifiers = new Map<number, Qualifier>()
+  if (ruleMatches) {
+    for (const id of byDiv) qualifiers.set(id, 'Division')
+    for (const id of wildCards) qualifiers.set(id, 'Wild card (points)')
+  }
+  const note = ruleMatches
+    ? 'Playoffs: top 2 in each division by record, plus wild cards for the highest points among the rest.'
+    : `${divIds.length} divisions; this season's playoff field doesn't follow the top-2-per-division + points wild card rule, so qualification isn't labeled.`
+  return { names, teamDivision, ruleMatches, qualifiers, wildCards: ruleMatches ? wildCards : [], note }
 }
 
 export interface WeekScore {
@@ -253,6 +341,7 @@ export interface ManagerCareer {
   thirds: string[]
   lasts: string[]
   playoffYears: string[]
+  wildCardYears: string[]
   highPoints: string[]
   lowPoints: string[]
   regW: number; regL: number; regT: number
@@ -290,6 +379,7 @@ export function managerCareer(first_l: string, all: SeasonTeamResult[]): Manager
     thirds: years((r) => r.isThird),
     lasts: years((r) => r.isLast),
     playoffYears: years((r) => r.madePlayoffs),
+    wildCardYears: years((r) => r.qualifier === 'Wild card (points)'),
     highPoints: years((r) => r.isHighPoints),
     lowPoints: years((r) => r.isLowPoints),
     regW: sum((r) => r.regW), regL: sum((r) => r.regL), regT: sum((r) => r.regT),

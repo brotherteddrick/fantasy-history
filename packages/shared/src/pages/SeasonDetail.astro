@@ -4,6 +4,7 @@ import ChampCard from '../components/ChampCard.astro'
 import StandingsTable from '../components/StandingsTable.astro'
 import { loadSummary, weeklyMatchups, formatPts, labelsForSummary, labelOf } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
+import { seasonDivisions } from '../lib/manager-stats.ts'
 
 interface Props {
   config: SiteConfig
@@ -15,6 +16,7 @@ const labels = labelsForSummary(summary)
 const season = summary.seasons.find((s) => s.season === year)
 if (!season) throw new Error(`Unknown season ${year} for ${config.leagueKey}`)
 const weeks = weeklyMatchups(config.leagueKey, year)
+const div = seasonDivisions(config.leagueKey, season)
 ---
 <BaseLayout
   title={`${year} season`}
@@ -35,7 +37,7 @@ const weeks = weeklyMatchups(config.leagueKey, year)
   </div>
   <section class="section">
     <h2>Standings</h2>
-    <StandingsTable season={season} labels={labels} />
+    <StandingsTable season={season} labels={labels} div={div} />
   </section>
   <section class="section">
     <h2>Weekly matchups</h2>

@@ -23,6 +23,24 @@
       "is_auction_draft": "0",
       "uses_faab": "1",
       "trade_end_date": "2021-11-20",
+      "divisions": [
+        {
+          "division_id": 1,
+          "name": "The 19th Street Gangsters"
+        },
+        {
+          "division_id": 2,
+          "name": "The River Terrace Crew"
+        },
+        {
+          "division_id": 3,
+          "name": "Kneehigh Park"
+        },
+        {
+          "division_id": 4,
+          "name": "Wu-Tang Financial"
+        }
+      ],
       "roster_positions": [
         {
           "position": "QB",
@@ -88,6 +106,7 @@
       "final_rank": 1,
       "playoff_seed": 1,
       "draft_position": 11,
+      "division_id": 2,
       "number_of_moves": 9,
       "number_of_trades": "1"
     },
@@ -110,6 +129,7 @@
       "final_rank": 2,
       "playoff_seed": 4,
       "draft_position": 7,
+      "division_id": 3,
       "number_of_moves": 11,
       "number_of_trades": 0
     },
@@ -132,6 +152,7 @@
       "final_rank": 3,
       "playoff_seed": 6,
       "draft_position": 12,
+      "division_id": 1,
       "number_of_moves": 31,
       "number_of_trades": 0
     },
@@ -154,6 +175,7 @@
       "final_rank": 4,
       "playoff_seed": 2,
       "draft_position": 6,
+      "division_id": 1,
       "number_of_moves": 21,
       "number_of_trades": "1"
     },
@@ -176,6 +198,7 @@
       "final_rank": 5,
       "playoff_seed": 3,
       "draft_position": 10,
+      "division_id": 4,
       "number_of_moves": 9,
       "number_of_trades": 0
     },
@@ -198,6 +221,7 @@
       "final_rank": 6,
       "playoff_seed": 5,
       "draft_position": 2,
+      "division_id": 4,
       "number_of_moves": 14,
       "number_of_trades": 0
     },
@@ -220,6 +244,7 @@
       "final_rank": 7,
       "playoff_seed": 8,
       "draft_position": 9,
+      "division_id": 2,
       "number_of_moves": 20,
       "number_of_trades": 0
     },
@@ -242,6 +267,7 @@
       "final_rank": 8,
       "playoff_seed": 7,
       "draft_position": 1,
+      "division_id": 4,
       "number_of_moves": 11,
       "number_of_trades": 0
     },
@@ -264,6 +290,7 @@
       "final_rank": 9,
       "playoff_seed": 11,
       "draft_position": 5,
+      "division_id": 3,
       "number_of_moves": 45,
       "number_of_trades": 0
     },
@@ -286,6 +313,7 @@
       "final_rank": 10,
       "playoff_seed": 9,
       "draft_position": 4,
+      "division_id": 2,
       "number_of_moves": 18,
       "number_of_trades": 0
     },
@@ -308,6 +336,7 @@
       "final_rank": 11,
       "playoff_seed": 10,
       "draft_position": 3,
+      "division_id": 3,
       "number_of_moves": 55,
       "number_of_trades": "2"
     },
@@ -330,6 +359,7 @@
       "final_rank": 12,
       "playoff_seed": 12,
       "draft_position": 8,
+      "division_id": 1,
       "number_of_moves": 16,
       "number_of_trades": 0
     }

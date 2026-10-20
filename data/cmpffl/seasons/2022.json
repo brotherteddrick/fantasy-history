@@ -23,6 +23,7 @@
       "is_auction_draft": "0",
       "uses_faab": "1",
       "trade_end_date": "2022-11-19",
+      "divisions": [],
       "roster_positions": [
         {
           "position": "QB",
@@ -94,6 +95,7 @@
       "final_rank": 1,
       "playoff_seed": 1,
       "draft_position": 2,
+      "division_id": null,
       "number_of_moves": 16,
       "number_of_trades": 0
     },
@@ -116,6 +118,7 @@
       "final_rank": 2,
       "playoff_seed": 2,
       "draft_position": 10,
+      "division_id": null,
       "number_of_moves": 3,
       "number_of_trades": 0
     },
@@ -138,6 +141,7 @@
       "final_rank": 3,
       "playoff_seed": 3,
       "draft_position": 6,
+      "division_id": null,
       "number_of_moves": 20,
       "number_of_trades": 0
     },
@@ -160,6 +164,7 @@
       "final_rank": 4,
       "playoff_seed": 5,
       "draft_position": 5,
+      "division_id": null,
       "number_of_moves": 21,
       "number_of_trades": 0
     },
@@ -182,6 +187,7 @@
       "final_rank": 5,
       "playoff_seed": 4,
       "draft_position": 3,
+      "division_id": null,
       "number_of_moves": 13,
       "number_of_trades": 0
     },
@@ -204,6 +210,7 @@
       "final_rank": 6,
       "playoff_seed": 6,
       "draft_position": 8,
+      "division_id": null,
       "number_of_moves": 16,
       "number_of_trades": 0
     },
@@ -226,6 +233,7 @@
       "final_rank": 7,
       "playoff_seed": 8,
       "draft_position": 4,
+      "division_id": null,
       "number_of_moves": 13,
       "number_of_trades": 0
     },
@@ -248,6 +256,7 @@
       "final_rank": 8,
       "playoff_seed": 7,
       "draft_position": 1,
+      "division_id": null,
       "number_of_moves": 13,
       "number_of_trades": 0
     },
@@ -270,6 +279,7 @@
       "final_rank": 9,
       "playoff_seed": 9,
       "draft_position": 7,
+      "division_id": null,
       "number_of_moves": 10,
       "number_of_trades": 0
     },
@@ -292,6 +302,7 @@
       "final_rank": 10,
       "playoff_seed": 10,
       "draft_position": 9,
+      "division_id": null,
       "number_of_moves": 63,
       "number_of_trades": 0
     }
