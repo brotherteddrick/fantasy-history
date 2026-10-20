@@ -2986,9 +2986,9 @@
         {
           "roster_id": 11,
           "owner_id": "348.l.603801.t.11",
-          "display_name": "--hidden--",
+          "display_name": "",
           "team_name": "shannon's Swag Team",
-          "first_l": "Hidden2015t11 Unmapped",
+          "first_l": "Shannon Wo",
           "wins": 8,
           "losses": 5,
           "ties": 0,
@@ -3056,7 +3056,7 @@
         {
           "roster_id": 12,
           "owner_id": "348.l.603801.t.12",
-          "display_name": "--hidden--",
+          "display_name": "",
           "team_name": "TRE",
           "first_l": "Hidden2015t12 Unmapped",
           "wins": 4,
@@ -3182,7 +3182,7 @@
         {
           "rank": 5,
           "roster_id": 11,
-          "first_l": "Hidden2015t11 Unmapped",
+          "first_l": "Shannon Wo",
           "team_name": "shannon's Swag Team"
         },
         {
@@ -3354,9 +3354,9 @@
         {
           "roster_id": 7,
           "owner_id": "331.l.1162006.t.7",
-          "display_name": "--hidden--",
+          "display_name": "",
           "team_name": "Dusan Mandic",
-          "first_l": "Hidden2014t7 Unmapped",
+          "first_l": "Greg Ma",
           "wins": 6,
           "losses": 7,
           "ties": 0,
@@ -3382,9 +3382,9 @@
         {
           "roster_id": 10,
           "owner_id": "331.l.1162006.t.10",
-          "display_name": "--hidden--",
+          "display_name": "",
           "team_name": "You just got Jammed",
-          "first_l": "Hidden2014t10 Unmapped",
+          "first_l": "Mark He",
           "wins": 2,
           "losses": 11,
           "ties": 0,
@@ -3446,9 +3446,9 @@
         "low_points": {
           "roster_id": 10,
           "owner_id": "331.l.1162006.t.10",
-          "display_name": "--hidden--",
+          "display_name": "",
           "team_name": "You just got Jammed",
-          "first_l": "Hidden2014t10 Unmapped",
+          "first_l": "Mark He",
           "points": 1238.34
         }
       },
@@ -3498,13 +3498,13 @@
         {
           "rank": 8,
           "roster_id": 10,
-          "first_l": "Hidden2014t10 Unmapped",
+          "first_l": "Mark He",
           "team_name": "You just got Jammed"
         },
         {
           "rank": 9,
           "roster_id": 7,
-          "first_l": "Hidden2014t7 Unmapped",
+          "first_l": "Greg Ma",
           "team_name": "Dusan Mandic"
         },
         {
