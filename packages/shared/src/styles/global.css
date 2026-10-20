@@ -370,3 +370,51 @@ table.standings a:hover { color: var(--accent-2); }
   .matchup-row { grid-template-columns: 1fr; gap: 6px; }
   .matchup-row .vs { display: none; }
 }
+
+/* Manager page */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px 12px;
+}
+.stat-card.accent {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 10%, var(--bg-card)), var(--bg-card));
+}
+.stat-card.danger { border-color: color-mix(in srgb, var(--danger) 35%, var(--line)); }
+.stat-big {
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  line-height: 1.15;
+  margin: 6px 0 4px;
+  font-variant-numeric: tabular-nums;
+}
+.stat-card.accent .stat-big { color: var(--accent-2); }
+.stat-sub { color: var(--muted); font-size: 0.86rem; }
+.faint { color: var(--faint); font-size: 0.85em; }
+.src-tag {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--faint);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0 4px;
+  vertical-align: middle;
+}
+.badge.danger { border-color: color-mix(in srgb, var(--danger) 50%, var(--line)); color: var(--danger); }
+td.badges .badge + .badge { margin-left: 4px; }
+@media (max-width: 700px) {
+  .stat-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .stat-big { font-size: 1.35rem; }
+  table.results-by-year th, table.results-by-year td { padding: 8px 8px; }
+}
+.week-block { scroll-margin-top: 80px; }

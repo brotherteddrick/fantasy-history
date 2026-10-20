@@ -41,8 +41,8 @@ const weeks = weeklyMatchups(config.leagueKey, year)
     <h2>Weekly matchups</h2>
     <p class="note">Regular season and playoffs. Winner highlighted.</p>
     <div class="week-stack">
-      {weeks.map(({ week, matchups }) => (
-        <div class="week-block">
+      {weeks.filter(({ matchups }) => matchups.length).map(({ week, matchups }) => (
+        <div class="week-block" id={`week-${parseInt(week)}`}>
           <h3 class="week-title">Week {week}</h3>
           <div class="matchup-list">
             {matchups.map((m) => {

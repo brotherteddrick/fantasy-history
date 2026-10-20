@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary, managersFromSummary, formatPts, labelsForSummary, labelOf } from '../lib/data.ts'
+import { loadSummary, managersFromSummary, formatPts, labelsForSummary, labelOf, personSlug } from '../lib/data.ts'
+import { leagueResults, managerCareer, winPct, ordinal, recordStr } from '../lib/manager-stats.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -13,6 +14,29 @@ const labels = labelsForSummary(summary)
 const manager = managersFromSummary(summary).find((m) => m.slug === id)
 if (!manager) throw new Error(`Unknown manager ${id}`)
 const name = labelOf(manager.first_l, labels)
+const all = leagueResults(config.leagueKey, summary)
+const c = managerCareer(manager.first_l, all)
+const usernames = manager.displayNames.filter(Boolean)
+const yearsList = (ys: string[]) => (ys.length ? ys.join(', ') : '')
+const sources = new Set(c.seasons.map((s) => s.source))
+const avgPf = c.regGames ? c.pf / c.regGames : 0
+const totalSeasons = c.seasons.length
+
+type Card = { label: string; value: string; sub?: string; tone?: 'accent' | 'danger' }
+const cards: Card[] = [
+  { label: 'Championships', value: String(c.championships.length), sub: yearsList(c.championships), tone: c.championships.length ? 'accent' : undefined },
+  { label: 'Runner-up', value: String(c.runnerUps.length), sub: yearsList(c.runnerUps) },
+  { label: '3rd place', value: String(c.thirds.length), sub: yearsList(c.thirds) },
+  { label: 'Last place', value: String(c.lasts.length), sub: yearsList(c.lasts), tone: c.lasts.length ? 'danger' : undefined },
+  { label: 'Playoff appearances', value: `${c.playoffYears.length} of ${totalSeasons}`, sub: `Playoff record ${recordStr(c.poW, c.poL, 0)}` },
+  { label: 'Seasons played', value: String(totalSeasons), sub: c.seasons.length ? `${c.seasons[c.seasons.length - 1].season}–${c.seasons[0].season}` : '' },
+  { label: 'High-points titles', value: String(c.highPoints.length), sub: c.highPoints.length ? `Most regular-season PF · ${yearsList(c.highPoints)}` : 'Most regular-season PF' },
+  { label: 'Low-points seasons', value: String(c.lowPoints.length), sub: c.lowPoints.length ? `Fewest regular-season PF · ${yearsList(c.lowPoints)}` : 'Fewest regular-season PF', tone: c.lowPoints.length ? 'danger' : undefined },
+  { label: 'Regular-season H2H', value: recordStr(c.regW, c.regL, c.regT), sub: `${winPct(c.regW, c.regL, c.regT)} win pct` + (c.medianSeasons ? ` · vs median ${recordStr(c.medW, c.medL, c.medT)}` : '') },
+  { label: 'Points for / against', value: `${formatPts(c.pf)}`, sub: `PA ${formatPts(c.pa)} · ${formatPts(avgPf)} PF per game` },
+]
+const weekLink = (season: string, week: number) => `/seasons/${season}#week-${week}`
+const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · playoffs' : ' · consolation')
 ---
 <BaseLayout
   title={name}
@@ -21,47 +45,95 @@ const name = labelOf(manager.first_l, labels)
   path={`/managers/${id}`}
 >
   <div class="hero">
-    <div class="eyebrow">Manager</div>
+    <div class="eyebrow">Manager · {config.leagueName}</div>
     <h1>{name}</h1>
     <p class="lede">
-      {manager.displayNames.filter(Boolean).length ? `Usernames: ${manager.displayNames.filter(Boolean).join(', ')}` : ''}
-      {manager.titles.length ? ` · Champion ${manager.titles.join(', ')}` : ''}
+      {totalSeasons} completed {totalSeasons === 1 ? 'season' : 'seasons'}
+      {c.championships.length ? ` · ${c.championships.length}× champion` : ''}
+      {usernames.length ? ` · ${usernames.join(', ')}` : ''}
     </p>
   </div>
-  <div class="card">
-    <div class="card-label">v1 stub</div>
-    <p class="meta">Career H2H, draft history, and trades will land on later pages. Completed-season record is below.</p>
-  </div>
+
+  <section class="stat-grid">
+    {cards.map((card) => (
+      <div class:list={['stat-card', card.tone]}>
+        <div class="stat-label">{card.label}</div>
+        <div class="stat-big">{card.value}</div>
+        {card.sub && <div class="stat-sub">{card.sub}</div>}
+      </div>
+    ))}
+    {c.best && (
+      <div class="stat-card">
+        <div class="stat-label">Best single week</div>
+        <div class="stat-big">{formatPts(c.best.points)}</div>
+        <div class="stat-sub">
+          <a href={weekLink(c.best.season, c.best.week)}>{c.best.season} · Week {c.best.week}</a>{kindLabel(c.best.kind)}
+          {' · vs '}<a href={`/managers/${personSlug(c.best.oppFirstL)}`}>{labelOf(c.best.oppFirstL, labels)}</a> ({formatPts(c.best.oppPoints)})
+        </div>
+      </div>
+    )}
+    {c.worst && (
+      <div class="stat-card danger">
+        <div class="stat-label">Worst single week</div>
+        <div class="stat-big">{formatPts(c.worst.points)}</div>
+        <div class="stat-sub">
+          <a href={weekLink(c.worst.season, c.worst.week)}>{c.worst.season} · Week {c.worst.week}</a>{kindLabel(c.worst.kind)}
+          {' · vs '}<a href={`/managers/${personSlug(c.worst.oppFirstL)}`}>{labelOf(c.worst.oppFirstL, labels)}</a> ({formatPts(c.worst.oppPoints)})
+        </div>
+      </div>
+    )}
+  </section>
+  <p class="note">
+    Records count head-to-head games only{c.medianSeasons ? '; Sleeper-era games against the weekly league median are shown separately' : ''}.
+    Points for/against are regular season. Best and worst weeks include playoff and consolation games.
+  </p>
+
   <section class="section">
-    <h2>Seasons in {config.leagueName}</h2>
+    <h2>Results by year</h2>
     <div class="table-wrap">
-      <table class="standings">
+      <table class="standings results-by-year">
         <thead>
           <tr>
             <th>Year</th>
             <th>Team</th>
+            <th class="num">Finish</th>
             <th>Record</th>
-            <th class="num">Rk</th>
+            <th class="num">Seed</th>
             <th class="num">PF</th>
+            <th class="num">PA</th>
+            <th>Playoffs</th>
             <th></th>
           </tr>
         </thead>
         <tbody>
-          {manager.seasons.map((s) => (
+          {c.seasons.map((s) => (
             <tr class:list={[{ champ: s.isChampion, last: s.isLast }]}>
-              <td><a href={`/seasons/${s.season}`}>{s.season}</a></td>
-              <td>{s.team_name}</td>
-              <td>{s.record}</td>
-              <td class="num">{s.rank}</td>
-              <td class="num">{formatPts(s.fpts)}</td>
               <td>
+                <a href={`/seasons/${s.season}`}>{s.season}</a>
+                {sources.size > 1 && <span class="src-tag" title={s.source === 'yahoo' ? 'Played on Yahoo Fantasy' : 'Played on Sleeper'}>{s.source === 'yahoo' ? 'Y' : 'S'}</span>}
+              </td>
+              <td>{s.teamName}</td>
+              <td class="num">{s.finalPlace ? `${ordinal(s.finalPlace)}` : '—'}<span class="faint"> / {s.totalTeams}</span></td>
+              <td>{recordStr(s.regW, s.regL, s.regT)}{s.hasMedian && <span class="faint"> ({recordStr(s.medW, s.medL, s.medT)} med)</span>}</td>
+              <td class="num">{s.madePlayoffs && s.seed ? s.seed : "—"}</td>
+              <td class="num">{formatPts(s.pf)}</td>
+              <td class="num">{formatPts(s.pa)}</td>
+              <td>{s.playoffResult}</td>
+              <td class="badges">
                 {s.isChampion && <span class="badge gold">Champion</span>}
-                {s.isLast && !s.isChampion && <span class="badge">Last</span>}
+                {s.isLast && <span class="badge danger">Last</span>}
+                {s.isHighPoints && <span class="badge gold">High pts</span>}
+                {s.isLowPoints && <span class="badge">Low pts</span>}
               </td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
+    <p class="note">
+      Newest first. Record is regular-season head-to-head{c.seasons.some((s) => s.hasMedian) ? '; “med” is the separate weekly median game (Sleeper)' : ''}.
+      Finish is the final place from the playoffs{c.seasons.some((s) => s.source === 'sleeper') ? ' (Sleeper only records final places for playoff teams and last place)' : ''}.
+      {sources.size > 1 && ' Y = Yahoo, S = Sleeper.'}
+    </p>
   </section>
 </BaseLayout>
