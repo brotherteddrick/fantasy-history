@@ -55,5 +55,5 @@ const { season, labels = new Map(), div = null } = Astro.props
 </div>
 <p class="note">
   Rank is regular-season standing. Champion is the playoff winner and can differ from the #1 seed. Places 7+ and last place by regular-season record (lower PF breaks ties).
-  {div && ` ${div.note}`}
+  {div?.note && ` ${div.note}`}
 </p>
