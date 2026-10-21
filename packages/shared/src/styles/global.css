@@ -477,3 +477,18 @@ table.h2h-games td .badge { font-size: 10px; }
 @media (max-width: 700px) {
   .h2h-swap { width: 100%; }
 }
+
+/* OG badge: first season + still in the league */
+.badge.og {
+  margin-left: 8px;
+  padding: 1px 7px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  vertical-align: middle;
+  cursor: help;
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+.badge.og.og-h1 { font-size: 13px; padding: 2px 10px; margin-left: 12px; position: relative; top: -0.15em; }

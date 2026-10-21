@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary, managersFromSummary, labelsForSummary, labelOf } from '../lib/data.ts'
+import { loadSummary, managersFromSummary, labelsForSummary, labelOf, ogInfo } from '../lib/data.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
 interface Props {
@@ -10,6 +10,8 @@ const { config } = Astro.props
 const summary = loadSummary(config.leagueKey)
 const labels = labelsForSummary(summary)
 const managers = managersFromSummary(summary)
+const og = ogInfo(config.leagueKey, summary)
+const ogTitle = `OG — in the first season (${og.firstSeason}) and still in the league`
 ---
 <BaseLayout title="Managers" leagueName={config.leagueName} accent={config.accent} path="/managers">
   <div class="hero">
@@ -32,7 +34,7 @@ const managers = managersFromSummary(summary)
           const latest = m.seasons[0]
           return (
             <tr>
-              <td><a href={`/managers/${m.slug}`}>{labelOf(m.first_l, labels)}</a></td>
+              <td><a href={`/managers/${m.slug}`}>{labelOf(m.first_l, labels)}</a>{og.ogs.has(m.first_l) && <span class="badge og" title={ogTitle} aria-label={ogTitle}>OG</span>}</td>
               <td>{m.seasons.map((s) => s.season).join(', ')}</td>
               <td>{m.titles.length ? m.titles.join(', ') : '—'}</td>
               <td>{latest?.team_name ?? '—'}</td>
@@ -42,5 +44,5 @@ const managers = managersFromSummary(summary)
       </tbody>
     </table>
   </div>
-  <p class="note">{managers.length} managers in completed {config.leagueName} seasons.</p>
+  <p class="note">{managers.length} managers in completed {config.leagueName} seasons.{og.ogs.size > 0 && <> <span class="badge og" title={ogTitle}>OG</span> = played in the first season ({og.firstSeason}) and still in the league.</>}</p>
 </BaseLayout>

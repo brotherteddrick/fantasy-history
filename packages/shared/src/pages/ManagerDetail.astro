@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layout/BaseLayout.astro'
-import { loadSummary, managersFromSummary, formatPts, labelsForSummary, labelOf, personSlug } from '../lib/data.ts'
+import { loadSummary, managersFromSummary, formatPts, labelsForSummary, labelOf, personSlug, ogInfo } from '../lib/data.ts'
 import { leagueResults, managerCareer, winPct, ordinal, recordStr, headToHead } from '../lib/manager-stats.ts'
 import type { SiteConfig } from '../lib/types.ts'
 
@@ -14,6 +14,9 @@ const labels = labelsForSummary(summary)
 const manager = managersFromSummary(summary).find((m) => m.slug === id)
 if (!manager) throw new Error(`Unknown manager ${id}`)
 const name = labelOf(manager.first_l, labels)
+const og = ogInfo(config.leagueKey, summary)
+const isOg = og.ogs.has(manager.first_l)
+const ogTitle = `OG — in the first season (${og.firstSeason}) and still in the league`
 const all = leagueResults(config.leagueKey, summary)
 const c = managerCareer(manager.first_l, all)
 const usernames = manager.displayNames.filter(Boolean)
@@ -74,7 +77,7 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
 >
   <div class="hero">
     <div class="eyebrow">Manager · {config.leagueName}</div>
-    <h1>{name}</h1>
+    <h1>{name}{isOg && <span class="badge og og-h1" title={ogTitle} aria-label={ogTitle}>OG</span>}</h1>
     <p class="lede">
       {totalSeasons} completed {totalSeasons === 1 ? 'season' : 'seasons'}
       {c.championships.length ? ` · ${c.championships.length}× champion` : ''}

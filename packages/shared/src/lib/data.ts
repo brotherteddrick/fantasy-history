@@ -309,3 +309,18 @@ export function weeklyMatchups(leagueKey: string, year: string): { week: string;
   }
   return out
 }
+
+/**
+ * "OG" managers: played in the league's first published season AND are on the current
+ * league roster (data/<league>/current-members.json, refreshed by
+ * scripts/fetch-current-members.mjs). Membership list only; no current-season stats.
+ */
+export function ogInfo(leagueKey: string, summary: LeagueSummary): { firstSeason: string | null; ogs: Set<string> } {
+  const seasons = [...summary.seasons].sort((a, b) => Number(a.season) - Number(b.season))
+  const first = seasons[0]
+  const file = path.join(dataDir(), leagueKey, 'current-members.json')
+  if (!first || !fs.existsSync(file)) return { firstSeason: first?.season ?? null, ogs: new Set() }
+  const current = new Set<string>(JSON.parse(fs.readFileSync(file, 'utf8')).members ?? [])
+  const ogs = new Set(first.standings.map((r) => r.first_l).filter((k) => current.has(k)))
+  return { firstSeason: first.season, ogs }
+}
