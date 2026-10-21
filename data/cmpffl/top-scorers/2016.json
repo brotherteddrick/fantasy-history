@@ -1,0 +1,281 @@
+{
+ "season": "2016",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  13
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Aaron Rodgers",
+     "team": "PIT",
+     "pts": 257.42,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 13
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "Matt Ryan",
+     "team": "IND",
+     "pts": 252.22,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 7
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 9
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Drew Brees",
+     "team": "NO",
+     "pts": 247.42,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 13
+     },
+     "end_owner": "Alisha Pe"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "David Johnson",
+     "team": "NO",
+     "pts": 275.9,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 13
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Ezekiel Elliott",
+     "team": "DAL",
+     "pts": 237.7,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 13
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "Melvin Gordon III",
+     "team": "BAL",
+     "pts": 217.6,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 13
+     },
+     "end_owner": "Casie Wo"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Antonio Brown",
+     "team": "TB",
+     "pts": 210.3,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Mike Evans",
+     "team": "SF",
+     "pts": 197.8,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Julio Jones",
+     "team": "PHI",
+     "pts": 186.3,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 13
+     },
+     "end_owner": "Thomas Be"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 130.5,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Greg Olsen",
+     "team": "SEA",
+     "pts": 129.5,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 13
+     },
+     "end_owner": "Jason Wo"
+    },
+    {
+     "name": "Jimmy Graham",
+     "team": "NO",
+     "pts": 126.4,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 3
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 11
+     },
+     "end_owner": "David Ni"
+    }
+   ]
+  },
+  {
+   "pos": "K",
+   "players": [
+    {
+     "name": "Matt Bryant",
+     "team": "ATL",
+     "pts": 131.0,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 1
+      },
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 1
+     },
+     "end_owner": null
+    },
+    {
+     "name": "Justin Tucker",
+     "team": "BAL",
+     "pts": 131.0,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 13
+     },
+     "end_owner": "Alisha Pe"
+    },
+    {
+     "name": "Dustin Hopkins",
+     "team": "CLE",
+     "pts": 123.0,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 3
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 3
+     },
+     "end_owner": "Theodore Wo"
+    }
+   ]
+  }
+ ]
+}

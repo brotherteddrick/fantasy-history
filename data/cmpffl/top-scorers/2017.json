@@ -1,0 +1,224 @@
+{
+ "season": "2017",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  13
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Russell Wilson",
+     "team": "NYG",
+     "pts": 267.44,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 13
+     },
+     "end_owner": "Alisha Pe"
+    },
+    {
+     "name": "Carson Wentz",
+     "team": "MIN",
+     "pts": 239.5,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Alex Smith",
+     "team": "WAS",
+     "pts": 238.06,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 2
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 7
+     },
+     "end_owner": "Justin Cl"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Todd Gurley",
+     "team": "ATL",
+     "pts": 225.2,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Le'Veon Bell",
+     "team": "TB",
+     "pts": 214.9,
+     "started": [
+      {
+       "first_l": "James Go",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "James Go",
+      "weeks": 13
+     },
+     "end_owner": "James Go"
+    },
+    {
+     "name": "Alvin Kamara",
+     "team": "NO",
+     "pts": 211.3,
+     "started": [
+      {
+       "first_l": "James Go",
+       "weeks": 8
+      }
+     ],
+     "rostered": {
+      "first_l": "James Go",
+      "weeks": 12
+     },
+     "end_owner": "James Go"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Antonio Brown",
+     "team": "TB",
+     "pts": 223.04,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "DeAndre Hopkins",
+     "team": "BAL",
+     "pts": 191.9,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Tyreek Hill",
+     "team": "MIA",
+     "pts": 168.5,
+     "started": [
+      {
+       "first_l": "James Go",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "James Go",
+      "weeks": 13
+     },
+     "end_owner": "James Go"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 154.8,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 13
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "Rob Gronkowski",
+     "team": "TB",
+     "pts": 147.4,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 13
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Zach Ertz",
+     "team": "PHI",
+     "pts": 127.8,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "season": "2024",
+ "source": "sleeper",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Lamar Jackson",
+     "team": "BAL",
+     "pts": 292.4,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 14
+     },
+     "end_owner": "Jason Wo"
+    },
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 275.62,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Jalen Hurts",
+     "team": "PHI",
+     "pts": 258.48,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 14
+     },
+     "end_owner": "Jason Cl"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Saquon Barkley",
+     "team": "PHI",
+     "pts": 272.5,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Derrick Henry",
+     "team": "BAL",
+     "pts": 232.7,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 14
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "Bijan Robinson",
+     "team": "ATL",
+     "pts": 211.3,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 14
+     },
+     "end_owner": "Ryan Gr"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Ja'Marr Chase",
+     "team": "CIN",
+     "pts": 255.9,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 14
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "Justin Jefferson",
+     "team": "MIN",
+     "pts": 190.68,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Amon-Ra St. Brown",
+     "team": "DET",
+     "pts": 175.68,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Brock Bowers",
+     "team": "LV",
+     "pts": 158.2,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 14
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "George Kittle",
+     "team": "SF",
+     "pts": 148.0,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Trey McBride",
+     "team": "ARI",
+     "pts": 136.3,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 14
+     },
+     "end_owner": "Thomas Be"
+    }
+   ]
+  }
+ ]
+}

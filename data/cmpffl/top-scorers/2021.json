@@ -1,0 +1,224 @@
+{
+ "season": "2021",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 293.06,
+     "started": [
+      {
+       "first_l": "Donnie We",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Donnie We",
+      "weeks": 14
+     },
+     "end_owner": "Donnie We"
+    },
+    {
+     "name": "Justin Herbert",
+     "team": "LAC",
+     "pts": 285.68,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 6
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 14
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Tom Brady",
+     "team": "TB",
+     "pts": 284.16,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Jonathan Taylor",
+     "team": "IND",
+     "pts": 272.4,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 14
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "Austin Ekeler",
+     "team": "WAS",
+     "pts": 231.5,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 14
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Joe Mixon",
+     "team": "HOU",
+     "pts": 205.8,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 14
+     },
+     "end_owner": "David Ni"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Cooper Kupp",
+     "team": "SEA",
+     "pts": 268.02,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 14
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "Justin Jefferson",
+     "team": "MIN",
+     "pts": 211.7,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Deebo Samuel Sr.",
+     "team": "SF",
+     "pts": 209.3,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Mark Andrews",
+     "team": "BAL",
+     "pts": 164.1,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 14
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 152.4,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 14
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "George Kittle",
+     "team": "SF",
+     "pts": 133.6,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 9
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "season": "2023",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 292.28,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 14
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Jalen Hurts",
+     "team": "PHI",
+     "pts": 277.68,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 14
+     },
+     "end_owner": "Jason Wo"
+    },
+    {
+     "name": "Dak Prescott",
+     "team": "DAL",
+     "pts": 252.7,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 4
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 14
+     },
+     "end_owner": "Jason Cl"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Christian McCaffrey",
+     "team": "SF",
+     "pts": 268.4,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 14
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "Raheem Mostert",
+     "team": "LV",
+     "pts": 208.4,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Travis Etienne Jr.",
+     "team": "NO",
+     "pts": 194.9,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 14
+     },
+     "end_owner": "Thomas Be"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Tyreek Hill",
+     "team": "MIA",
+     "pts": 262.2,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "CeeDee Lamb",
+     "team": "DAL",
+     "pts": 226.7,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 14
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Keenan Allen",
+     "team": "IND",
+     "pts": 217.86,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 14
+     },
+     "end_owner": "Jason Wo"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 152.6,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 14
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "T.J. Hockenson",
+     "team": "MIN",
+     "pts": 149.4,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 14
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "George Kittle",
+     "team": "SF",
+     "pts": 137.8,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    }
+   ]
+  }
+ ]
+}

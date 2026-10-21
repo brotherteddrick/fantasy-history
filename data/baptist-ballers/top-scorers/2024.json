@@ -1,0 +1,334 @@
+{
+ "season": "2024",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Lamar Jackson",
+     "team": "BAL",
+     "pts": 324.4,
+     "started": [
+      {
+       "first_l": "Brandon Fu",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fu",
+      "weeks": 14
+     },
+     "end_owner": "Brandon Fu"
+    },
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 308.62,
+     "started": [
+      {
+       "first_l": "Brandon Fe",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fe",
+      "weeks": 14
+     },
+     "end_owner": "Brandon Fe"
+    },
+    {
+     "name": "Joe Burrow",
+     "team": "CIN",
+     "pts": 290.04,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 14
+     },
+     "end_owner": "Steven Bo"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Saquon Barkley",
+     "team": "PHI",
+     "pts": 285.5,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 14
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Derrick Henry",
+     "team": "BAL",
+     "pts": 247.7,
+     "started": [
+      {
+       "first_l": "Lane Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Lane Wo",
+      "weeks": 14
+     },
+     "end_owner": "Lane Wo"
+    },
+    {
+     "name": "Bijan Robinson",
+     "team": "ATL",
+     "pts": 220.3,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 14
+     },
+     "end_owner": "Steven Bo"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Ja'Marr Chase",
+     "team": "CIN",
+     "pts": 270.9,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    },
+    {
+     "name": "Justin Jefferson",
+     "team": "MIN",
+     "pts": 197.68,
+     "started": [
+      {
+       "first_l": "Hayes Te",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Hayes Te",
+      "weeks": 14
+     },
+     "end_owner": "Hayes Te"
+    },
+    {
+     "name": "Amon-Ra St. Brown",
+     "team": "DET",
+     "pts": 185.68,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 14
+     },
+     "end_owner": "Theodore Wo"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Brock Bowers",
+     "team": "LV",
+     "pts": 162.2,
+     "started": [
+      {
+       "first_l": "Hayes Te",
+       "weeks": 8
+      }
+     ],
+     "rostered": {
+      "first_l": "Hayes Te",
+      "weeks": 14
+     },
+     "end_owner": "Hayes Te"
+    },
+    {
+     "name": "George Kittle",
+     "team": "SF",
+     "pts": 156.0,
+     "started": [
+      {
+       "first_l": "Brandon Fu",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fu",
+      "weeks": 14
+     },
+     "end_owner": "Brandon Fu"
+    },
+    {
+     "name": "Trey McBride",
+     "team": "ARI",
+     "pts": 137.3,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 14
+     },
+     "end_owner": "Steven Bo"
+    }
+   ]
+  },
+  {
+   "pos": "K",
+   "players": [
+    {
+     "name": "Chris Boswell",
+     "team": "PIT",
+     "pts": 165.0,
+     "started": [
+      {
+       "first_l": "Hayes Te",
+       "weeks": 3
+      }
+     ],
+     "rostered": {
+      "first_l": "Hayes Te",
+      "weeks": 3
+     },
+     "end_owner": "Hayes Te"
+    },
+    {
+     "name": "Ka'imi Fairbairn",
+     "team": "HOU",
+     "pts": 151.0,
+     "started": [
+      {
+       "first_l": "David Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "David Wo",
+      "weeks": 14
+     },
+     "end_owner": "David Wo"
+    },
+    {
+     "name": "Brandon Aubrey",
+     "team": "DAL",
+     "pts": 140.0,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    }
+   ]
+  },
+  {
+   "pos": "DEF",
+   "players": [
+    {
+     "name": "Vikings",
+     "team": "MIN",
+     "pts": 138.0,
+     "started": [
+      {
+       "first_l": "Hayes Te",
+       "weeks": 6
+      }
+     ],
+     "rostered": {
+      "first_l": "Hayes Te",
+      "weeks": 14
+     },
+     "end_owner": "Hayes Te"
+    },
+    {
+     "name": "Broncos",
+     "team": "DEN",
+     "pts": 133.0,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 2
+      },
+      {
+       "first_l": "Brandon Fe",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 2
+     },
+     "end_owner": null
+    },
+    {
+     "name": "Steelers",
+     "team": "PIT",
+     "pts": 129.0,
+     "started": [
+      {
+       "first_l": "David Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "David Wo",
+      "weeks": 14
+     },
+     "end_owner": "David Wo"
+    }
+   ]
+  }
+ ]
+}

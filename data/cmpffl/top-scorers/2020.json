@@ -1,0 +1,228 @@
+{
+ "season": "2020",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  13
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Kyler Murray",
+     "team": "MIN",
+     "pts": 294.98,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 13
+     },
+     "end_owner": "Thomas Be"
+    },
+    {
+     "name": "Patrick Mahomes",
+     "team": "KC",
+     "pts": 286.1,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 13
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "Russell Wilson",
+     "team": "NYG",
+     "pts": 275.56,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Dalvin Cook",
+     "team": "DAL",
+     "pts": 243.9,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 13
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "Alvin Kamara",
+     "team": "NO",
+     "pts": 234.56,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Derrick Henry",
+     "team": "BAL",
+     "pts": 207.4,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 13
+     },
+     "end_owner": "Jason Wo"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Tyreek Hill",
+     "team": "MIA",
+     "pts": 223.9,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 13
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "Davante Adams",
+     "team": "LAR",
+     "pts": 207.9,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 13
+     },
+     "end_owner": "Thomas Be"
+    },
+    {
+     "name": "DK Metcalf",
+     "team": "PIT",
+     "pts": 186.4,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 13
+     },
+     "end_owner": "David Ni"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 190.56,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 13
+     },
+     "end_owner": "Jason Wo"
+    },
+    {
+     "name": "Darren Waller",
+     "team": "CAR",
+     "pts": 145.7,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 7
+      },
+      {
+       "first_l": "James Go",
+       "weeks": 4
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 8
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "T.J. Hockenson",
+     "team": "MIN",
+     "pts": 114.4,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 13
+     },
+     "end_owner": "Ryan Gr"
+    }
+   ]
+  }
+ ]
+}

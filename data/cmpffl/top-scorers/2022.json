@@ -1,0 +1,224 @@
+{
+ "season": "2022",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Jalen Hurts",
+     "team": "PHI",
+     "pts": 314.88,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Patrick Mahomes",
+     "team": "KC",
+     "pts": 307.4,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 302.92,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 14
+     },
+     "end_owner": "Jason Wo"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Josh Jacobs",
+     "team": "GB",
+     "pts": 249.8,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 14
+     },
+     "end_owner": "David Ni"
+    },
+    {
+     "name": "Austin Ekeler",
+     "team": "WAS",
+     "pts": 233.2,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 14
+     },
+     "end_owner": "Jason Wo"
+    },
+    {
+     "name": "Christian McCaffrey",
+     "team": "SF",
+     "pts": 224.56,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Justin Jefferson",
+     "team": "MIN",
+     "pts": 240.26,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 14
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Tyreek Hill",
+     "team": "MIA",
+     "pts": 233.84,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Davante Adams",
+     "team": "LAR",
+     "pts": 225.6,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 14
+     },
+     "end_owner": "Thomas Be"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 204.9,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Mark Andrews",
+     "team": "BAL",
+     "pts": 123.9,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 14
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "T.J. Hockenson",
+     "team": "MIN",
+     "pts": 120.7,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 14
+     },
+     "end_owner": "Jason Wo"
+    }
+   ]
+  }
+ ]
+}

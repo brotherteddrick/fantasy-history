@@ -1,0 +1,346 @@
+{
+ "season": "2023",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 321.28,
+     "started": [
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Andrew Mo",
+      "weeks": 14
+     },
+     "end_owner": "Andrew Mo"
+    },
+    {
+     "name": "Jalen Hurts",
+     "team": "PHI",
+     "pts": 301.68,
+     "started": [
+      {
+       "first_l": "Brandon Fe",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fe",
+      "weeks": 14
+     },
+     "end_owner": "Brandon Fe"
+    },
+    {
+     "name": "Dak Prescott",
+     "team": "DAL",
+     "pts": 278.7,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Christian McCaffrey",
+     "team": "SF",
+     "pts": 285.4,
+     "started": [
+      {
+       "first_l": "Brandon Fu",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fu",
+      "weeks": 14
+     },
+     "end_owner": "Brandon Fu"
+    },
+    {
+     "name": "Raheem Mostert",
+     "team": "LV",
+     "pts": 226.4,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    },
+    {
+     "name": "Travis Etienne Jr.",
+     "team": "NO",
+     "pts": 204.9,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Tyreek Hill",
+     "team": "MIA",
+     "pts": 274.2,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 14
+     },
+     "end_owner": "Steven Bo"
+    },
+    {
+     "name": "CeeDee Lamb",
+     "team": "DAL",
+     "pts": 235.7,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 14
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Keenan Allen",
+     "team": "IND",
+     "pts": 224.86,
+     "started": [
+      {
+       "first_l": "Jacob Da",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jacob Da",
+      "weeks": 14
+     },
+     "end_owner": "Jacob Da"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 157.6,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    },
+    {
+     "name": "T.J. Hockenson",
+     "team": "MIN",
+     "pts": 154.4,
+     "started": [
+      {
+       "first_l": "Brandon Fe",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fe",
+      "weeks": 14
+     },
+     "end_owner": "Brandon Fe"
+    },
+    {
+     "name": "George Kittle",
+     "team": "SF",
+     "pts": 143.8,
+     "started": [
+      {
+       "first_l": "Stefan He",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Stefan He",
+      "weeks": 14
+     },
+     "end_owner": "Stefan He"
+    }
+   ]
+  },
+  {
+   "pos": "K",
+   "players": [
+    {
+     "name": "Brandon Aubrey",
+     "team": "DAL",
+     "pts": 147.0,
+     "started": [
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 5
+      },
+      {
+       "first_l": "Brandon Fu",
+       "weeks": 4
+      }
+     ],
+     "rostered": {
+      "first_l": "Andrew Mo",
+      "weeks": 5
+     },
+     "end_owner": "Andrew Mo"
+    },
+    {
+     "name": "Dustin Hopkins",
+     "team": "CLE",
+     "pts": 139.0,
+     "started": [
+      {
+       "first_l": "Brandon Fu",
+       "weeks": 7
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fu",
+      "weeks": 7
+     },
+     "end_owner": "Brandon Fu"
+    },
+    {
+     "name": "Jake Elliott",
+     "team": "PHI",
+     "pts": 122.0,
+     "started": [
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 9
+      }
+     ],
+     "rostered": {
+      "first_l": "Andrew Mo",
+      "weeks": 14
+     },
+     "end_owner": "Andrew Mo"
+    }
+   ]
+  },
+  {
+   "pos": "DEF",
+   "players": [
+    {
+     "name": "Cowboys",
+     "team": "DAL",
+     "pts": 155.0,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    },
+    {
+     "name": "Ravens",
+     "team": "BAL",
+     "pts": 132.0,
+     "started": [
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 8
+      },
+      {
+       "first_l": "Brandon Fu",
+       "weeks": 1
+      },
+      {
+       "first_l": "Steven Bo",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Andrew Mo",
+      "weeks": 9
+     },
+     "end_owner": "Andrew Mo"
+    },
+    {
+     "name": "Colts",
+     "team": "IND",
+     "pts": 119.0,
+     "started": [
+      {
+       "first_l": "Lane Wo",
+       "weeks": 1
+      },
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Lane Wo",
+      "weeks": 1
+     },
+     "end_owner": "Lane Wo"
+    }
+   ]
+  }
+ ]
+}

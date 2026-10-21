@@ -1,0 +1,346 @@
+{
+ "season": "2015",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  13
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Tom Brady",
+     "team": "TB",
+     "pts": 307.08,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Cam Newton",
+     "team": "CAR",
+     "pts": 294.48,
+     "started": [
+      {
+       "first_l": "Shannon Wo",
+       "weeks": 7
+      }
+     ],
+     "rostered": {
+      "first_l": "Shannon Wo",
+      "weeks": 13
+     },
+     "end_owner": "Shannon Wo"
+    },
+    {
+     "name": "Carson Palmer",
+     "team": "ARI",
+     "pts": 269.82,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 9
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 12
+     },
+     "end_owner": "Thomas Be"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Devonta Freeman",
+     "team": "BAL",
+     "pts": 223.7,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 9
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 11
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "Adrian Peterson",
+     "team": "SEA",
+     "pts": 194.6,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 13
+     },
+     "end_owner": "Thomas Be"
+    },
+    {
+     "name": "Mark Ingram II",
+     "team": "NO",
+     "pts": 178.4,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Antonio Brown",
+     "team": "TB",
+     "pts": 237.54,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Julio Jones",
+     "team": "PHI",
+     "pts": 224.8,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "DeAndre Hopkins",
+     "team": "BAL",
+     "pts": 221.9,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Rob Gronkowski",
+     "team": "TB",
+     "pts": 175.8,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Greg Olsen",
+     "team": "SEA",
+     "pts": 156.7,
+     "started": [
+      {
+       "first_l": "Shannon Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Shannon Wo",
+      "weeks": 13
+     },
+     "end_owner": "Shannon Wo"
+    },
+    {
+     "name": "Gary Barnidge",
+     "team": "CLE",
+     "pts": 153.7,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 7
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 8
+     },
+     "end_owner": "Theodore Wo"
+    }
+   ]
+  },
+  {
+   "pos": "K",
+   "players": [
+    {
+     "name": "Stephen Gostkowski",
+     "team": "TEN",
+     "pts": 130.0,
+     "started": [
+      {
+       "first_l": "Jason Sa",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Sa",
+      "weeks": 13
+     },
+     "end_owner": "Jason Sa"
+    },
+    {
+     "name": "Graham Gano",
+     "team": "NYG",
+     "pts": 126.0,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Cairo Santos",
+     "team": "CHI",
+     "pts": 118.0,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 5
+      },
+      {
+       "first_l": "Jason Wo",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 5
+     },
+     "end_owner": "David Ni"
+    }
+   ]
+  },
+  {
+   "pos": "DEF",
+   "players": [
+    {
+     "name": "Broncos",
+     "team": "DEN",
+     "pts": 123.5,
+     "started": [
+      {
+       "first_l": "Shannon Wo",
+       "weeks": 3
+      }
+     ],
+     "rostered": {
+      "first_l": "Shannon Wo",
+      "weeks": 13
+     },
+     "end_owner": "Shannon Wo"
+    },
+    {
+     "name": "Panthers",
+     "team": "CAR",
+     "pts": 105.5,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 5
+      },
+      {
+       "first_l": "Jason Cl",
+       "weeks": 3
+      },
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 2
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 5
+     },
+     "end_owner": "Thomas Be"
+    },
+    {
+     "name": "Giants",
+     "team": "NYG",
+     "pts": 98.5,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 1
+      },
+      {
+       "first_l": "Jason Cl",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 3
+     },
+     "end_owner": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "season": "2018",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  13
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Patrick Mahomes",
+     "team": "KC",
+     "pts": 311.72,
+     "started": [
+      {
+       "first_l": "James Go",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "James Go",
+      "weeks": 13
+     },
+     "end_owner": "James Go"
+    },
+    {
+     "name": "Ben Roethlisberger",
+     "team": "PIT",
+     "pts": 262.6,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Cam Newton",
+     "team": "CAR",
+     "pts": 251.96,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 13
+     },
+     "end_owner": "Alisha Pe"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Todd Gurley",
+     "team": "ATL",
+     "pts": 286.9,
+     "started": [
+      {
+       "first_l": "Donnie We",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Donnie We",
+      "weeks": 13
+     },
+     "end_owner": "Donnie We"
+    },
+    {
+     "name": "Saquon Barkley",
+     "team": "PHI",
+     "pts": 254.6,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Christian McCaffrey",
+     "team": "SF",
+     "pts": 245.6,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 13
+     },
+     "end_owner": "Ryan Gr"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Tyreek Hill",
+     "team": "MIA",
+     "pts": 224.58,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 13
+     },
+     "end_owner": "Thomas Be"
+    },
+    {
+     "name": "Adam Thielen",
+     "team": "PIT",
+     "pts": 212.6,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 13
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Davante Adams",
+     "team": "LAR",
+     "pts": 209.0,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 13
+     },
+     "end_owner": "Casie Wo"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 190.7,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Zach Ertz",
+     "team": "PHI",
+     "pts": 174.3,
+     "started": [
+      {
+       "first_l": "James Go",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "James Go",
+      "weeks": 13
+     },
+     "end_owner": "James Go"
+    },
+    {
+     "name": "Eric Ebron",
+     "team": "PIT",
+     "pts": 143.1,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 11
+     },
+     "end_owner": "Alisha Pe"
+    }
+   ]
+  }
+ ]
+}

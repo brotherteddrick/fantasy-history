@@ -1,0 +1,52 @@
+---
+import { formatPts, labelOf, personSlug } from '../lib/data.ts'
+import type { TopScorersSeason } from '../lib/data.ts'
+
+interface Props {
+  data: TopScorersSeason
+  labels: Map<string, string>
+}
+const { data, labels } = Astro.props
+const [w0, w1] = data.weeks
+const range = w0 === w1 ? `week ${w0}` : `weeks ${w0}–${w1}`
+const who = (fl: string) => ({ href: `/managers/${personSlug(fl)}`, label: labelOf(fl, labels) })
+const posName: Record<string, string> = { QB: 'Quarterbacks', RB: 'Running backs', WR: 'Wide receivers', TE: 'Tight ends', K: 'Kickers', DEF: 'Defenses' }
+---
+<section class="section" id="top-scorers">
+  <h2>Top scorers by position</h2>
+  <p class="note">
+    {data.basis === 'regular' ? `Regular season (${range})` : `Full season incl. playoffs (${range})`}, fantasy points under this league's scoring.
+    Manager = who started him most weeks (bench-only: who rostered him most).
+    {data.note && ` ${data.note}`}
+  </p>
+  <div class="ts-grid">
+    {data.positions.map(({ pos, players }) => (
+      <div class="ts-card">
+        <div class="ts-pos"><span class="ts-pos-tag">{pos}</span> {posName[pos] ?? pos}</div>
+        <ol class="ts-list">
+          {players.map((p, i) => (
+            <li class:list={['ts-row', { top: i === 0 }]}>
+              <span class="ts-rank">{i + 1}</span>
+              <span class="ts-main">
+                <span class="ts-name">{p.name}{p.team && <span class="ts-team"> {p.team}</span>}</span>
+                <span class="ts-owner">
+                  {p.started.length ? (
+                    <>Started by {p.started.slice(0, 3).map((o, j) => {
+                      const m = who(o.first_l)
+                      return <>{j > 0 && ', '}<a href={m.href}>{m.label}</a> <span class="ts-wks">({o.weeks} wk{o.weeks === 1 ? '' : 's'})</span></>
+                    })}{p.started.length > 3 && ` +${p.started.length - 3}`}</>
+                  ) : p.rostered ? (
+                    <>Bench only: <a href={who(p.rostered.first_l).href}>{who(p.rostered.first_l).label}</a> <span class="ts-wks">({p.rostered.weeks} wk{p.rostered.weeks === 1 ? '' : 's'})</span></>
+                  ) : (
+                    <span class="ts-fa">Free agent</span>
+                  )}
+                </span>
+              </span>
+              <span class="ts-pts">{formatPts(p.pts)}</span>
+            </li>
+          ))}
+        </ol>
+      </div>
+    ))}
+  </div>
+</section>

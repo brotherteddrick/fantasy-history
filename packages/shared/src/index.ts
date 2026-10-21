@@ -32,7 +32,9 @@ export {
   labelsForSummary,
   labelOf,
   ogInfo,
+  loadTopScorers,
 } from './lib/data.ts'
+export type { TopScorer, TopScorersSeason, TopScorerOwner } from './lib/data.ts'
 export { seasonTeamResults, leagueResults, managerCareer, winPct, ordinal, recordStr, headToHead } from './lib/manager-stats.ts'
 export type { SeasonTeamResult, ManagerCareer, TeamGame, WeekScore, H2HOpponent, H2HGame, H2HSplit } from './lib/manager-stats.ts'
 export { LEAGUE_RULES, divisionWildCardApplies } from './lib/league-rules.ts'

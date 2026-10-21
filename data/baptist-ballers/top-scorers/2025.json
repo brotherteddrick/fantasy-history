@@ -1,0 +1,346 @@
+{
+ "season": "2025",
+ "source": "sleeper",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 320.02,
+     "started": [
+      {
+       "first_l": "Hayes Te",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Hayes Te",
+      "weeks": 14
+     },
+     "end_owner": "Hayes Te"
+    },
+    {
+     "name": "Patrick Mahomes",
+     "team": "KC",
+     "pts": 282.12,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 14
+     },
+     "end_owner": "Steven Bo"
+    },
+    {
+     "name": "Dak Prescott",
+     "team": "DAL",
+     "pts": 269.28,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Jonathan Taylor",
+     "team": "IND",
+     "pts": 291.5,
+     "started": [
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Andrew Mo",
+      "weeks": 14
+     },
+     "end_owner": "Andrew Mo"
+    },
+    {
+     "name": "Christian McCaffrey",
+     "team": "SF",
+     "pts": 286.0,
+     "started": [
+      {
+       "first_l": "Lane Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Lane Wo",
+      "weeks": 14
+     },
+     "end_owner": "Lane Wo"
+    },
+    {
+     "name": "Jahmyr Gibbs",
+     "team": "DET",
+     "pts": 278.6,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 14
+     },
+     "end_owner": "Theodore Wo"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Jaxon Smith-Njigba",
+     "team": "SEA",
+     "pts": 242.9,
+     "started": [
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Andrew Mo",
+      "weeks": 14
+     },
+     "end_owner": "Andrew Mo"
+    },
+    {
+     "name": "Puka Nacua",
+     "team": "LAR",
+     "pts": 212.4,
+     "started": [
+      {
+       "first_l": "Jacob Da",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jacob Da",
+      "weeks": 14
+     },
+     "end_owner": "Jacob Da"
+    },
+    {
+     "name": "George Pickens",
+     "team": "DAL",
+     "pts": 206.9,
+     "started": [
+      {
+       "first_l": "Lane Wo",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Lane Wo",
+      "weeks": 14
+     },
+     "end_owner": "Lane Wo"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Trey McBride",
+     "team": "ARI",
+     "pts": 188.2,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 14
+     },
+     "end_owner": "Steven Bo"
+    },
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 134.8,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 9
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 14
+     },
+     "end_owner": "Steven Bo"
+    },
+    {
+     "name": "Jake Ferguson",
+     "team": "DAL",
+     "pts": 133.0,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 10
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 11
+     },
+     "end_owner": "Robert Da"
+    }
+   ]
+  },
+  {
+   "pos": "K",
+   "players": [
+    {
+     "name": "Jason Myers",
+     "team": "SEA",
+     "pts": 153.0,
+     "started": [
+      {
+       "first_l": "Steven Bo",
+       "weeks": 3
+      },
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Steven Bo",
+      "weeks": 4
+     },
+     "end_owner": "Steven Bo"
+    },
+    {
+     "name": "Brandon Aubrey",
+     "team": "DAL",
+     "pts": 144.0,
+     "started": [
+      {
+       "first_l": "Robert Da",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Robert Da",
+      "weeks": 14
+     },
+     "end_owner": "Robert Da"
+    },
+    {
+     "name": "Cameron Dicker",
+     "team": "LAC",
+     "pts": 139.0,
+     "started": [
+      {
+       "first_l": "Jacob Da",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jacob Da",
+      "weeks": 14
+     },
+     "end_owner": "Jacob Da"
+    }
+   ]
+  },
+  {
+   "pos": "DEF",
+   "players": [
+    {
+     "name": "Seattle Seahawks",
+     "team": "SEA",
+     "pts": 157.0,
+     "started": [
+      {
+       "first_l": "Jacob Da",
+       "weeks": 6
+      },
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Jacob Da",
+      "weeks": 6
+     },
+     "end_owner": "Jacob Da"
+    },
+    {
+     "name": "Houston Texans",
+     "team": "HOU",
+     "pts": 133.0,
+     "started": [
+      {
+       "first_l": "Brandon Fe",
+       "weeks": 4
+      },
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 2
+      },
+      {
+       "first_l": "Lane Wo",
+       "weeks": 2
+      }
+     ],
+     "rostered": {
+      "first_l": "Brandon Fe",
+      "weeks": 4
+     },
+     "end_owner": null
+    },
+    {
+     "name": "Los Angeles Rams",
+     "team": "LAR",
+     "pts": 120.0,
+     "started": [
+      {
+       "first_l": "Andrew Mo",
+       "weeks": 3
+      }
+     ],
+     "rostered": {
+      "first_l": "Andrew Mo",
+      "weeks": 4
+     },
+     "end_owner": "Andrew Mo"
+    }
+   ]
+  }
+ ]
+}

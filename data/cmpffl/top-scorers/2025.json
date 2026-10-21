@@ -1,0 +1,224 @@
+{
+ "season": "2025",
+ "source": "sleeper",
+ "weeks": [
+  1,
+  14
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Josh Allen",
+     "team": "BUF",
+     "pts": 286.02,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Patrick Mahomes",
+     "team": "KC",
+     "pts": 256.12,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Dak Prescott",
+     "team": "DAL",
+     "pts": 241.28,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 14
+     },
+     "end_owner": "Jason Cl"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Jonathan Taylor",
+     "team": "IND",
+     "pts": 273.5,
+     "started": [
+      {
+       "first_l": "Justin Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Justin Cl",
+      "weeks": 14
+     },
+     "end_owner": "Justin Cl"
+    },
+    {
+     "name": "Christian McCaffrey",
+     "team": "SF",
+     "pts": 273.0,
+     "started": [
+      {
+       "first_l": "Casie Wo",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Casie Wo",
+      "weeks": 14
+     },
+     "end_owner": "Casie Wo"
+    },
+    {
+     "name": "Jahmyr Gibbs",
+     "team": "DET",
+     "pts": 262.6,
+     "started": [
+      {
+       "first_l": "David Ni",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "David Ni",
+      "weeks": 14
+     },
+     "end_owner": "David Ni"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Jaxon Smith-Njigba",
+     "team": "SEA",
+     "pts": 233.9,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 14
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "Puka Nacua",
+     "team": "LAR",
+     "pts": 205.4,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 14
+     },
+     "end_owner": "Ryan Gr"
+    },
+    {
+     "name": "George Pickens",
+     "team": "DAL",
+     "pts": 198.9,
+     "started": [
+      {
+       "first_l": "James Go",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "James Go",
+      "weeks": 14
+     },
+     "end_owner": "James Go"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Trey McBride",
+     "team": "ARI",
+     "pts": 180.2,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 14
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Travis Kelce",
+     "team": "KC",
+     "pts": 129.8,
+     "started": [
+      {
+       "first_l": "James Go",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "James Go",
+      "weeks": 14
+     },
+     "end_owner": "James Go"
+    },
+    {
+     "name": "Jake Ferguson",
+     "team": "DAL",
+     "pts": 126.0,
+     "started": [
+      {
+       "first_l": "Ryan Gr",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "Ryan Gr",
+      "weeks": 12
+     },
+     "end_owner": "Ryan Gr"
+    }
+   ]
+  }
+ ]
+}

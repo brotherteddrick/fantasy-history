@@ -1,0 +1,354 @@
+{
+ "season": "2014",
+ "source": "yahoo",
+ "weeks": [
+  1,
+  13
+ ],
+ "basis": "regular",
+ "note": null,
+ "positions": [
+  {
+   "pos": "QB",
+   "players": [
+    {
+     "name": "Andrew Luck",
+     "team": "IND",
+     "pts": 321.74,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Aaron Rodgers",
+     "team": "PIT",
+     "pts": 298.0,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Peyton Manning",
+     "team": "DEN",
+     "pts": 295.08,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 13
+     },
+     "end_owner": "Jason Wo"
+    }
+   ]
+  },
+  {
+   "pos": "RB",
+   "players": [
+    {
+     "name": "Matt Forte",
+     "team": "NYJ",
+     "pts": 273.8,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 13
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "Le'Veon Bell",
+     "team": "TB",
+     "pts": 263.9,
+     "started": [
+      {
+       "first_l": "Mark He",
+       "weeks": 13
+      }
+     ],
+     "rostered": {
+      "first_l": "Mark He",
+      "weeks": 13
+     },
+     "end_owner": "Mark He"
+    },
+    {
+     "name": "DeMarco Murray",
+     "team": "TEN",
+     "pts": 259.0,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 13
+     },
+     "end_owner": "Jason Wo"
+    }
+   ]
+  },
+  {
+   "pos": "WR",
+   "players": [
+    {
+     "name": "Antonio Brown",
+     "team": "TB",
+     "pts": 299.02,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 13
+     },
+     "end_owner": "Jason Wo"
+    },
+    {
+     "name": "Demaryius Thomas",
+     "team": "NE",
+     "pts": 275.5,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 13
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "Emmanuel Sanders",
+     "team": "BUF",
+     "pts": 245.7,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 9
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 13
+     },
+     "end_owner": "Alisha Pe"
+    }
+   ]
+  },
+  {
+   "pos": "TE",
+   "players": [
+    {
+     "name": "Rob Gronkowski",
+     "team": "TB",
+     "pts": 210.0,
+     "started": [
+      {
+       "first_l": "Greg Ma",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Greg Ma",
+      "weeks": 13
+     },
+     "end_owner": "Greg Ma"
+    },
+    {
+     "name": "Jimmy Graham",
+     "team": "NO",
+     "pts": 184.0,
+     "started": [
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "Theodore Wo",
+      "weeks": 13
+     },
+     "end_owner": "Theodore Wo"
+    },
+    {
+     "name": "Martellus Bennett",
+     "team": "GB",
+     "pts": 170.7,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 11
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    }
+   ]
+  },
+  {
+   "pos": "K",
+   "players": [
+    {
+     "name": "Stephen Gostkowski",
+     "team": "TEN",
+     "pts": 133.0,
+     "started": [
+      {
+       "first_l": "April Be",
+       "weeks": 12
+      }
+     ],
+     "rostered": {
+      "first_l": "April Be",
+      "weeks": 13
+     },
+     "end_owner": "April Be"
+    },
+    {
+     "name": "Cody Parkey",
+     "team": "NO",
+     "pts": 133.0,
+     "started": [
+      {
+       "first_l": "Jason Cl",
+       "weeks": 5
+      },
+      {
+       "first_l": "Thomas Be",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Cl",
+      "weeks": 5
+     },
+     "end_owner": "Jason Cl"
+    },
+    {
+     "name": "Adam Vinatieri",
+     "team": "IND",
+     "pts": 129.0,
+     "started": [
+      {
+       "first_l": "Thomas Be",
+       "weeks": 3
+      },
+      {
+       "first_l": "Justin Cl",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Thomas Be",
+      "weeks": 3
+     },
+     "end_owner": "Thomas Be"
+    }
+   ]
+  },
+  {
+   "pos": "DEF",
+   "players": [
+    {
+     "name": "Eagles",
+     "team": "PHI",
+     "pts": 166.0,
+     "started": [
+      {
+       "first_l": "Greg Ma",
+       "weeks": 6
+      },
+      {
+       "first_l": "Jason Cl",
+       "weeks": 2
+      },
+      {
+       "first_l": "Theodore Wo",
+       "weeks": 1
+      }
+     ],
+     "rostered": {
+      "first_l": "Greg Ma",
+      "weeks": 6
+     },
+     "end_owner": "Greg Ma"
+    },
+    {
+     "name": "Bills",
+     "team": "BUF",
+     "pts": 141.0,
+     "started": [
+      {
+       "first_l": "Jason Wo",
+       "weeks": 4
+      },
+      {
+       "first_l": "Thomas Be",
+       "weeks": 2
+      }
+     ],
+     "rostered": {
+      "first_l": "Jason Wo",
+      "weeks": 4
+     },
+     "end_owner": "Jason Wo"
+    },
+    {
+     "name": "Texans",
+     "team": "HOU",
+     "pts": 127.0,
+     "started": [
+      {
+       "first_l": "Alisha Pe",
+       "weeks": 6
+      },
+      {
+       "first_l": "Thomas Be",
+       "weeks": 4
+      }
+     ],
+     "rostered": {
+      "first_l": "Alisha Pe",
+      "weeks": 7
+     },
+     "end_owner": "Alisha Pe"
+    }
+   ]
+  }
+ ]
+}

@@ -324,3 +324,27 @@ export function ogInfo(leagueKey: string, summary: LeagueSummary): { firstSeason
   const ogs = new Set(first.standings.map((r) => r.first_l).filter((k) => current.has(k)))
   return { firstSeason: first.season, ogs }
 }
+
+export interface TopScorerOwner { first_l: string; weeks: number }
+export interface TopScorer {
+  name: string
+  team: string
+  pts: number
+  started: TopScorerOwner[]
+  rostered: TopScorerOwner | null
+  end_owner: string | null
+}
+export interface TopScorersSeason {
+  season: string
+  source: 'yahoo' | 'sleeper'
+  weeks: [number, number]
+  basis: 'regular' | 'season'
+  note: string | null
+  positions: { pos: string; players: TopScorer[] }[]
+}
+
+/** Per-season top scorers by position (data/<league>/top-scorers/<year>.json), or null. */
+export function loadTopScorers(leagueKey: string, year: string): TopScorersSeason | null {
+  const file = path.join(dataDir(), leagueKey, 'top-scorers', `${year}.json`)
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null
+}
