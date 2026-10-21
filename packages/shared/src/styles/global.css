@@ -458,3 +458,22 @@ td.badges .badge { margin-left: 6px; }
 .h2h-stats { margin: 12px 0; }
 .h2h-splits { margin: 4px 0 14px; }
 table.h2h-games td .badge { font-size: 10px; }
+
+/* H2H finder page */
+.h2h-finder-pick { display: flex; align-items: flex-end; gap: 12px; flex-wrap: wrap; margin: 4px 0 18px; }
+.h2h-field { display: grid; gap: 6px; flex: 1 1 220px; }
+.h2h-field .h2h-select { width: 100%; min-width: 0; }
+.h2h-swap {
+  background: var(--bg-card);
+  color: var(--accent-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+.h2h-swap:hover { border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
+.h2h-nojs-list { columns: 2; padding-left: 18px; }
+@media (max-width: 700px) {
+  .h2h-swap { width: 100%; }
+}

@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../layout/BaseLayout.astro'
+import { loadSummary, managersFromSummary, labelsForSummary, labelOf, personSlug } from '../lib/data.ts'
+import { leagueResults, managerCareer, headToHead } from '../lib/manager-stats.ts'
+import type { SiteConfig } from '../lib/types.ts'
+
+interface Props {
+  config: SiteConfig
+}
+const { config } = Astro.props
+const summary = loadSummary(config.leagueKey)
+const labels = labelsForSummary(summary)
+const all = leagueResults(config.leagueKey, summary)
+const managers = managersFromSummary(summary)
+  .map((m) => ({ slug: m.slug, first_l: m.first_l, label: labelOf(m.first_l, labels) }))
+  .sort((a, b) => a.label.localeCompare(b.label))
+
+// Precomputed pairwise games from each manager's perspective (same data as manager-page H2H).
+const kindCode = { regular: 'r', playoff: 'p', consolation: 'c' } as const
+const pairs: Record<string, Record<string, (string | number)[][]>> = {}
+for (const m of managers) {
+  const c = managerCareer(m.first_l, all)
+  const byOpp: Record<string, (string | number)[][]> = {}
+  for (const o of headToHead(c)) {
+    byOpp[personSlug(o.first_l)] = o.games.map((g) => [g.season, g.week, kindCode[g.kind], g.myTeam, g.oppTeam, g.points, g.oppPoints])
+  }
+  pairs[m.slug] = byOpp
+}
+const payload = JSON.stringify({ managers: managers.map(({ slug, label }) => ({ slug, label })), pairs })
+---
+<BaseLayout title="Head-to-head" leagueName={config.leagueName} accent={config.accent} path="/h2h">
+  <div class="hero">
+    <div class="eyebrow">{config.leagueName}</div>
+    <h1>Head-to-head</h1>
+    <p class="lede">Pick any two managers to see their all-time matchup record and every game they've played.</p>
+  </div>
+
+  <section class="h2h h2h-finder" id="h2h-finder">
+    <div class="h2h-finder-pick">
+      <label class="h2h-field">
+        <span class="stat-label">Manager A</span>
+        <select id="h2h-a" class="h2h-select">
+          <option value="">Choose a manager</option>
+          {managers.map((m) => <option value={m.slug}>{m.label}</option>)}
+        </select>
+      </label>
+      <button type="button" id="h2h-swap" class="h2h-swap" aria-label="Swap managers" title="Swap">⇄</button>
+      <label class="h2h-field">
+        <span class="stat-label">Manager B</span>
+        <select id="h2h-b" class="h2h-select">
+          <option value="">Choose a manager</option>
+          {managers.map((m) => <option value={m.slug}>{m.label}</option>)}
+        </select>
+      </label>
+    </div>
+    <div id="h2h-out" aria-live="polite"></div>
+    <noscript>
+      <p class="note">The matchup finder needs JavaScript. Each manager page has a full head-to-head section:</p>
+      <ul class="h2h-nojs-list">
+        {managers.map((m) => <li><a href={`/managers/${m.slug}#h2h`}>{m.label}</a></li>)}
+      </ul>
+    </noscript>
+    <p class="note">Real head-to-head games only (Sleeper weekly median games excluded). Playoff = championship bracket; consolation games listed separately. Newest first.</p>
+  </section>
+
+  <script type="application/json" id="h2h-data" set:html={payload} />
+  <script is:inline>
+    (function () {
+      var data = JSON.parse(document.getElementById('h2h-data').textContent)
+      var label = {}
+      data.managers.forEach(function (m) { label[m.slug] = m.label })
+      var selA = document.getElementById('h2h-a')
+      var selB = document.getElementById('h2h-b')
+      var out = document.getElementById('h2h-out')
+      var fmt = function (n) { return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) }
+      var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] }) }
+      var rec = function (w, l, t) { return w + '-' + l + (t ? '-' + t : '') }
+      var pct = function (w, l, t) { var g = w + l + t; return g ? ((w + 0.5 * t) / g).toFixed(3).replace(/^0/, '') : '—' }
+      var kindName = { r: 'Regular', p: 'Playoff', c: 'Consolation' }
+      function split(games) {
+        var s = { w: 0, l: 0, t: 0, pf: 0, pa: 0, n: 0 }
+        games.forEach(function (g) {
+          s.n++; s.pf += g[5]; s.pa += g[6]
+          if (g[5] > g[6]) s.w++; else if (g[5] < g[6]) s.l++; else s.t++
+        })
+        return s
+      }
+      function line(s) {
+        return s.n ? rec(s.w, s.l, s.t) + ' · ' + fmt(s.pf) + '–' + fmt(s.pa) + ' · avg ' + fmt(s.pf / s.n) + '–' + fmt(s.pa / s.n) : '—'
+      }
+      function render() {
+        var a = selA.value, b = selB.value
+        if (!a || !b) { out.innerHTML = '<p class="note">Choose two managers.</p>'; return }
+        if (a === b) { out.innerHTML = '<p class="note">Pick two different managers.</p>'; return }
+        var games = (data.pairs[a] || {})[b] || []
+        var A = esc(label[a]), B = esc(label[b])
+        if (!games.length) {
+          out.innerHTML = '<div class="card"><p class="meta">' + A + ' and ' + B + ' have never played each other in a completed season.</p></div>'
+          return
+        }
+        var o = split(games)
+        var by = function (k) { return split(games.filter(function (g) { return g[2] === k })) }
+        var tone = o.w > o.l ? ' accent' : o.l > o.w ? ' danger' : ''
+        var html = ''
+        html += '<div class="stat-grid h2h-stats">'
+        html += '<div class="stat-card' + tone + '"><div class="stat-label">' + A + ' vs ' + B + '</div><div class="stat-big">' + rec(o.w, o.l, o.t) + '</div><div class="stat-sub">' + o.n + ' games · ' + pct(o.w, o.l, o.t) + ' win pct</div></div>'
+        html += '<div class="stat-card"><div class="stat-label">Points for / against</div><div class="stat-big">' + fmt(o.pf) + '</div><div class="stat-sub">vs ' + fmt(o.pa) + ' · avg ' + fmt(o.pf / o.n) + '–' + fmt(o.pa / o.n) + '</div></div>'
+        html += '</div>'
+        html += '<ul class="year-stats h2h-splits">'
+        html += '<li><span class="stat-label">Regular season</span><span class="stat-value">' + line(by('r')) + '</span></li>'
+        html += '<li><span class="stat-label">Playoffs</span><span class="stat-value">' + line(by('p')) + '</span></li>'
+        html += '<li><span class="stat-label">Consolation</span><span class="stat-value">' + line(by('c')) + '</span></li>'
+        html += '</ul>'
+        html += '<div class="table-wrap"><table class="standings h2h-games"><thead><tr><th>Year</th><th>Wk</th><th>Type</th><th>' + A + '</th><th class="num">Score</th><th>' + B + '</th><th>Result</th><th class="num">Margin</th></tr></thead><tbody>'
+        games.forEach(function (g) {
+          var res = g[5] > g[6] ? 'W' : g[5] < g[6] ? 'L' : 'T'
+          var m = g[5] - g[6]
+          html += '<tr' + (res === 'W' ? ' class="champ"' : '') + '>'
+          html += '<td><a href="/seasons/' + g[0] + '">' + g[0] + '</a></td>'
+          html += '<td><a href="/seasons/' + g[0] + '#week-' + g[1] + '">' + g[1] + '</a></td>'
+          html += '<td><span class="badge' + (g[2] === 'p' ? ' gold' : '') + '">' + kindName[g[2]] + '</span></td>'
+          html += '<td class="team-cell">' + esc(g[3]) + '</td>'
+          html += '<td class="num">' + fmt(g[5]) + '–' + fmt(g[6]) + '</td>'
+          html += '<td class="team-cell">' + esc(g[4]) + '</td>'
+          html += '<td' + (res === 'W' ? ' class="champ-text"' : '') + '>' + res + '</td>'
+          html += '<td class="num">' + (m > 0 ? '+' : '') + fmt(m) + '</td>'
+          html += '</tr>'
+        })
+        html += '</tbody></table></div>'
+        html += '<p class="note">Full histories: <a href="/managers/' + a + '#vs-' + b + '">' + A + '</a> · <a href="/managers/' + b + '#vs-' + a + '">' + B + '</a></p>'
+        out.innerHTML = html
+      }
+      function syncHash() {
+        var a = selA.value, b = selB.value
+        history.replaceState(null, '', a && b ? '#' + a + '-vs-' + b : location.pathname + location.search)
+      }
+      function fromUrl() {
+        var a = '', b = ''
+        var m = /^#(.+)-vs-(.+)$/.exec(location.hash)
+        if (m) { a = decodeURIComponent(m[1]); b = decodeURIComponent(m[2]) }
+        else {
+          var q = new URLSearchParams(location.search)
+          a = q.get('a') || ''; b = q.get('b') || ''
+        }
+        if (label[a]) selA.value = a
+        if (label[b]) selB.value = b
+        render()
+      }
+      selA.addEventListener('change', function () { syncHash(); render() })
+      selB.addEventListener('change', function () { syncHash(); render() })
+      document.getElementById('h2h-swap').addEventListener('click', function () {
+        var t = selA.value; selA.value = selB.value; selB.value = t; syncHash(); render()
+      })
+      window.addEventListener('hashchange', fromUrl)
+      fromUrl()
+    })()
+  </script>
+</BaseLayout>
