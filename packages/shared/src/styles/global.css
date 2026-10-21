@@ -511,3 +511,15 @@ table.h2h-games td .badge { font-size: 10px; }
 .ts-fa { font-style: italic; }
 .ts-pts { font-variant-numeric: tabular-nums; font-weight: 600; }
 .ts-row.top .ts-pts { color: var(--accent-2); }
+
+/* Season page: year jump dropdown next to the title */
+.season-title { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.season-select { min-width: 0; width: auto; padding: 8px 34px 8px 12px; font-weight: 600; cursor: pointer;
+  appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position: calc(100% - 17px) 50%, calc(100% - 12px) 50%;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; }
+.season-select:focus { outline: 2px solid color-mix(in srgb, var(--accent) 60%, transparent); outline-offset: 2px; }
+.season-jump-links { font-size: 14px; color: var(--muted); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+@media (max-width: 560px) { .season-title { gap: 10px; } .season-select { font-size: 16px; } }

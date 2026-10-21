@@ -19,6 +19,7 @@ if (!season) throw new Error(`Unknown season ${year} for ${config.leagueKey}`)
 const weeks = weeklyMatchups(config.leagueKey, year)
 const div = seasonDivisions(config.leagueKey, season)
 const topScorers = loadTopScorers(config.leagueKey, year)
+const allYears = summary.seasons.map((s) => s.season).sort((a, b) => Number(b) - Number(a))
 ---
 <BaseLayout
   title={`${year} season`}
@@ -28,7 +29,21 @@ const topScorers = loadTopScorers(config.leagueKey, year)
 >
   <div class="hero">
     <div class="eyebrow">{season.league_name}</div>
-    <h1>{year}</h1>
+    <div class="season-title">
+      <h1>{year}</h1>
+      <label class="season-jump">
+        <span class="sr-only">Jump to season</span>
+        <select id="season-jump" class="h2h-select season-select" aria-label="Jump to season">
+          {allYears.map((y) => <option value={`/seasons/${y}`} selected={y === year}>{y}</option>)}
+        </select>
+      </label>
+      <noscript>
+        <style>{'.season-jump{display:none}'}</style>
+        <nav class="season-jump-links" aria-label="Other seasons">
+          {allYears.map((y, i) => <>{i > 0 && ' · '}{y === year ? <strong>{y}</strong> : <a href={`/seasons/${y}`}>{y}</a>}</>)}
+        </nav>
+      </noscript>
+    </div>
     <p class="lede">{season.total_rosters} teams · playoff places and regular-season point leaders · weekly H2H below.</p>
     {season.note && <p class="note">{season.note}</p>}
     {season.source === 'yahoo' && <p class="note">Played on Yahoo Fantasy.</p>}
@@ -78,4 +93,16 @@ const topScorers = loadTopScorers(config.leagueKey, year)
       ))}
     </div>
   </section>
+  <script is:inline>
+    (function () {
+      var sel = document.getElementById('season-jump')
+      if (!sel) return
+      sel.addEventListener('change', function () { if (sel.value) location.href = sel.value })
+      // Restore the current season if the page comes back from the back/forward cache.
+      window.addEventListener('pageshow', function () {
+        var cur = sel.querySelector('option[selected]')
+        if (cur) sel.value = cur.value
+      })
+    })()
+  </script>
 </BaseLayout>
