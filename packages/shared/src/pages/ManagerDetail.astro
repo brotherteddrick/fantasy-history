@@ -41,6 +41,27 @@ const h2h = headToHead(c)
 const defaultOpp = [...h2h].sort((a, b) => b.all.games - a.all.games || a.label.localeCompare(b.label))[0]
 const splitLine = (sp: { w: number; l: number; t: number; pf: number; pa: number; games: number }) =>
   sp.games ? `${recordStr(sp.w, sp.l, sp.t)} · ${formatPts(sp.pf)}–${formatPts(sp.pa)} · avg ${formatPts(sp.pf / sp.games)}–${formatPts(sp.pa / sp.games)}` : '—'
+// Most wins / losses against (all real H2H games; median games excluded).
+type Opp = (typeof h2h)[number]
+const lastOf = (o: Opp, r: 'W' | 'L') => {
+  const g = o.games.find((x) => x.result === r)
+  return g ? Number(g.season) * 100 + g.week : 0
+}
+const pctOf = (o: Opp) => (o.all.games ? (o.all.w + 0.5 * o.all.t) / o.all.games : 0)
+function leaders(kind: 'W' | 'L'): Opp[] {
+  const count = (o: Opp) => (kind === 'W' ? o.all.w : o.all.l)
+  const cands = h2h.filter((o) => count(o) > 0)
+  if (!cands.length) return []
+  const key = (o: Opp): [number, number, number] => [count(o), kind === 'W' ? pctOf(o) : -pctOf(o), lastOf(o, kind)]
+  const cmp = (a: Opp, b: Opp) => {
+    const ka = key(a), kb = key(b)
+    return kb[0] - ka[0] || kb[1] - ka[1] || kb[2] - ka[2]
+  }
+  const sorted = [...cands].sort(cmp)
+  return sorted.filter((o) => cmp(o, sorted[0]) === 0)
+}
+const mostWins = leaders('W')
+const mostLosses = leaders('L')
 const kindTag = (k: string) => (k === 'regular' ? 'Regular' : k === 'playoff' ? 'Playoff' : 'Consolation')
 const weekLink = (season: string, week: number) => `/seasons/${season}#week-${week}`
 const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · playoffs' : ' · consolation')
@@ -86,6 +107,28 @@ const kindLabel = (k: string) => (k === 'regular' ? '' : k === 'playoff' ? ' · 
         <div class="stat-sub">
           <a href={weekLink(c.worst.season, c.worst.week)}>{c.worst.season} · Week {c.worst.week}</a>{kindLabel(c.worst.kind)}
           {' · vs '}<a href={`#vs-${personSlug(c.worst.oppFirstL)}`} data-vs={personSlug(c.worst.oppFirstL)}>{labelOf(c.worst.oppFirstL, labels)}</a> ({formatPts(c.worst.oppPoints)})
+        </div>
+      </div>
+    )}
+    {mostWins.length > 0 && (
+      <div class="stat-card accent">
+        <div class="stat-label">Most wins against</div>
+        <div class="stat-big">{mostWins[0].all.w}</div>
+        <div class="stat-sub">
+          {mostWins.map((o, i) => (
+            <>{i > 0 && ' · '}<a href={`#vs-${o.slug}`} data-vs={o.slug}>{o.label}</a> — {`${o.all.w} ${o.all.w === 1 ? 'win' : 'wins'}`} ({recordStr(o.all.w, o.all.l, o.all.t)})</>
+          ))}
+        </div>
+      </div>
+    )}
+    {mostLosses.length > 0 && (
+      <div class="stat-card danger">
+        <div class="stat-label">Most losses against</div>
+        <div class="stat-big">{mostLosses[0].all.l}</div>
+        <div class="stat-sub">
+          {mostLosses.map((o, i) => (
+            <>{i > 0 && ' · '}<a href={`#vs-${o.slug}`} data-vs={o.slug}>{o.label}</a> — {`${o.all.l} ${o.all.l === 1 ? 'loss' : 'losses'}`} ({recordStr(o.all.w, o.all.l, o.all.t)})</>
+          ))}
         </div>
       </div>
     )}
